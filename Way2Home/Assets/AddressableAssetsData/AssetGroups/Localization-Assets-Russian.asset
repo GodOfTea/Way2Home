@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Russian
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Russian
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 67ba7fe259b4c75418ed554ef64f8c70
+  m_SerializeEntries:
+  - m_GUID: 0c250ad5e2354c64fb768dc2c2cc54b5
+    m_Address: continue_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d56d357451f051448488981dacad54b
+    m_Address: feedback_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5d68a43d43969a488bedaeb3c9b6c31
+    m_Address: play_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a70ddafc14dc2f142919bf5b979c2fc3
+    m_Address: quit_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db79bb70cb440fb4eaee63deba9e0d5e
+    m_Address: settings_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: df8fec564a9710d45b94396a2195681d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: bfee2db21e0ba694999122414c741a81, type: 2}
+    - {fileID: 11400000, guid: df776ffe238178943a153abfb379ddda, type: 2}

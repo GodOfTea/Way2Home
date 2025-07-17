@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa315b0fefeb40389da20759fcba9792, type: 3}
+  m_Name: EventsConfig
+  m_EditorClassIdentifier: 
+  _eventsDatabase: {fileID: 11400000, guid: 8fa14b4bcedd9cc4c8df58b347bfdc1a, type: 2}
+  _resultsDatabase: {fileID: 11400000, guid: c8327ba0bd8378d44aee7ec3e8472fce, type: 2}
+  _indicatorPriority: 02000000010000000000000003000000
+  _redZones:
+  - _indicatorType: 0
+    _redZoneValue: 8
+    _isLess: 1
+  - _indicatorType: 1
+    _redZoneValue: 8
+    _isLess: 1
+  - _indicatorType: 2
+    _redZoneValue: 5
+    _isLess: 0
+  - _indicatorType: 3
+    _redZoneValue: 5
+    _isLess: 1

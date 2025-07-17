@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GameTable_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 8377529e4377a3c499cc23efe133d18d, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 1852385128903868420
+  m_TableData:
+  - m_Id: 1144873258475520
+    m_Localized: settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1144873304612864
+    m_Localized: general
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1144873304612865
+    m_Localized: localization
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1144873304612866
+    m_Localized: volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1144873304612867
+    m_Localized: sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1144873304612868
+    m_Localized: music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1144873304612869
+    m_Localized: back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1144873304612870
+    m_Localized: "On July 30, 16 Russian soldiers escaped from the Nazi camp \u2018Ulmenstok\u2019,
+      risking everything to break free.\n\nLed by Major Ryabchikov, their senior
+      officer, they reached the thick forest \u2014 but the Nazis are now hunting
+      them down.\n\nThe survival of these men depends on YOU, Comrade Ryabchikov!
+      Guide them through danger, outsmart the enemy, and bring your soldiers back
+      to the front!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1144873304612871
+    m_Localized: 'The game has indicators that change based on your decisions:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1144873304612872
+    m_Localized: Remember, every choice you make will decide the fate of your group.
+      Good luck, Major
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1144873304612873
+    m_Localized: The number of people in your group.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1144873304612874
+    m_Localized: The amount of supplies. Every day, you will use at least one supply,
+      no matter what.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1144873304612875
+    m_Localized: Patrol level. If it reaches 8, the Nazis will catch and kill you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1144873304612876
+    m_Localized: The number of days left to reach the front.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1144873304612877
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1144873304612878
+    m_Localized: next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1144873304612879
+    m_Localized: move on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1144873304612880
+    m_Localized: Leave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1144873304612881
+    m_Localized: continue
+    m_Metadata:
+      m_Items:
+      - rid: 1852385128903868420
+  - m_Id: 1144873304612882
+    m_Localized: settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1144873304612883
+    m_Localized: quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1326936838266880
+    m_Localized: <sprite="Eng_menu_assets" name="eng_play" tint=1>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1326936917958656
+    m_Localized: <sprite="Eng_menu_assets" name="eng_continue" tint=1>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1326936917958657
+    m_Localized: <sprite="Eng_menu_assets" name="eng_settings" tint=1>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1326936917958658
+    m_Localized: <sprite="Eng_menu_assets" name="eng_feedback" tint=1>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1326936922152960
+    m_Localized: <sprite="Eng_menu_assets" name="eng_quit" tint=1>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4408411523538944
+    m_Localized: it's end...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4408367051333632
+    m_Localized: you're win!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 1852385128903868420
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 1144873304612881

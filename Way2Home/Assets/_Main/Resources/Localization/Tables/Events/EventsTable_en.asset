@@ -1,0 +1,1599 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: EventsTable_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: f41eb82e28cab9843b74ac44052905fb, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1730823741440
+    m_Localized: Your squad has stumbled upon a minefield. Stopping in place, you
+      realize one wrong step could cost every man his life
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730895044608
+    m_Localized: One of the soldiers notices a ten-year-old German girl hiding behind
+      a tree. After speaking to her, he reports that she is lost, and her village
+      is nearby. He asks permission to escort her back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238912
+    m_Localized: "You come across a river with a fast current and a narrow log bridge.
+      Crossing seems dangerous, but it\u2019s the only way forward"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238913
+    m_Localized: "Your soldiers find a forest patch full of mushrooms and berries.
+      It\u2019s a chance to resupply, but there\u2019s a risk they might be poisonous"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238914
+    m_Localized: "Your squad discovers a German village. It\u2019s quiet, but it\u2019s
+      unclear if any Germans remain. It could have food and supplies, but it might
+      also be a trap"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238915
+    m_Localized: "One of your soldiers has been very nervous for days, constantly
+      keeping his weapon ready. Tonight, it\u2019s his turn for watch duty"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238916
+    m_Localized: Heavy rain falls without stopping, turning the trail into thick
+      mud that makes every step a struggle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238917
+    m_Localized: A sudden chill strikes at night, leaving your soldiers shivering.
+      You must decide how to keep them warm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238918
+    m_Localized: One of your comrades becomes very ill with fever. A soldier claims
+      to know the right herbs, but they must be found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238919
+    m_Localized: Thick fog covers the forest, and you soon realize several soldiers
+      are missing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238920
+    m_Localized: "You find an unguarded Nazi ammo depot. A soldier suggests setting
+      traps as a \u201Cfarewell gift.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238921
+    m_Localized: Without maps or compass for too long, your soldiers start arguing
+      over the location and which way to go
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238922
+    m_Localized: One of the soldiers stumbles and breaks his leg. You must decide
+      whether to leave him or carry him forward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238923
+    m_Localized: A swampy area suddenly appears ahead. One wrong step, and you could
+      sink or drown in the bog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238924
+    m_Localized: "In the distance, you see a Nazi camp full of supplies and soldiers.
+      It\u2019s a chance to resupply, but attacking could result in heavy losses"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238925
+    m_Localized: "Nazi planes roar overhead, and soon the sound of bombing begins.
+      They might not be aiming at you, but it\u2019s uncertain."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238926
+    m_Localized: In the distance, barking grows louder, closing in fast. Nazi dogs
+      are about to reach your squad. Time is running out
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238927
+    m_Localized: You see a fire spreading in the forest. The flames are still far,
+      but dry trees could ignite quickly, cutting off your path
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238928
+    m_Localized: Your squad reaches a village and sees Nazis burning a house. Screams
+      come from inside. You must act quickly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238929
+    m_Localized: A group of terrified civilians runs out of the forest, fleeing from
+      the Nazis. They beg for help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238930
+    m_Localized: Your squad accidentally steps onto the territory of wild boars.
+      Sensing a threat, the animals react aggressively, defending their den. The
+      tension rises, and the slightest move could trigger an attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238931
+    m_Localized: "Your path leads to a road lined with crosses bearing crucified
+      people. It\u2019s a horrific sight"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238932
+    m_Localized: You find an abandoned farm in the forest. It could be a place to
+      rest and gather supplies, but it might also be a trap.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238933
+    m_Localized: You come across a wounded Nazi soldier, shivering and begging for
+      mercy. What will you do with an enemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238934
+    m_Localized: "Nazi snipers are hiding at the forest\u2019s edge. You realize
+      this when they suddenly fire at fleeing people. Do you take a detour or risk
+      breaking through?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238935
+    m_Localized: At dawn, a thick fog blankets the forest, hiding everything and
+      making movement difficult. You must avoid getting lost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238936
+    m_Localized: On the way, you meet a group of Soviet saboteurs who propose a joint
+      raid on a Nazi outpost.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238937
+    m_Localized: "Suddenly, signal flares light up the forest. Decide whether to
+      take cover or investigate what\u2019s happening"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238938
+    m_Localized: On the way, you meet a woman with a small child begging you to help
+      her hide from the Nazis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238939
+    m_Localized: One of your soldiers begins acting suspiciously, staying behind
+      the group and even caught trying to escape
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238940
+    m_Localized: Your squad finds a field with a ravine, littered with bodies, including
+      fallen comrades. One soldier suggests giving them a final tribute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238941
+    m_Localized: You find a hidden tent with a radio transmitter. This could be your
+      chance to contact allies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238942
+    m_Localized: Your squad has noticed that supplies are disappearing faster than
+      expected. and you must find the thief fast before open conflict begins and
+      you start starving.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238943
+    m_Localized: Your best friend Misha offers to sacrifice himself to delay the
+      Nazis. He promises to catch up with you once things get too dangerous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238944
+    m_Localized: "One of the soldiers realizes he lost his mother\u2019s cross, something
+      very dear to him. He asks to stop and search for it"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238945
+    m_Localized: In the forest, your squad finds a half-submerged Nazi tank, abandoned
+      by its crew
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238946
+    m_Localized: "While crossing a river, gunfire starts, but you can\u2019t see
+      where it\u2019s coming from"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238947
+    m_Localized: In the forest, you find a crate dropped by parachute, containing
+      fake Nazi documents and uniforms, likely for saboteurs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238948
+    m_Localized: During a firefight with the Nazi, you capture several soldiers.
+      Your squad argues over what to do with them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238949
+    m_Localized: "You see two Nazi vehicles stopped on the road. Soldiers from the
+      first vehicle order prisoners out of the second. In that moment, you realize
+      they\u2019re about to execute them."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238950
+    m_Localized: Cross the minefield carefully, stepping exactly where the person
+      ahead steps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238951
+    m_Localized: Take a detour around the minefield; it will slow you down but could
+      save lives
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238952
+    m_Localized: Throw grenades to trigger the mines from a safe distance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238953
+    m_Localized: Leave the girl behind, deciding not to take on unnecessary risks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238954
+    m_Localized: "Kill the girl\u2014it\u2019s too risky if a patrol finds her"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238955
+    m_Localized: Allow the soldier to escort the girl to her village; even in war,
+      humanity must be preserved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238956
+    m_Localized: Try to swim across the river, battling the strong current
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238957
+    m_Localized: Cross the slippery log carefully, one at a time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238958
+    m_Localized: Walk along the river to find a safer crossing for the entire squad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238959
+    m_Localized: Gather berries and mushrooms to replenish critical supplies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238960
+    m_Localized: Avoid gathering berries and mushrooms to prevent poisoning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238961
+    m_Localized: Collect berries and mushrooms, testing them on a volunteer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238962
+    m_Localized: Wait for nightfall to pass through the village and gather supplies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238963
+    m_Localized: Avoid the village to reduce the risk of encountering locals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238964
+    m_Localized: Gather supplies and prepare to defend yourselves if resistance arises
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238965
+    m_Localized: Rotate the soldier out and give him time to rest and recover
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238966
+    m_Localized: "Leave the nervous soldier on watch\u2014his vigilance might save
+      the squad"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238967
+    m_Localized: Disarm the soldier to prevent an accidental shot revealing your
+      position
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238968
+    m_Localized: Take shelter from the rain and wait for it to pass before moving
+      on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238969
+    m_Localized: "Keep moving through the mud and cold, maintaining the squad\u2019s
+      pace"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238970
+    m_Localized: Search for an alternate route to avoid unnecessary hardship for
+      the squad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238971
+    m_Localized: Build a large fire to warm up, despite the risks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238972
+    m_Localized: Insulate the campsite with dry leaves, spruce branches, and other
+      materials
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238973
+    m_Localized: Start a small fire and have a hearty meal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238974
+    m_Localized: Leave the sick soldier behind, knowing a delay risks the entire
+      group
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238975
+    m_Localized: Send soldiers to search for medicinal herbs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238976
+    m_Localized: Craft a stretcher for him and take him along, hoping his condition
+      improves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238977
+    m_Localized: Stop and set up camp while searching for the missing soldiers nearby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238978
+    m_Localized: Move forward, understanding that the squad cannot afford delays
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238979
+    m_Localized: Shout for your comrades, and if that fails, fire a few shots into
+      the air
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238980
+    m_Localized: Set up traps and withdraw, leaving an unpleasant surprise for the
+      enemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238981
+    m_Localized: Avoid the depot to stay unnoticed and keep the squad safe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238982
+    m_Localized: Set up an ambush, turning the depot into a defensive position
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238983
+    m_Localized: Set up camp and send out scouts in different directions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238984
+    m_Localized: Stick to the planned route, staying together
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238985
+    m_Localized: Climb to a high point or a tree to look for landmarks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238986
+    m_Localized: Make splints for him and continue the journey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238987
+    m_Localized: "Leave him with supplies and move on; we can\u2019t afford delays"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238988
+    m_Localized: Shoot the soldier; better us than him falling to the Nazi, and we
+      need the supplies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238989
+    m_Localized: Find a detour to avoid risking lives and supplies in the swamp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238990
+    m_Localized: Take the risk and cross the swamp carefully, watching every step
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238991
+    m_Localized: Drop some supplies, tie a rope from cloth, and move carefully as
+      a group
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238992
+    m_Localized: Wait for night, steal supplies, and retreat under the cover of darkness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238993
+    m_Localized: Circle around the Nazi camp to avoid endangering the squad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238994
+    m_Localized: Wait for nightfall and attack the camp, seizing the supplies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238995
+    m_Localized: Find shelter in the forest to avoid the bombing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238996
+    m_Localized: Keep moving, maintaining distance between soldiers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238997
+    m_Localized: Open fire on the enemy!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238998
+    m_Localized: Take defensive positions and fight back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899238999
+    m_Localized: Run!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239000
+    m_Localized: Sacrifice one soldier to save the rest of the squad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239001
+    m_Localized: "Move along the fire; we don\u2019t have time for other maneuvers"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239002
+    m_Localized: Look for shelter in pits, water, or other safe spots away from the
+      fire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239003
+    m_Localized: Move against the wind to avoid the fire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239004
+    m_Localized: Search other houses to gather more supplies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239005
+    m_Localized: Avoid this small settlement to keep the squad safe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239006
+    m_Localized: Eliminate the Nazis and rescue the people without delay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239007
+    m_Localized: Take the civilians with you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239008
+    m_Localized: Leave the civilians behind, realizing they could complicate things
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239009
+    m_Localized: Share supplies with them and point them to a safe route
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239010
+    m_Localized: Try to scare off the boars with loud noises
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239011
+    m_Localized: Carefully retreat, leaving some supplies behind as a distraction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239012
+    m_Localized: Open fire on the boars
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239013
+    m_Localized: Take the people down from the crosses and bury them with respect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239014
+    m_Localized: Avoid this area, fearing an ambush
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239015
+    m_Localized: Scout the area, then take the fallen down from the crosses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239016
+    m_Localized: Search the farm and gather supplies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239017
+    m_Localized: Continue on your way without wasting time on exploration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239018
+    m_Localized: Surround the farm and wait for nightfall to approach it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239019
+    m_Localized: Help the wounded Nazi soldier, remembering that we are all human
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239020
+    m_Localized: Leave him behind and move on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239021
+    m_Localized: "Kill him; it\u2019s too dangerous to leave him alive for the patrol"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239022
+    m_Localized: Wait for nightfall and quietly bypass the snipers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239023
+    m_Localized: Fire at the snipers to force them to reveal their positions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239024
+    m_Localized: Sacrifice one soldier to distract the enemy and pass unnoticed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239025
+    m_Localized: Stay together and keep moving to avoid losing anyone in the fog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239026
+    m_Localized: Wait for the fog to clear to avoid unnecessary losses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239027
+    m_Localized: Send a soldier up the tallest tree to find a landmark
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239028
+    m_Localized: Accept the offer to raid the enemy post together
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239029
+    m_Localized: Decline the raid and continue on your way
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239030
+    m_Localized: Trade supplies for information about Nazi patrols
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239031
+    m_Localized: Take defensive positions, preparing the squad for any potential
+      threat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239032
+    m_Localized: Keep moving, hoping the signal flares are not related to us
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239033
+    m_Localized: Send a scout to investigate the situation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239034
+    m_Localized: Take the woman and her child into the squad and help them hide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239035
+    m_Localized: Order to kill the woman to ensure the squad remains undiscovered
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239036
+    m_Localized: Interrogate the woman about enemy positions, then leave her behind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239037
+    m_Localized: Punish the soldier for attempting to desert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239038
+    m_Localized: Let the soldier go with supplies; deserters have no place here
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239039
+    m_Localized: Remind the soldier of his duty to the squad and bring him back in
+      line
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239040
+    m_Localized: Throw the bodies into a ravine and bury them
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239041
+    m_Localized: "Leave this place; we don\u2019t have time for this"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239042
+    m_Localized: Bury the bodies and hold a short ceremony to honor the fallen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239043
+    m_Localized: Search the tent and use the radio transmitter to contact allies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239044
+    m_Localized: Search the tent and destroy the radio transmitter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239045
+    m_Localized: Leave the tent and transmitter untouched and move on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239046
+    m_Localized: "Check everyone\u2019s bags and execute the thief"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239047
+    m_Localized: Gather the squad and remind them that you are one unit; if supplies
+      run out, everyone will have to take risks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239048
+    m_Localized: "Check everyone\u2019s bags and exile the thief"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239049
+    m_Localized: "Allow your friend to stay behind and delay the Nazis, trusting
+      his courage for the squad\u2019s sake"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239050
+    m_Localized: Order your friend to stay with the squad, not allowing unnecessary
+      sacrifices
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239051
+    m_Localized: Let your friend delay the Nazis, but send another soldier to keep
+      watch over him
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239052
+    m_Localized: "Convince the soldier there\u2019s no time to search and order the
+      squad to move on"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239053
+    m_Localized: Order the squad to split up and search quickly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239054
+    m_Localized: 'Give the soldier a choice: continue with the squad or stay behind
+      to search for the cross'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239055
+    m_Localized: Repair the tank and use it to break through enemy lines
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239056
+    m_Localized: Move on without taking the risk; the tank might be booby-trapped
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239057
+    m_Localized: Search the tank for supplies and weapons, then continue forward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239058
+    m_Localized: Order the squad to take cover and wait for the enemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239059
+    m_Localized: Push forward across the river under fire as quickly as possible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239060
+    m_Localized: Retreat and look for an alternative route
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239061
+    m_Localized: Take everything; it might come in handy later
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239062
+    m_Localized: "Don\u2019t touch the crate\u2014if it\u2019s for our scouts, any
+      interference could jeopardize the mission"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239063
+    m_Localized: Wait for the saboteurs and ask for their help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239064
+    m_Localized: Order the prisoners to be tied up and brought along
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239065
+    m_Localized: Execute the prisoners; no mercy for the enemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239066
+    m_Localized: Let the soldiers decide their fate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239067
+    m_Localized: "Open fire immediately to save the prisoners before it\u2019s too
+      late"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239068
+    m_Localized: Command the squad to flank the enemy and attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239069
+    m_Localized: Wait for the Nazis to finish and then cross the road
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239070
+    m_Localized: We crossed the minefield step by step, but explosions took the lives
+      of several comrades. Nazi patrol will likely believe the squad was completely
+      destroyed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239071
+    m_Localized: Crossing the minefield took longer than expected due to its vast
+      size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239072
+    m_Localized: "Some mines didn\u2019t detonate immediately but exploded when stepped
+      on later"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239073
+    m_Localized: You left the girl and continued on. One soldier was deeply upset.
+      Later, you heard her screams in the distance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239074
+    m_Localized: A soldier argued against saving the girl, calling everyone fascists.
+      He was silenced, and the order was carried out. Later, locals found her body
+      and now seek revenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239075
+    m_Localized: A returning soldier reported that the Nazi, grateful for saving
+      their daughter, gave him a basket of food
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239076
+    m_Localized: Due to the strong current, several soldiers had to discard their
+      gear to cross
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239077
+    m_Localized: Crossing the log bridge was harder than it seemed. One soldier lost
+      his balance and was swept away
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239078
+    m_Localized: "The river\u2019s current remained strong as you moved upstream.
+      Eventually, you found a calmer spot to cross, but you lost much time and energy"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239079
+    m_Localized: The foraged berries and mushrooms were edible. The soldiers felt
+      relief and enjoyed a brief respite from hunger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239080
+    m_Localized: Some of the group are displeased, as they were sure some of the
+      food was unsafe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239081
+    m_Localized: One soldier refused some mushrooms and berries, but the ones he
+      tried were safe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239082
+    m_Localized: At night, you quietly passed through a village, collecting supplies.
+      By morning, someone will surely notice the missing goods
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239083
+    m_Localized: You bypassed the village, spending much more time to avoid attracting
+      local attention
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239084
+    m_Localized: While gathering supplies, one soldier was attacked by an old man.
+      In fear or anger, the soldiers opened fire on the locals. Now, the village
+      is deserted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239085
+    m_Localized: "One soldier was sure someone was watching for us but followed orders.
+      By morning, you found two comrades with their throats torn out \u2014 wolves
+      had no mercy"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239086
+    m_Localized: 'At night, you heard a shot. The squad sprang up and saw a dead
+      wolf and a soldier standing over it: "I told you, we were being watched"'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239087
+    m_Localized: That night, you woke up to screams near your camp. Running towards
+      the noise, you found a dead sentry and the bodies of three wolves. He sensed
+      the danger after all
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239088
+    m_Localized: You decided to wait for the day, knowing the patrols have also stopped
+      their search due to the weather, and by morning, all tracks would be washed
+      away
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239089
+    m_Localized: The road was difficult, and your soldiers kept falling. However,
+      you managed to finish the route, though many supplies were lost along the way
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239090
+    m_Localized: The search for a new route took longer than expected, but eventually,
+      you found the right path and continued forward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239091
+    m_Localized: The fire warmed the soldiers, but someone must have noticed it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239092
+    m_Localized: Without a fire, the soldiers froze, and one did not wake up in the
+      morning. Your decision spared the squad from detection, but at what cost?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239093
+    m_Localized: The fire and hot food warmed the soldiers, and in the morning, you
+      continued your journey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239094
+    m_Localized: You left a soldier to die from fever, and after walking some distance,
+      you heard a shot. The soldiers were displeased with your decision
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239095
+    m_Localized: The soldiers found the necessary herbs, guided by a knowledgeable
+      comrade. He made a tincture, and the next day, the soldier recovered
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239096
+    m_Localized: The soldier weakened with each passing hour and died, slowing down
+      the squad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239097
+    m_Localized: In five hours, your group regrouped and continued on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239098
+    m_Localized: You continued in hopes of meeting your soldiers later, but it did
+      not happen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239099
+    m_Localized: You shouted for your comrades, but the sound echoed through the
+      forest, confusing you. Gunshots made a clearer sound, allowing your team to
+      reach you, exchanging shots in the sky. But these actions will attract attention
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239100
+    m_Localized: "You found some supplies and set traps to make the explosion look
+      like an accident. Unfortunately, you didn\u2019t consider that the blast would
+      attract more patrols"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239101
+    m_Localized: You decided not to risk your men, as any sabotage would draw attention,
+      and theft would not go unnoticed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239102
+    m_Localized: You managed to kill a dozen NAzi and take supplies. The explosion
+      at the depot attracted patrols, but all traces of your presence burned in the
+      fire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239103
+    m_Localized: The scouts returned, and one found the path to our way home, but
+      sadly, one scout was lost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239104
+    m_Localized: Soon, you realized by landmarks that you had changed your route.
+      You lost a day, and the patrol moved closer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239105
+    m_Localized: One soldier skillfully climbed a tree and managed to determine the
+      right direction from above
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239106
+    m_Localized: The soldiers crafted a stretcher and took turns carrying him. The
+      soldier was grateful for not being left behind, but this journey would take
+      more time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239107
+    m_Localized: Let fate decide his fate, or perhaps he will kill a few Nazi soliers
+      with him
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239108
+    m_Localized: Right now, the life of any soldier on his feet matters more than
+      the injured one. We cannot risk the whole squad or waste supplies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239109
+    m_Localized: The detour took time, but the squad stayed intact
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239110
+    m_Localized: A few soldiers got stuck in the swamp, losing supplies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239111
+    m_Localized: By dropping supplies, your group managed to cross the swamp alive.
+      It was tough, and someone was nearly pulled under, but being light helped
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239112
+    m_Localized: "Your squad infiltrated the camp and stole some supplies without
+      issue, but by morning, Nazi noticed the theft \u2014 now they are hunting for
+      you"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239113
+    m_Localized: Bypassing the camp was hard, as patrols were everywhere. You spent
+      more time than expected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239114
+    m_Localized: At night, you crept toward the enemy and began killing sleeping
+      Nazi. Though outnumbered, the surprise allowed you to destroy their camp, but
+      your squad lost many men
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239115
+    m_Localized: Your squad survived by hiding in various locations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239116
+    m_Localized: By splitting up, you improved your survival chances, but some shells
+      hit two of your soldiers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239117
+    m_Localized: You opened fire on the planes with rifles, now the Nazi know where
+      you are. They fired back with machine guns, killing four soldiers. The planes
+      will report your location
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239118
+    m_Localized: The dogs are killed, but the gunshots and animal bodies will attract
+      nearby patrols
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239119
+    m_Localized: "Everyone knows dogs always catch up with people, but the order
+      was clear \u2014 only the fastest among you will survive"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239120
+    m_Localized: The dogs attacked a soldier who fought them fiercely. It was a brutal
+      death
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239121
+    m_Localized: The fire took the lives of four soldiers, and many supplies burned.
+      However, the patrols tracking us will likely stop searching for a while
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239122
+    m_Localized: You managed to take cover from the fire, but sadly, a burning tree
+      fell into a pit and landed on one of your men. He burned alive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239123
+    m_Localized: "The squad supported your decision \u2014 only a madman would walk
+      through fire. But now the route to our allies is longer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239124
+    m_Localized: "While the Nazi were busy burning a house, you successfully found
+      some supplies. But the enemy will notice they\u2019re missing"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239125
+    m_Localized: You slipped past unnoticed while the Nazi soldiers were preoccupied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239126
+    m_Localized: "You opened fire and, despite being outnumbered, destroyed the enemy
+      squad. However, you lost several men. Sadly, no one could be saved \u2014 they
+      all burned"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239127
+    m_Localized: Your squad grew in size, but supplies are now scarcer. Moreover,
+      the Nazi patrol pursuing that group are now after you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239128
+    m_Localized: You chose not to risk it and left the civilians behind. This may
+      spare the squad from unnecessary trouble
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239129
+    m_Localized: "You explained that you couldn\u2019t take them with you but gave
+      them some supplies. In return, they shared the location of Nazi posts"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239130
+    m_Localized: Attempts to scare off the boars only drew their attention. Soon,
+      they furiously attacked the squad, and several soldiers fell to the enraged
+      beasts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239131
+    m_Localized: "You quietly left the boars\u2019 den, avoiding conflict as they
+      defended their territory"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239132
+    m_Localized: "Rifle shots barely pierced the boars\u2019 thick hides. In the
+      furious struggle, several soldiers were wounded, and one was killed. These
+      gunshots surely attracted a nearby patrol"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239133
+    m_Localized: "One man was still alive. You treated his wounds and took him with
+      you. The squad\u2019s morale improved, but the patrol will notice and start
+      searching for you"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239134
+    m_Localized: The squad avoided a possible ambush, but morale dropped from witnessing
+      the horror
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239135
+    m_Localized: Recon allowed you to avoid danger, but you spent a lot of time.
+      The patrol will notice your actions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239136
+    m_Localized: "You found some supplies \u2014 a few potatoes and carrots"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239137
+    m_Localized: You chose not to risk it and kept moving. Open ground is too dangerous
+      under the threat of enemy fire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239138
+    m_Localized: "It turned out the farm was abandoned. You found some supplies \u2014
+      potatoes and carrots"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239139
+    m_Localized: Nazi soldier, surprisingly fluent in Russian, thanked your squad.
+      He also pointed out a safer route
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239140
+    m_Localized: Soon, you realized a patrol was on your trail. That Nazi must have
+      survived and revealed your location
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239141
+    m_Localized: The Nazi soldier realized your intentions and, as two of your soldiers
+      approached, detonated a grenade, killing himself
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239142
+    m_Localized: Darkness became our cover. We slipped by unnoticed, but lost much
+      time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239143
+    m_Localized: In the skirmish, your men managed to take out the enemy snipers.
+      Sadly, a few of your own fell in the fight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239144
+    m_Localized: The sacrifice was not in vain. Private Chistyakov enabled your squad
+      to bypass the snipers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239145
+    m_Localized: While moving through the fog, one of your soldiers slipped and fell
+      down a hill with the supplies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239146
+    m_Localized: You waited out the fog, but the enemy search party is getting closer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239147
+    m_Localized: A soldier scouted from above and pointed out a safer path
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239148
+    m_Localized: The joint raid brought in many supplies, but it cost many lives
+      and drew significant attention
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239149
+    m_Localized: "Your squad avoided risks and losses but missed the chance to gather
+      supplies. Later, you heard Nazis gunfire \u2014 it seems the saboteurs failed"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239150
+    m_Localized: The exchange of information reduced danger without unnecessary risk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239151
+    m_Localized: You spotted Nazi patrols and had to wait nearly all day to avoid
+      confrontation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239152
+    m_Localized: The group continued moving but stumbled upon a Nazi patrol, resulting
+      in the loss of several soldiers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239153
+    m_Localized: A scout encountered a Nazi patrol, and you took the opportsquady
+      to slip past unnoticed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239154
+    m_Localized: The group grew larger, increasing supply consumption. The patrol
+      searching for those two may now come across you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239155
+    m_Localized: One soldier left the squad, saying he would help them and, if caught,
+      would kill them himself to buy as much time as possible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239156
+    m_Localized: The information gained will help avoid many dangers, but the men
+      are unhappy with your decision
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239157
+    m_Localized: As a lesson to the others, you executed one of the men, reminding
+      everyone that we are soldiers of the Soviet Army, where there is no place for
+      cowards or deserters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239158
+    m_Localized: "The soldier admitted his cowardice and begged for forgiveness,
+      thinking he'd have a better chance of survival alone. The squad was surprised
+      by your decision to spare him \u2014 such actions usually mean immediate execution"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239159
+    m_Localized: "Begging for forgiveness, the soldier cried out in despair, admitting
+      he had become a coward, saying captivity and the Nazi were driving him mad.
+      But as a commander, you firmly reminded him who he was \u2014 a Soviet soldier.
+      He composed himself and carried on... but for how long?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239160
+    m_Localized: "The men threw the bodies into a ravine, understanding why we couldn\u2019t
+      bury them separately but instead created a mass grave. The enemy was near,
+      leaving no time for ceremonies. Even so, this was better than letting the bodies
+      rot and become food for animals"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239161
+    m_Localized: Your order upset the men, and they reluctantly left their comrades
+      behind. The squad's morale suffered
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239162
+    m_Localized: "The men found one soldier unconscious on the field. He\u2019s fine
+      now, but we lost much time, and the enemy is closing in"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239163
+    m_Localized: You found supplies, but your signal was intercepted by the enemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239164
+    m_Localized: "You found supplies and destroyed the abandoned radio transmitter.
+      However, the men are unhappy \u2014 it could have been used to contact our
+      forces"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239165
+    m_Localized: You chose not to risk it and passed by the area, avoiding potential
+      dangers. Who knows what could have happened there?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239166
+    m_Localized: During an inspection, you found a soldier with more supplies in
+      his bag than he should have. He denied it, made up excuses, and eventually
+      started pointing fingers at others. Without hesitation, you carried out a righteous
+      execution. Stealing from your comrades is the ultimate sin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239167
+    m_Localized: Later, during a rest stop, someone quietly returned the missing
+      supplies. It seems survival outweighed the desire to hoard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239168
+    m_Localized: "During an inspection, you found a soldier with more supplies in
+      his bag than he should have. He shouted it wasn\u2019t him and claimed he was
+      framed. You exiled him, leaving him without weapons or supplies \u2014 a thief\u2019s
+      fate is to live like a wolf. But later, it turned out he wasn\u2019t the one,
+      as the thefts continued"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239169
+    m_Localized: Your comrade, showing great courage, stays behind. From a safe distance,
+      you hear gunfire and explosions that last for about 20 minutes. When it finally
+      stops, you silently say goodbye to a friend who gave his life to save the squad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239170
+    m_Localized: Your friend followed the order and stayed with the group. Later,
+      in private, he reprimanded you for putting duty above friendship
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239171
+    m_Localized: As you retreat to a safe distance, you hear 20 minutes of relentless
+      gunfire and explosions. Finally, the noise stops. Later, a scout returns and
+      reports that your friend successfully led the enemy away
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239172
+    m_Localized: The soldier is dejected but obeys the order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239173
+    m_Localized: You searched for hours, but sadly, he was not found. The soldier
+      thanks you for the effort
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239174
+    m_Localized: "You couldn\u2019t risk the squad for one soldier. Deep down, you
+      hoped he would find the item and return, but it didn\u2019t happen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239175
+    m_Localized: "Your squad repaired the tank, which took some time, and soon you
+      rode it straight to the front, smashing through the forest and enemy lines.
+      Nothing could stop you \u2014 except the fuel running out"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239176
+    m_Localized: You decide against using this risky plan. The tank is too conspicuous,
+      and no one would leave it untouched or untrapped
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239177
+    m_Localized: The soldiers found some supplies and weapons, replenishing your
+      stock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239178
+    m_Localized: "The squad avoided casualties. Gunfire echoed for a while longer,
+      then faded. Perhaps it wasn\u2019t meant for you, but now no one will ever
+      know"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239179
+    m_Localized: Several of your men were killed in the crossfire, but you reached
+      and eliminated the enemy. It was three young enemy deserters who panicked at
+      the sight of you and opened fire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239180
+    m_Localized: You chose to retreat, avoiding casualties. But the patrol is closing
+      in, and soon you may be caught between two forces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239181
+    m_Localized: The uniforms and documents may prove useful, but it will make life
+      harder for our scouts. Sadly, there is no other choice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239182
+    m_Localized: You decide not to interfere with the reconnaissance. A Soviet soldier
+      always knows that the mission is more important than any one life
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239183
+    m_Localized: You waited nearly a day, but they still had not arrived. Then, you
+      heard enemy voices nearby. Likely a patrol searching for the package. Without
+      hesitation, you decided to flee while you still could
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239184
+    m_Localized: The prisoners slowed you down, but thanks to them, you managed to
+      bypass several enemy checkpoints
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239185
+    m_Localized: The soldiers, without hesitation, executed the prisoners. Captivity
+      had left us all a little more vengeful
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239186
+    m_Localized: The soldiers took it upon themselves to deal with the enemy, using
+      whatever they could find. It was not a quick task
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239187
+    m_Localized: A sudden attack saved the prisoners. The enemy was few in number.
+      One truck tried to escape, but its tires were shot out, causing it to overturn.
+      The prisoners joined your squad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239188
+    m_Localized: Your men took positions, but it was too late. The prisoners had
+      been executed, and the enemy drove away. You decided not to pursue a senseless
+      fight. Approaching the bodies, you silently apologized for failing them, but
+      you found one survivor, gravely wounded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239189
+    m_Localized: The enemy forced the prisoners to run into the forest, and as soon
+      as they reached the trees, automatic gunfire rang out. Soon after, the Nazi
+      left in their trucks. Your squad continued onward, holding back its fury
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239190
+    m_Localized: One of the soldiers suggests leaving a false trail to confuse the
+      enemy and buy time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239191
+    m_Localized: "A soldier proposes a loud distraction\u2014using a grenade trap
+      or setting the forest on fire to draw the patrol's attention away"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239192
+    m_Localized: "The soldiers suffer from thirst, and one suggests searching for
+      a spring or river. But you know it\u2019s slightly off your path"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239193
+    m_Localized: "Your group is growing hungrier\u2014supplies are nearly gone, and
+      the soldiers' strength is fading with each passing day"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239194
+    m_Localized: On the road leading to the front line, there is a Nazi checkpoint
+      guarded by armed soldiers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239195
+    m_Localized: One of the soldiers questions your leadership and urges others to
+      take a different course of action
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239196
+    m_Localized: Agree and create several false trails
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239197
+    m_Localized: "Move faster despite the exhaustion\u2014delays could cost us our
+      lives"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239198
+    m_Localized: Agree and make more false trails, scattering some supplies along
+      the way
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239199
+    m_Localized: Set up a grenade trap triggered by an animal to distract the enemy
+      from the squad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239200
+    m_Localized: Set the forest on fire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239201
+    m_Localized: Refuse the distraction maneuver as it might draw even more attention
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239202
+    m_Localized: Divert from the route and search for water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239203
+    m_Localized: Continue moving forward; we will find supplies on the way
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239204
+    m_Localized: Send a small group to search for water and rendezvous at a designated
+      location
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239205
+    m_Localized: Send a few soldiers to hunt; we cannot risk the entire squad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239206
+    m_Localized: Keep moving forward; we will find supplies along the way
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239207
+    m_Localized: Hunt with the entire squad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239208
+    m_Localized: Order the soldiers to attack the checkpoint; we must break through
+      this final barrier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239209
+    m_Localized: Search for an alternative route to avoid unnecessary combat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239210
+    m_Localized: Dress in Nazi uniforms and present forged documents
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239211
+    m_Localized: Remind the soldiers about the chain of command and order them to
+      follow your directives
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239212
+    m_Localized: Relinquish your command
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239213
+    m_Localized: Order the soldier and those who agree with him to go their own way
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239214
+    m_Localized: The Nazi fall for the decoy and follow the false trail, giving the
+      squad time to escape
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239215
+    m_Localized: In haste, you managed to lose the patrol, but only later did you
+      notice one soldier was missing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239216
+    m_Localized: The Nazi follow the false trail, allowing the squad to break away
+      without losing many supplies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239217
+    m_Localized: The explosion draws the Nazis attention, and the patrol temporarily
+      changes their search direction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239218
+    m_Localized: The fire distracts the Nazis, forcing them to retreat. However,
+      the flames spread faster than expected, becoming a new enemy and claiming two
+      of your men
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239219
+    m_Localized: The squad continues quietly, avoiding noise. But the Nazis keep
+      pursuing, gradually closing the distance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239220
+    m_Localized: Your squad finds a river, quenches their thirst, and fills up as
+      much water as possible for the journey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239221
+    m_Localized: You decide not to split the squad or deviate from the path. However,
+      thirst drives some soldiers to drink from puddles, forcing you to intervene
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239222
+    m_Localized: The search group finds a river and collects a small amount of water
+      to bring back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239223
+    m_Localized: The hunting group returns to the squad with game, enough meat to
+      feed everyone. Their efforts secure food for a long time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239224
+    m_Localized: "Hunting in the forest is too risky. Gunshots might attract patrols,
+      and the noise could reveal your location. It\u2019s too dangerous to take the
+      chance"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239225
+    m_Localized: The soldiers find enough game to feed the whole squad, but the prolonged
+      stop allows the Nazi to close the gap significantly. The squad now has food,
+      but the patrol is too close, making it hard to avoid conflict
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239226
+    m_Localized: The squad successfully captures the checkpoint, but losses are heavy.
+      The front is close now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239227
+    m_Localized: "The detour takes time; we must conserve supplies\u2014the front
+      is near"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239228
+    m_Localized: Your squad passes the checkpoint unnoticed. Your knowledge of Nazi
+      and forged documents deceive them. You are almost there
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239229
+    m_Localized: You remind everyone how you drove the enemy from our land, escaped
+      captivity, and always emerged victorious despite losses. The squad recalls
+      your achievements, apologizes, and you continue the journey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239230
+    m_Localized: Chaos breaks out in the squad; soldiers split into groups, each
+      heading in different directions, leaving you alone with your plans and duties
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730899239231
+    m_Localized: The squad splits; the dissatisfied soldiers leave. Now you are fewer,
+      but the risk of detection is also lower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1153992744919040
+    m_Localized: 'Now you are alone. The soldiers who stood by you have fallen, defeated
+      by hunger, cold, and the enemy.
+
+
+      You knew there was no way back. Hunted
+      by the Nazi, you moved forward, carrying the memory of your comrades. In the
+      end, your story finished like theirs.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1153992803639296
+    m_Localized: "At first, the forest felt like a safe place, but it became a deadly
+      trap. We ran out of supplies, and every step drained your strength. Soon, it
+      was clear \u2014 we couldn\u2019t go on.\nAs their commander, you said with
+      pain: 'We did all we could...' One by one, the soldiers fell, too weak from
+      hunger and cold. The dark forest took them, and the way back to the front was
+      lost forever.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1153992803639297
+    m_Localized: "You couldn\u2019t hide anymore. The patrols found you and surrounded
+      your group. The fight was short. Your men, tired and wounded, couldn\u2019t
+      hold them off.\n\nThe Nazi left, leaving behind the bodies of those who still
+      believed they\u2019d make it home."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1153992803639298
+    m_Localized: "You did it. After surviving the forest, the cold, and hunger, your
+      squad reached the front lines \u2014 thanks to you. The soldiers were greeted
+      with smiles and hugs from their comrades.\n\nYou were welcomed as heroes, saved
+      by a miracle. For the first time in a long while, you allowed yourself to smile.\n\nBut
+      there\u2019s no time to rest. In a few days, Major Ryabchikov, you\u2019ll
+      take command of a battalion and lead the attack. Your story is just beginning\u2026"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

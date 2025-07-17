@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-English
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-English
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5f0fe3d5edf6e7e4f9525a94966b1707
+  m_SerializeEntries:
+  - m_GUID: 075d3f1153299364da2a50a0175e3db5
+    m_Address: settings_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a9864f4321dfab45ac1b9efdb2ecb06
+    m_Address: quit_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ef9def596e37b347a8431610a189134
+    m_Address: play_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9795e57999de2b244b084e6fce819b2c
+    m_Address: feedback_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c885387018086d0479d6f54c4cbb24e5
+    m_Address: continue_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: df8fec564a9710d45b94396a2195681d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 00b1a9a464a4c7b4db2c4443b5ba22ce, type: 2}
+    - {fileID: 11400000, guid: 831fcf1043679c64991704dc542e7268, type: 2}

@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caee4f025d5a453cbb9fcf2846a29ef1, type: 3}
+  m_Name: EventsDatabase
+  m_EditorClassIdentifier: 
+  _mainEvents:
+  - asset: {fileID: -5989398282717996839, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 4320900517254304469, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: -6606476439238044215, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: -8342504726291039802, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 7124861616350611635, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 771962978484163605, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 1360613170554361659, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 4166326009409350393, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: -5023545881435158294, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: -1914319554636435629, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 4677879163220169472, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 8109861513507737406, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: -7409544563524343853, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 4424118672975959831, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: -7292659273845242806, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 5922197694888260062, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: -6668037952692821126, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 3692284451986972050, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 4409165513480873237, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 1208236219757372667, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 8462265566642251165, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 416731659652362252, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 1423940446371139096, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: -2773584561941556778, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: -3541709094157132448, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: -3716650412596434840, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 410538993697100569, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 954105777265849648, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: -3806374514427257083, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 814095438525973675, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 7537000102408574377, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: -6191073370583991536, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 8074721633788104442, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: -3754577181283401588, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 7163582338873185060, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: -1404976490884115281, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: -2697941271753927388, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 472586526271361285, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 8052737960193312261, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - asset: {fileID: 8172179520087296954, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  _specialEvents:
+  - _name: Fake Way
+    _eventIndicator: 2
+    _eventReloadTime: 6
+    _event:
+      asset: {fileID: -6009237695760366884, guid: 80ad56cd4551c784196805d26db70970, type: 2}
+  - _name: Distraction
+    _eventIndicator: 2
+    _eventReloadTime: 6
+    _event:
+      asset: {fileID: -7642442209097179213, guid: 80ad56cd4551c784196805d26db70970, type: 2}
+  - _name: Water
+    _eventIndicator: 1
+    _eventReloadTime: 8
+    _event:
+      asset: {fileID: -432635109723071736, guid: 80ad56cd4551c784196805d26db70970, type: 2}
+  - _name: Hunt
+    _eventIndicator: 1
+    _eventReloadTime: 8
+    _event:
+      asset: {fileID: 459800138016433903, guid: 80ad56cd4551c784196805d26db70970, type: 2}
+  - _name: Conflict
+    _eventIndicator: 0
+    _eventReloadTime: 99
+    _event:
+      asset: {fileID: 1600318611908056647, guid: 80ad56cd4551c784196805d26db70970, type: 2}
