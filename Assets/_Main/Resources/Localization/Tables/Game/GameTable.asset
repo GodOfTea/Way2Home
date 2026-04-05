@@ -43,12 +43,12 @@ MonoBehaviour:
       data:
         m_Column: B
         m_LocaleIdentifier:
-          m_Code: ru
+          m_Code: ru-RU
         m_IncludeComments: 0
     - rid: 1852385117838508037
       type: {class: LocaleColumn, ns: UnityEditor.Localization.Plugins.Google.Columns, asm: Unity.Localization.Editor}
       data:
         m_Column: C
         m_LocaleIdentifier:
-          m_Code: en
+          m_Code: en-EN
         m_IncludeComments: 0

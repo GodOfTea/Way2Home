@@ -25,10 +25,10 @@ MonoBehaviour:
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6f8550039a5b6ee439f74d8ce58be585
-    m_Address: EventsTable_ru
+    m_Address: EventsTable_ru-RU
     m_ReadOnly: 1
     m_SerializedLabels:
-    - Locale-ru
+    - Locale-ru-RU
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1

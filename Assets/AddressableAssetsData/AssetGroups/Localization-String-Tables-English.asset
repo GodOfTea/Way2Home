@@ -18,10 +18,10 @@ MonoBehaviour:
   m_GUID: 9f48830d71044634eba9340adf1616ac
   m_SerializeEntries:
   - m_GUID: 14eb76b494d137d428f5d3539f721951
-    m_Address: EventsTable_en
+    m_Address: EventsTable_en-EN
     m_ReadOnly: 1
     m_SerializedLabels:
-    - Locale-en
+    - Locale-en-EN
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 572b57f74655344419300709f2f682b5

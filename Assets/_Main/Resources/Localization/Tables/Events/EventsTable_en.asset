@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: EventsTable_en
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: en
+    m_Code: en-EN
   m_SharedData: {fileID: 11400000, guid: f41eb82e28cab9843b74ac44052905fb, type: 2}
   m_Metadata:
     m_Items: []
