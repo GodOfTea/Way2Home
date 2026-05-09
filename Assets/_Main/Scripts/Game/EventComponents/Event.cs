@@ -1,44 +1,41 @@
+using System;
 using System.Linq;
 using Data;
 using Editor.GoogleDataImporter;
-using Game.Economy;
 using UnityEngine;
 
 namespace EventComponents
 {
+    [Serializable]
     public class Event
     {
-        private string _id;
-        private Sprite _eventImage;
-        private EventOption[] _options;
+        [SerializeField] private string _id;
+        [SerializeField] private Sprite _eventImage;
+        [SerializeField] private EventOption[] _options;
 
         public string ID => _id;
         public Sprite EventImage => _eventImage;
 
-        public Event(EventSheet.Reference reference)
+        public Event(EventSheet.Row eventData, EventsResult.Row[] resultData)
         {
-            _id = reference.Ref.Id;
-            _eventImage = Resources.Load<Sprite>(Paths.EVENT_IMAGES + reference.Ref.ImagePath);
+            _id = eventData.Id;
+            _eventImage = Resources.Load<Sprite>(Paths.EVENT_IMAGES + eventData.ImagePath);
 
             _options = new EventOption[3];
             for (int i = 0; i < 3; i++)
             {
-                var option = reference.Ref.GetOption(i);
-                _options[i] = ParseEventOption(option);
+                EventSheet.Elem option = eventData.GetOption(i);
+                _options[i] = new EventOption(option.OptionKey, resultData[i]);
             }
         }
 
-        private EventOption ParseEventOption(EventSheet.Elem option)
-        {
-            IndicatorsKeeper indicatorsKeeper = new IndicatorsKeeper(
-                people: option.People, supplies: option.Supplies, risk: option.Risk, days: option.Days);
-
-            Sprite answerImage = Resources.Load<Sprite>(Paths.EVENT_IMAGES + option.ImagePathAnswer);
-            return new EventOption(option.OptionKey, option.OptionResultKey, 
-                answerImage, indicatorsKeeper);
-        }
-
         public IAnswer[] GetAnswers() => _options;
-        public IAnswerResult GetResult(string id) => _options.FirstOrDefault(o => o.AnswerId == id);
+        public EventOptionResult GetResult(string answerId, int moralStatus)
+        {
+            var option = _options.FirstOrDefault(o => o.AnswerId == answerId);
+            var result = option.GetResultByMoral(moralStatus);
+            result.FillIndicators();
+            return result;
+        }
     }
 }

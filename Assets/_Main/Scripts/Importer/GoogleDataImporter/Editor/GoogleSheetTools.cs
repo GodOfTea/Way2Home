@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using Cathei.BakingSheet;
 using Cathei.BakingSheet.Internal;
 using Cathei.BakingSheet.Unity;
@@ -14,7 +13,7 @@ namespace Editor.GoogleDataImporter
         private static readonly string ImportPath = "Assets/_Main/Resources/Import";
         
         // unit test google account credential
-        private static readonly string GoogleCredential = File.ReadAllText("way2-439914-6d4de463d0be.json");
+        private static readonly string GoogleCredential = File.ReadAllText("way2-439914-9904c6ab648f.json");
         private static readonly string GoogleSheetId = "1yqQXXLMUcvLiZL3Gfb8WZwmH3uiRDuOtthl9ohYwNT8";
 
         public class PrettyJsonConverter : JsonSheetConverter
@@ -35,20 +34,18 @@ namespace Editor.GoogleDataImporter
         [MenuItem("Import/Events")]
         public static async void ConvertFromGoogle()
         {
-            var jsonPath = Path.Combine(Application.streamingAssetsPath, "Way2HomeData");
+            string jsonPath = Path.Combine(Application.streamingAssetsPath, "Way2HomeData");
 
-            var googleConverter = new GoogleSheetConverter(GoogleSheetId, GoogleCredential);
-
-            var sheetContainer = new SheetContainer(UnityLogger.Default);
+            GoogleSheetConverter googleConverter = new GoogleSheetConverter(GoogleSheetId, GoogleCredential);
+            SheetContainer sheetContainer = new SheetContainer(UnityLogger.Default);
 
             await sheetContainer.Bake(googleConverter);
 
-            var exporter = new ScriptableObjectSheetExporter(ImportPath);
+            ScriptableObjectSheetExporter exporter = new ScriptableObjectSheetExporter(ImportPath);
 
             await sheetContainer.Store(exporter);
 
             AssetDatabase.Refresh();
-
             Debug.Log("Google sheet converted.");
         }
     }

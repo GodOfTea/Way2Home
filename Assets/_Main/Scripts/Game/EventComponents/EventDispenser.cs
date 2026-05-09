@@ -27,6 +27,7 @@ namespace EventComponents
 
         public Event CurrentEvent => _currentEvent;
         public List<string> PreviousEvents => _previousEvents.Keys.ToList();
+        
         /* Подумать над передачей базы данных, не работает мгновенный перевод для ивентов, сделать табличку в GD? */
         public EventDispenser(EventsConfig eventsConfig, EventsDatabase eventsDatabase, IndicatorsBank indicatorsBank, List<string> previousEvents, string currentEvent)
         {
@@ -41,9 +42,10 @@ namespace EventComponents
             else
                 CollectEventsMaps(previousEvents);
             
-            _specialEventsHandler = new SpecialEventsHandler(_eventsDatabase, _redZonesMap);
-            _currentEvent = string.IsNullOrEmpty(currentEvent) ? GetNextRandomEvent() : 
-                new Event(_eventsDatabase.MainEvents.FirstOrDefault(o => o.Ref.Id == currentEvent));
+            //_specialEventsHandler = new SpecialEventsHandler(_eventsDatabase, _redZonesMap);
+            _currentEvent = string.IsNullOrEmpty(currentEvent) ? 
+                GetNextRandomEvent() : 
+                _eventsDatabase.MainEvents.FirstOrDefault(o => o.ID == currentEvent);
 
             Debug.Log("Events: \n" + 
                       $"Current event: {_currentEvent.ID} \n" +
@@ -70,8 +72,8 @@ namespace EventComponents
             _previousEvents = new Dictionary<string, Event>();
             _possibleEvents = new Dictionary<string, Event>();
 
-            foreach (var reference in _eventsDatabase.MainEvents)
-                _possibleEvents.Add(reference.Ref.Id, new Event(reference));
+            foreach (var eventData in _eventsDatabase.MainEvents)
+                _possibleEvents.Add(eventData.ID, eventData);
         }
 
         private void CollectEventsMaps(List<string> previousEvents)
@@ -79,12 +81,12 @@ namespace EventComponents
             _previousEvents = new Dictionary<string, Event>();
             _possibleEvents = new Dictionary<string, Event>();
 
-            foreach (var reference in _eventsDatabase.MainEvents)
+            foreach (var eventData in _eventsDatabase.MainEvents)
             {
-                if (previousEvents.Contains(reference.Ref.Id))
-                    _previousEvents.Add(reference.Ref.Id, new Event(reference));
+                if (previousEvents.Contains(eventData.ID))
+                    _previousEvents.Add(eventData.ID, eventData);
                 else
-                    _possibleEvents.Add(reference.Ref.Id, new Event(reference));
+                    _possibleEvents.Add(eventData.ID, eventData);
             }
         }
         
@@ -109,14 +111,16 @@ namespace EventComponents
 
             Event nextEvent = null;
             _currentEventIsSpecial = false;
-            _specialEventsHandler.ReduceTimerOnEvents();
+            //TODO: проработать спец. ивенты с моралью и как они держаться в базе данных
             
-            /* Проверка, нужен ли спец. ивент, потому что одно из значений в ред зоне */
-            if (TryGetSpecialEvent(out nextEvent))
-            {
-                _currentEventIsSpecial = true;
-                return nextEvent;
-            }
+            // _specialEventsHandler.ReduceTimerOnEvents();
+            //
+            // /* Проверка, нужен ли спец. ивент, потому что одно из значений в ред зоне */
+            // if (TryGetSpecialEvent(out nextEvent))
+            // {
+            //     _currentEventIsSpecial = true;
+            //     return nextEvent;
+            // }
 
             /* В обычном случае мы берем случайный ивент из стандартных */
             nextEvent = DictionaryExtensions.GetRandom(_possibleEvents);

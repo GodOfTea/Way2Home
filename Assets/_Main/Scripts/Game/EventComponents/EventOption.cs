@@ -1,45 +1,34 @@
 ﻿using System;
-using System.Collections.Generic;
-using Enumeration;
-using Game.Economy;
+using System.Linq;
+using Editor.GoogleDataImporter;
 using UnityEngine;
 
 namespace EventComponents
 {
     [Serializable]
-    public class EventOption : IAnswer, IAnswerResult
+    public class EventOption : IAnswer
     {
         [SerializeField] public string _id;
-        [SerializeField] public string _resultKey;
-
-        [SerializeField] private Sprite _answerImage;
+        [SerializeField] private EventOptionResult[] _results;
         
-        private IndicatorsKeeper _indicatorsKeeper;
-
         public string AnswerId => _id;
-        public string ResultAnswerId => _resultKey;
-        
-        public Sprite AnswerImage => _answerImage;
-        public Dictionary<IndicatorType, int> IndicatorsResultMap => _indicatorsKeeper.IndicatorsMap;
 
-        public EventOption(string id, string resultKey, Sprite answerImage, IndicatorsKeeper indicatorsKeeper)
+        public EventOption(string id, EventsResult.Row resultRef)
         {
             _id = id;
-            _resultKey = resultKey;
-            _answerImage = answerImage;
-            _indicatorsKeeper = indicatorsKeeper;
+            _results = new EventOptionResult[3];
+            for (int i = 0; i < _results.Length; i++)
+            {
+                _results[i] = new EventOptionResult(resultRef.Id, resultRef.GetOption(i));
+            }
         }
+        
+        public EventOptionResult GetResultByMoral(int moraleStatus) =>
+            _results.FirstOrDefault(o => o.MoraleStatus == moraleStatus);
     }
 
     public interface IAnswer
     {
         string AnswerId { get; }
-    }
-
-    public interface IAnswerResult
-    {
-        string ResultAnswerId { get; }
-        Sprite AnswerImage { get; }
-        Dictionary<IndicatorType, int> IndicatorsResultMap { get; }
     }
 }

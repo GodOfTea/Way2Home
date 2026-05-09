@@ -13,46 +13,2166 @@ MonoBehaviour:
   m_Name: EventsDatabase
   m_EditorClassIdentifier: 
   _mainEvents:
-  - asset: {fileID: -5989398282717996839, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 4320900517254304469, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: -6606476439238044215, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: -8342504726291039802, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 7124861616350611635, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 771962978484163605, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 1360613170554361659, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 4166326009409350393, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: -5023545881435158294, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: -1914319554636435629, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 4677879163220169472, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 8109861513507737406, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: -7409544563524343853, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 4424118672975959831, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: -7292659273845242806, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 5922197694888260062, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: -6668037952692821126, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 3692284451986972050, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 4409165513480873237, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 1208236219757372667, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 8462265566642251165, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 416731659652362252, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 1423940446371139096, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: -2773584561941556778, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: -3541709094157132448, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: -3716650412596434840, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 410538993697100569, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 954105777265849648, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: -3806374514427257083, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 814095438525973675, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 7537000102408574377, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: -6191073370583991536, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 8074721633788104442, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: -3754577181283401588, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 7163582338873185060, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: -1404976490884115281, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: -2697941271753927388, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 472586526271361285, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 8052737960193312261, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
-  - asset: {fileID: 8172179520087296954, guid: b7ce3cc4f8a08c04a9a6a81f368d7a7d, type: 2}
+  - _id: mines001
+    _eventImage: {fileID: 21300000, guid: 661e052dd8d318c479a91b8cb0e70cc5, type: 3}
+    _options:
+    - _id: mines_Tester01
+      _results:
+      - _id: minesTester01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 4
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: -4\n Days: -3"
+      - _id: minesTester01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -3
+        _indicatorsValue: " People: -8\n Supplies: -7\n Risk: -4\n Days: -3"
+      - _id: minesTester01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -1\n Supplies: -4\n Risk: 1\n Days: 1"
+    - _id: mines_Miss02
+      _results:
+      - _id: minesMiss02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: 1\n Days: 1"
+      - _id: minesMiss02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: 1\n Days: 1"
+      - _id: minesMiss02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: 1\n Days: 1"
+    - _id: mines_Explode03
+      _results:
+      - _id: minesExplode03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: -2\n Supplies: -5\n Risk: -2\n Days: -2"
+      - _id: minesExplode03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: -2\n Supplies: -5\n Risk: -2\n Days: -2"
+      - _id: minesExplode03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: -2\n Supplies: -5\n Risk: -2\n Days: -2"
+  - _id: girl002
+    _eventImage: {fileID: 21300000, guid: 3ac23702e5c841d4e8ab90b57ec2bf69, type: 3}
+    _options:
+    - _id: girl_Leave01
+      _results:
+      - _id: girl_Leave01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: girl_Leave01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: girl_Leave01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+    - _id: girl_Kill02
+      _results:
+      - _id: girl_Kill02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 2\n Days: -1"
+      - _id: girl_Kill02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 2\n Days: -1"
+      - _id: girl_Kill02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -3
+        _indicatorsValue: " People: -2\n Supplies: -2\n Risk: 1\n Days: -1"
+    - _id: girl_Soldier03
+      _results:
+      - _id: girl_Soldier03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 3
+        _indicatorsValue: " People: 0\n Supplies: 4\n Risk: 0\n Days: 0"
+      - _id: girl_Soldier03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 3
+        _indicatorsValue: " People: 0\n Supplies: 4\n Risk: 0\n Days: 0"
+      - _id: girl_Soldier03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 1\n Days: 0"
+  - _id: bridge003
+    _eventImage: {fileID: 21300000, guid: 247b179cc782f4e4d9e95c2ea74f02fc, type: 3}
+    _options:
+    - _id: bridge_Swim01
+      _results:
+      - _id: bridge_Swim01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -5\n Risk: -1\n Days: -1"
+      - _id: bridge_Swim01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -5\n Risk: -1\n Days: -1"
+      - _id: bridge_Swim01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -5\n Risk: -1\n Days: -1"
+    - _id: bridge_Log02
+      _results:
+      - _id: bridge_Log02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 3
+        _indicatorsValue: " People: 0\n Supplies: 0\n Risk: -1\n Days: -1"
+      - _id: bridge_Log02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: -3\n Risk: -1\n Days: -1"
+      - _id: bridge_Log02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: -3\n Risk: -1\n Days: -1"
+    - _id: bridge_Go03
+      _results:
+      - _id: bridge_Go03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: 1\n Days: 1"
+      - _id: bridge_Go03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: 1\n Days: 1"
+      - _id: bridge_Go03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -2\n Supplies: -3\n Risk: 1\n Days: 1"
+  - _id: food004
+    _eventImage: {fileID: 21300000, guid: cd479571fbffa0a4db448baecc1d8ac9, type: 3}
+    _options:
+    - _id: food_Take01
+      _results:
+      - _id: food_Take01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 3
+        _indicatorsValue: " People: 0\n Supplies: 5\n Risk: 1\n Days: -1"
+      - _id: food_Take01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 3
+        _indicatorsValue: " People: 0\n Supplies: 5\n Risk: 1\n Days: -1"
+      - _id: food_Take01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 3
+        _indicatorsValue: " People: 0\n Supplies: 5\n Risk: 1\n Days: -1"
+    - _id: food_Miss02
+      _results:
+      - _id: food_Miss02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: 3\n Risk: 0\n Days: -1"
+      - _id: food_Miss02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: food_Miss02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -2\n Supplies: 0\n Risk: 0\n Days: -1"
+    - _id: food_Tester03
+      _results:
+      - _id: food_Tester03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: 3\n Risk: 1\n Days: -1"
+      - _id: food_Tester03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: 3\n Risk: 1\n Days: -1"
+      - _id: food_Tester03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: 3\n Risk: 1\n Days: -1"
+  - _id: village005
+    _eventImage: {fileID: 21300000, guid: f1ede459345f7ca41a39049afc181a11, type: 3}
+    _options:
+    - _id: village_Night01
+      _results:
+      - _id: village_Night01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: 3\n Risk: 1\n Days: -1"
+      - _id: village_Night01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: 3\n Risk: 1\n Days: -1"
+      - _id: village_Night01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -1\n Supplies: 0\n Risk: 3\n Days: -1"
+    - _id: village_Miss02
+      _results:
+      - _id: village_Miss02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: -1"
+      - _id: village_Miss02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: -1"
+      - _id: village_Miss02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: -1"
+    - _id: village_Supplies03
+      _results:
+      - _id: village_Supplies03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: 9\n Risk: 2\n Days: 1"
+      - _id: village_Supplies03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: 9\n Risk: 2\n Days: 1"
+      - _id: village_Supplies03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: 9\n Risk: 2\n Days: 1"
+  - _id: nervous006
+    _eventImage: {fileID: 21300000, guid: 0b937c661cc12574fab28ae0a14d1bad, type: 3}
+    _options:
+    - _id: nervous_Change01
+      _results:
+      - _id: nervous_Change01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 3
+        _indicatorsValue: " People: 0\n Supplies: 4\n Risk: 0\n Days: -1"
+      - _id: nervous_Change01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -3
+        _indicatorsValue: " People: -2\n Supplies: -3\n Risk: 0\n Days: -1"
+      - _id: nervous_Change01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -3
+        _indicatorsValue: " People: -2\n Supplies: -3\n Risk: 0\n Days: -1"
+    - _id: nervous_Stay02
+      _results:
+      - _id: nervous_Stay02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 3
+        _indicatorsValue: " People: 0\n Supplies: 2\n Risk: 0\n Days: -1"
+      - _id: nervous_Stay02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 3
+        _indicatorsValue: " People: 0\n Supplies: 2\n Risk: 0\n Days: -1"
+      - _id: nervous_Stay02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 3
+        _indicatorsValue: " People: 0\n Supplies: 2\n Risk: 0\n Days: -1"
+    - _id: nervous_Weapon03
+      _results:
+      - _id: nervous_Weapon03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: -1\n Supplies: 4\n Risk: 0\n Days: -1"
+      - _id: nervous_Weapon03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: -1\n Supplies: 4\n Risk: 0\n Days: -1"
+      - _id: nervous_Weapon03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: -1\n Supplies: 4\n Risk: 0\n Days: -1"
+  - _id: rainfall007
+    _eventImage: {fileID: 21300000, guid: d7fc42508a6644a449f0af2a39069282, type: 3}
+    _options:
+    - _id: rainfall_Cover01
+      _results:
+      - _id: rainfall_Cover01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: 0"
+      - _id: rainfall_Cover01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: 0"
+      - _id: rainfall_Cover01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: 0\n Supplies: -5\n Risk: 0\n Days: 0"
+    - _id: rainfall_Go02
+      _results:
+      - _id: rainfall_Go02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 3
+        _indicatorsValue: " People: 2\n Supplies: 4\n Risk: 0\n Days: 0"
+      - _id: rainfall_Go02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -4\n Risk: -1\n Days: -1"
+      - _id: rainfall_Go02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -4\n Risk: -1\n Days: -1"
+    - _id: rainfall_Way03
+      _results:
+      - _id: rainfall_Way03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: -1\n Days: 1"
+      - _id: rainfall_Way03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: -1\n Days: 1"
+      - _id: rainfall_Way03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -5\n Risk: -1\n Days: 1"
+  - _id: cold008
+    _eventImage: {fileID: 21300000, guid: 30fcf2c875a750d4d9cb0419a29525a7, type: 3}
+    _options:
+    - _id: cold_Campfire01
+      _results:
+      - _id: cold_Campfire01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 2\n Days: -1"
+      - _id: cold_Campfire01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 2\n Days: -1"
+      - _id: cold_Campfire01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 2\n Days: -1"
+    - _id: cold_Warm02
+      _results:
+      - _id: cold_Warm02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: cold_Warm02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: cold_Warm02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 0\n Days: -1"
+    - _id: cold_Food03
+      _results:
+      - _id: cold_Food03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: 1\n Days: -1"
+      - _id: cold_Food03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: 1\n Days: -1"
+      - _id: cold_Food03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: 1\n Days: -1"
+  - _id: disease009
+    _eventImage: {fileID: 21300000, guid: b8b7700b9ec9e8e4794776432da84841, type: 3}
+    _options:
+    - _id: disease_Leave01
+      _results:
+      - _id: disease_Leave01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: disease_Leave01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: disease_Leave01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 0\n Days: -1"
+    - _id: disease_Plants02
+      _results:
+      - _id: disease_Plants02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: 1\n Days: 0"
+      - _id: disease_Plants02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: 1\n Days: 0"
+      - _id: disease_Plants02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: 1\n Days: 0"
+    - _id: disease_Take03
+      _results:
+      - _id: disease_Take03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 1\n Days: 0"
+      - _id: disease_Take03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 1\n Days: 0"
+      - _id: disease_Take03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 1\n Days: 0"
+  - _id: missedSoldiers010
+    _eventImage: {fileID: 21300000, guid: 7773eddc903799a419b3446a36584ec1, type: 3}
+    _options:
+    - _id: missed_Soldiers_Base01
+      _results:
+      - _id: missed_Soldiers_Base01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: -1"
+      - _id: missed_Soldiers_Base01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: -1"
+      - _id: missed_Soldiers_Base01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: -1"
+    - _id: missed_Soldiers_Go02
+      _results:
+      - _id: missed_Soldiers_Go02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: 4\n Risk: 0\n Days: -1"
+      - _id: missed_Soldiers_Go02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -3
+        _indicatorsValue: " People: -2\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: missed_Soldiers_Go02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -3
+        _indicatorsValue: " People: -2\n Supplies: -1\n Risk: 0\n Days: -1"
+    - _id: missed_Soldiers_Shoot03
+      _results:
+      - _id: missed_Soldiers_Shoot03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 1\n Days: -1"
+      - _id: missed_Soldiers_Shoot03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 1\n Days: -1"
+      - _id: missed_Soldiers_Shoot03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 1\n Days: -1"
+  - _id: warehouse011
+    _eventImage: {fileID: 21300000, guid: 8645a53e46c9df8409f2a8482562bfa4, type: 3}
+    _options:
+    - _id: warehouse_Trap01
+      _results:
+      - _id: warehouse_Trap01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: 3\n Risk: 2\n Days: -1"
+      - _id: warehouse_Trap01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: 3\n Risk: 2\n Days: -1"
+      - _id: warehouse_Trap01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: 1\n Risk: 3\n Days: -1"
+    - _id: warehouse_Miss02
+      _results:
+      - _id: warehouse_Miss02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: warehouse_Miss02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: warehouse_Miss02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+    - _id: warehouse_Fight03
+      _results:
+      - _id: warehouse_Fight03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 4
+        _indicatorsValue: " People: 0\n Supplies: 6\n Risk: -2\n Days: -1"
+      - _id: warehouse_Fight03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: -2\n Supplies: 6\n Risk: -2\n Days: -1"
+      - _id: warehouse_Fight03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: -2\n Supplies: 6\n Risk: -2\n Days: -1"
+  - _id: way012
+    _eventImage: {fileID: 21300000, guid: 1bc385906b0796947a8729382b32bceb, type: 3}
+    _options:
+    - _id: Way_base01
+      _results:
+      - _id: Way_base01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: -3\n Risk: 0\n Days: -1"
+      - _id: Way_base01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: -3\n Risk: 0\n Days: -1"
+      - _id: Way_base01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: -3\n Risk: 0\n Days: -1"
+    - _id: Way_go02
+      _results:
+      - _id: Way_go02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 1\n Days: 1"
+      - _id: Way_go02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 1\n Days: 1"
+      - _id: Way_go02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 1\n Days: 1"
+    - _id: Way_climb03
+      _results:
+      - _id: Way_climb03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: Way_climb03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: Way_climb03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+  - _id: leg013
+    _eventImage: {fileID: 21300000, guid: c940faaf51a844f4ea1a3e8286092086, type: 3}
+    _options:
+    - _id: Leg_take01
+      _results:
+      - _id: Leg_take01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 1\n Days: 0"
+      - _id: Leg_take01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 1\n Days: 0"
+      - _id: Leg_take01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 1\n Days: 0"
+    - _id: Leg_leave02
+      _results:
+      - _id: Leg_leave02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: -3\n Risk: 0\n Days: -1"
+      - _id: Leg_leave02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: -3\n Risk: 0\n Days: -1"
+      - _id: Leg_leave02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: -3\n Risk: 0\n Days: -1"
+    - _id: Leg_kill03
+      _results:
+      - _id: Leg_kill03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 1\n Days: -1"
+      - _id: Leg_kill03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 1\n Days: -1"
+      - _id: Leg_kill03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 1\n Days: -1"
+  - _id: swamp014
+    _eventImage: {fileID: 21300000, guid: 4cdc263251077614c8289b5b71182018, type: 3}
+    _options:
+    - _id: Swamp_search01
+      _results:
+      - _id: Swamp_search01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 1\n Days: 1"
+      - _id: Swamp_search01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 1\n Days: 1"
+      - _id: Swamp_search01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 1\n Days: 1"
+    - _id: Swamp_go02
+      _results:
+      - _id: Swamp_go02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 3
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: -2\n Days: -2"
+      - _id: Swamp_go02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -2\n Supplies: -8\n Risk: -2\n Days: -2"
+      - _id: Swamp_go02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -2\n Supplies: -8\n Risk: -2\n Days: -2"
+    - _id: Swamp_throw03
+      _results:
+      - _id: Swamp_throw03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -6\n Risk: -2\n Days: -2"
+      - _id: Swamp_throw03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -6\n Risk: -2\n Days: -2"
+      - _id: Swamp_throw03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -6\n Risk: -2\n Days: -2"
+  - _id: camp015
+    _eventImage: {fileID: 21300000, guid: 0de5d48f8e3ecb644a90c255fe26c73f, type: 3}
+    _options:
+    - _id: Camp_wait01
+      _results:
+      - _id: Camp_wait01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: 4\n Risk: 2\n Days: 1"
+      - _id: Camp_wait01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: 4\n Risk: 2\n Days: 1"
+      - _id: Camp_wait01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -2\n Supplies: 2\n Risk: 2\n Days: 0"
+    - _id: Camp_miss02
+      _results:
+      - _id: Camp_miss02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: 1"
+      - _id: Camp_miss02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: 1"
+      - _id: Camp_miss02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: 1"
+    - _id: Camp_fight03
+      _results:
+      - _id: Camp_fight03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 3
+        _indicatorsValue: " People: 0\n Supplies: 10\n Risk: 2\n Days: 1"
+      - _id: Camp_fight03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -6\n Supplies: 10\n Risk: 2\n Days: 1"
+      - _id: Camp_fight03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -6\n Supplies: 10\n Risk: 2\n Days: 1"
+  - _id: planes016
+    _eventImage: {fileID: 21300000, guid: 5dad78c18827ce54892e364175ca82dd, type: 3}
+    _options:
+    - _id: Planes_cover01
+      _results:
+      - _id: Planes_cover01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: 0"
+      - _id: Planes_cover01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: 0"
+      - _id: Planes_cover01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: 0"
+    - _id: Planes_run02
+      _results:
+      - _id: Planes_run02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -2\n Supplies: -4\n Risk: 0\n Days: -2"
+      - _id: Planes_run02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -2\n Supplies: -4\n Risk: 0\n Days: -2"
+      - _id: Planes_run02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -2\n Supplies: -4\n Risk: 0\n Days: -2"
+    - _id: Planes_fight03
+      _results:
+      - _id: Planes_fight03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 3
+        _indicatorsValue: " People: 0\n Supplies: 0\n Risk: -2\n Days: -2"
+      - _id: Planes_fight03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -4
+        _indicatorsValue: " People: -4\n Supplies: -2\n Risk: 2\n Days: -1"
+      - _id: Planes_fight03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -4
+        _indicatorsValue: " People: -4\n Supplies: -2\n Risk: 2\n Days: -1"
+  - _id: dogs017
+    _eventImage: {fileID: 21300000, guid: 7d0faa404f2907742aabf53f1aa1fc8a, type: 3}
+    _options:
+    - _id: Dogs_fight01
+      _results:
+      - _id: Dogs_fight01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 2\n Days: -1"
+      - _id: Dogs_fight01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 2\n Days: -1"
+      - _id: Dogs_fight01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 2\n Days: -1"
+    - _id: Dogs_ran02
+      _results:
+      - _id: Dogs_ran02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: Dogs_ran02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -2\n Supplies: -4\n Risk: 0\n Days: -1"
+      - _id: Dogs_ran02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -4
+        _indicatorsValue: " People: -5\n Supplies: -6\n Risk: 1\n Days: 1"
+    - _id: Dogs_trick03
+      _results:
+      - _id: Dogs_trick03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: -2\n Days: -1"
+      - _id: Dogs_trick03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -3
+        _indicatorsValue: " People: -1\n Supplies: -2\n Risk: 1\n Days: -1"
+      - _id: Dogs_trick03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -3
+        _indicatorsValue: " People: -1\n Supplies: -2\n Risk: 1\n Days: -1"
+  - _id: fire018
+    _eventImage: {fileID: 21300000, guid: 8202fa42b0cf1354f99a52b79af7fd22, type: 3}
+    _options:
+    - _id: Fire_go01
+      _results:
+      - _id: Fire_go01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 3
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: -2\n Days: -2"
+      - _id: Fire_go01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -4\n Supplies: -6\n Risk: -3\n Days: -1"
+      - _id: Fire_go01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -4\n Supplies: -6\n Risk: -3\n Days: -1"
+    - _id: Fire_cover02
+      _results:
+      - _id: Fire_cover02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: -3\n Risk: -1\n Days: 0"
+      - _id: Fire_cover02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: -3\n Risk: -1\n Days: 0"
+      - _id: Fire_cover02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -1\n Supplies: -6\n Risk: -1\n Days: 0"
+    - _id: Fire_miss03
+      _results:
+      - _id: Fire_miss03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: 1"
+      - _id: Fire_miss03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: 1"
+      - _id: Fire_miss03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -2\n Supplies: -5\n Risk: 0\n Days: 1"
+  - _id: burningHouse019
+    _eventImage: {fileID: 21300000, guid: 233f2a2a2edcdee46975d71c428b7069, type: 3}
+    _options:
+    - _id: Burning_house_looting01
+      _results:
+      - _id: Burning_house_looting01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: 5\n Risk: 1\n Days: -1"
+      - _id: Burning_house_looting01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: 5\n Risk: 1\n Days: -1"
+      - _id: Burning_house_looting01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: 5\n Risk: 1\n Days: -1"
+    - _id: Burning_house_miss02
+      _results:
+      - _id: Burning_house_miss02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: Burning_house_miss02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: Burning_house_miss02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+    - _id: Burning_house_fight03
+      _results:
+      - _id: Burning_house_fight03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 4
+        _indicatorsValue: " People: 5\n Supplies: 10\n Risk: 2\n Days: 0"
+      - _id: Burning_house_fight03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: -3\n Supplies: 10\n Risk: 2\n Days: 0"
+      - _id: Burning_house_fight03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: -3\n Supplies: 10\n Risk: 2\n Days: 0"
+  - _id: runningPeople020
+    _eventImage: {fileID: 21300000, guid: 88998c3d627ec8f48890acde4fe233d6, type: 3}
+    _options:
+    - _id: Running_people_invite01
+      _results:
+      - _id: Running_people_invite01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 3\n Supplies: -3\n Risk: 1\n Days: -1"
+      - _id: Running_people_invite01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 3\n Supplies: -3\n Risk: 1\n Days: -1"
+      - _id: Running_people_invite01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 1\n Days: 0"
+    - _id: Running_people_leave02
+      _results:
+      - _id: Running_people_leave02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: Running_people_leave02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: Running_people_leave02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+    - _id: Running_people_exchange03
+      _results:
+      - _id: Running_people_exchange03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: -2\n Days: -1"
+      - _id: Running_people_exchange03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: -2\n Days: -1"
+      - _id: Running_people_exchange03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: -2\n Days: -1"
+  - _id: boars021
+    _eventImage: {fileID: 21300000, guid: 536f2a0446dedcb46bf0be37c341caaa, type: 3}
+    _options:
+    - _id: Boars_fear01
+      _results:
+      - _id: Boars_fear01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -2\n Supplies: -2\n Risk: 1\n Days: -1"
+      - _id: Boars_fear01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -2\n Supplies: -2\n Risk: 1\n Days: -1"
+      - _id: Boars_fear01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -2\n Supplies: -2\n Risk: 1\n Days: -1"
+    - _id: Boars_retreat02
+      _results:
+      - _id: Boars_retreat02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: 0\n Days: 0"
+      - _id: Boars_retreat02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: 0\n Days: 0"
+      - _id: Boars_retreat02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -3
+        _indicatorsValue: " People: -3\n Supplies: -4\n Risk: 1\n Days: 0"
+    - _id: Boars_fight03
+      _results:
+      - _id: Boars_fight03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 3
+        _indicatorsValue: " People: 0\n Supplies: 8\n Risk: 2\n Days: 0"
+      - _id: Boars_fight03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: -1\n Supplies: 6\n Risk: 2\n Days: 0"
+      - _id: Boars_fight03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -4
+        _indicatorsValue: " People: -5\n Supplies: -8\n Risk: 2\n Days: 1"
+  - _id: crosses022
+    _eventImage: {fileID: 21300000, guid: bf84ab637d2671a4d8942af7572c7a7a, type: 3}
+    _options:
+    - _id: Crosses_buried01
+      _results:
+      - _id: Crosses_buried01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 1\n Supplies: -2\n Risk: 1\n Days: 1"
+      - _id: Crosses_buried01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 1\n Supplies: -2\n Risk: 1\n Days: 1"
+      - _id: Crosses_buried01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 1\n Supplies: -2\n Risk: 1\n Days: 1"
+    - _id: Crosses_miss02
+      _results:
+      - _id: Crosses_miss02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: Crosses_miss02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: Crosses_miss02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+    - _id: Crosses_check03
+      _results:
+      - _id: Crosses_check03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 1\n Days: 0"
+      - _id: Crosses_check03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 1\n Days: 0"
+      - _id: Crosses_check03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 1\n Days: 0"
+  - _id: farm023
+    _eventImage: {fileID: 21300000, guid: d02db26e9b01c8242b039aec038c3087, type: 3}
+    _options:
+    - _id: Farm_find01
+      _results:
+      - _id: Farm_find01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 4
+        _indicatorsValue: " People: 0\n Supplies: 8\n Risk: 0\n Days: -1"
+      - _id: Farm_find01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: 3\n Risk: 0\n Days: -1"
+      - _id: Farm_find01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: 3\n Risk: 0\n Days: -1"
+    - _id: Farm_go02
+      _results:
+      - _id: Farm_go02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: Farm_go02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: Farm_go02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+    - _id: Farm_crowd03
+      _results:
+      - _id: Farm_crowd03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: 3\n Risk: 1\n Days: -1"
+      - _id: Farm_crowd03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: 3\n Risk: 1\n Days: -1"
+      - _id: Farm_crowd03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: 3\n Risk: 1\n Days: -1"
+  - _id: injuredSoldier024
+    _eventImage: {fileID: 21300000, guid: 26f960182c57bd84795164b4a439b19f, type: 3}
+    _options:
+    - _id: Injured_soldier_helped01
+      _results:
+      - _id: Injured_soldier_helped01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: -1\n Days: -1"
+      - _id: Injured_soldier_helped01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: -1\n Days: -1"
+      - _id: Injured_soldier_helped01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -2\n Supplies: -2\n Risk: 1\n Days: -1"
+    - _id: Injured_soldier_stay02
+      _results:
+      - _id: Injured_soldier_stay02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 2\n Days: -1"
+      - _id: Injured_soldier_stay02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 2\n Days: -1"
+      - _id: Injured_soldier_stay02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 2\n Days: -1"
+    - _id: Injured_soldier_killed03
+      _results:
+      - _id: Injured_soldier_killed03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -2\n Supplies: -1\n Risk: 1\n Days: -1"
+      - _id: Injured_soldier_killed03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -2\n Supplies: -1\n Risk: 1\n Days: -1"
+      - _id: Injured_soldier_killed03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -2\n Supplies: -1\n Risk: 1\n Days: -1"
+  - _id: snipers025
+    _eventImage: {fileID: 21300000, guid: 012d5327454c6044cabf6fd748686e91, type: 3}
+    _options:
+    - _id: Snipers_wait01
+      _results:
+      - _id: Snipers_wait01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 1\n Days: 0"
+      - _id: Snipers_wait01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 1\n Days: 0"
+      - _id: Snipers_wait01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 1\n Days: 0"
+    - _id: Snipers_attack02
+      _results:
+      - _id: Snipers_attack02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: 4\n Risk: 1\n Days: -1"
+      - _id: Snipers_attack02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -4\n Supplies: 3\n Risk: 2\n Days: -1"
+      - _id: Snipers_attack02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -4\n Supplies: 3\n Risk: 2\n Days: -1"
+    - _id: Snipers_gift03
+      _results:
+      - _id: Snipers_gift03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: Snipers_gift03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: Snipers_gift03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -1\n Supplies: -2\n Risk: 2\n Days: 1"
+  - _id: fog026
+    _eventImage: {fileID: 21300000, guid: 73afe3700d562fe48b995c4054981284, type: 3}
+    _options:
+    - _id: Fog_go01
+      _results:
+      - _id: Fog_go01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: -1\n Supplies: -2\n Risk: 0\n Days: -1"
+      - _id: Fog_go01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: -1\n Supplies: -2\n Risk: 0\n Days: -1"
+      - _id: Fog_go01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -3\n Supplies: -2\n Risk: 0\n Days: -1"
+    - _id: Fog_wait02
+      _results:
+      - _id: Fog_wait02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 1\n Days: 0"
+      - _id: Fog_wait02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 1\n Days: 0"
+      - _id: Fog_wait02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 1\n Days: 0"
+    - _id: Fog_check03
+      _results:
+      - _id: Fog_check03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: -4\n Days: -2"
+      - _id: Fog_check03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: Fog_check03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 1\n Days: 2"
+  - _id: saboteur027
+    _eventImage: {fileID: 21300000, guid: d310092b4e17b674295a383c67572ed4, type: 3}
+    _options:
+    - _id: Saboteur_raid01
+      _results:
+      - _id: Saboteur_raid01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 4
+        _indicatorsValue: " People: 4\n Supplies: 16\n Risk: 3\n Days: 2"
+      - _id: Saboteur_raid01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 3
+        _indicatorsValue: " People: -4\n Supplies: 14\n Risk: 3\n Days: 2"
+      - _id: Saboteur_raid01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 3
+        _indicatorsValue: " People: -4\n Supplies: 14\n Risk: 3\n Days: 2"
+    - _id: Saboteur_deny02
+      _results:
+      - _id: Saboteur_deny02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: Saboteur_deny02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: Saboteur_deny02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -2\n Supplies: -2\n Risk: 0\n Days: -1"
+    - _id: Saboteur_exchange03
+      _results:
+      - _id: Saboteur_exchange03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: -4\n Risk: -2\n Days: -1"
+      - _id: Saboteur_exchange03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: -4\n Risk: -2\n Days: -1"
+      - _id: Saboteur_exchange03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: -4\n Risk: -2\n Days: -1"
+  - _id: rockets028
+    _eventImage: {fileID: 21300000, guid: 922f79d3244fb0a40bdcd3fc29a0977b, type: 3}
+    _options:
+    - _id: Rockets_stay01
+      _results:
+      - _id: Rockets_stay01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 4
+        _indicatorsValue: " People: 0\n Supplies: 3\n Risk: -3\n Days: -1"
+      - _id: Rockets_stay01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: 1"
+      - _id: Rockets_stay01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: 1"
+    - _id: Rockets_go02
+      _results:
+      - _id: Rockets_go02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -2\n Supplies: -4\n Risk: 2\n Days: -1"
+      - _id: Rockets_go02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -2\n Supplies: -4\n Risk: 2\n Days: -1"
+      - _id: Rockets_go02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -2\n Supplies: -4\n Risk: 2\n Days: -1"
+    - _id: Rocket_check03
+      _results:
+      - _id: Rocket_check03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 1\n Days: -1"
+      - _id: Rocket_check03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 1\n Days: -1"
+      - _id: Rocket_check03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 1\n Days: -1"
+  - _id: mother029
+    _eventImage: {fileID: 21300000, guid: 60e5767bf0f1a414391c748c101866b2, type: 3}
+    _options:
+    - _id: Mother_take01
+      _results:
+      - _id: Mother_take01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 2\n Supplies: -2\n Risk: 1\n Days: -1"
+      - _id: Mother_take01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 2\n Supplies: -2\n Risk: 1\n Days: -1"
+      - _id: Mother_take01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -4
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+    - _id: Mother_killed02
+      _results:
+      - _id: Mother_killed02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -1\n Supplies: -2\n Risk: 0\n Days: -1"
+      - _id: Mother_killed02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -1\n Supplies: -2\n Risk: 0\n Days: -1"
+      - _id: Mother_killed02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -3
+        _indicatorsValue: " People: -2\n Supplies: -2\n Risk: 0\n Days: -1"
+    - _id: Mother_asked03
+      _results:
+      - _id: Mother_asked03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: -1\n Days: -1"
+      - _id: Mother_asked03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: -1\n Days: -1"
+      - _id: Mother_asked03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: -1\n Days: -1"
+  - _id: deserter030
+    _eventImage: {fileID: 21300000, guid: 73e6876f36eceda4bbadb2d64f6b0391, type: 3}
+    _options:
+    - _id: Deserter_killed01
+      _results:
+      - _id: Deserter_killed01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: 0\n Risk: 0\n Days: -1"
+      - _id: Deserter_killed01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: 0\n Risk: 0\n Days: -1"
+      - _id: Deserter_killed01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -3
+        _indicatorsValue: " People: -2\n Supplies: -1\n Risk: 0\n Days: -1"
+    - _id: deserter_leave02
+      _results:
+      - _id: deserter_leave02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: -1\n Supplies: -3\n Risk: 0\n Days: -1"
+      - _id: deserter_leave02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: -1\n Supplies: -3\n Risk: 0\n Days: -1"
+      - _id: deserter_leave02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: -1\n Supplies: -3\n Risk: 0\n Days: -1"
+    - _id: deserter_stay03
+      _results:
+      - _id: deserter_stay03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 4
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: deserter_stay03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: deserter_stay03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -4
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+  - _id: bodies031
+    _eventImage: {fileID: 21300000, guid: f47803961acd5194488d3801a3291a0f, type: 3}
+    _options:
+    - _id: bodies_buried01
+      _results:
+      - _id: bodies_buried01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: 0"
+      - _id: bodies_buried01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: 0"
+      - _id: bodies_buried01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: 0"
+    - _id: bodies_miss02
+      _results:
+      - _id: bodies_miss02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: bodies_miss02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: bodies_miss02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+    - _id: bodies_ceremony03
+      _results:
+      - _id: bodies_ceremony03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 1\n Supplies: -3\n Risk: 1\n Days: 1"
+      - _id: bodies_ceremony03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 1\n Supplies: -3\n Risk: 1\n Days: 1"
+      - _id: bodies_ceremony03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 1\n Supplies: -3\n Risk: 1\n Days: 1"
+  - _id: radio032
+    _eventImage: {fileID: 21300000, guid: 683eef4d4ef0af34697b9ea8f61a13fa, type: 3}
+    _options:
+    - _id: radio_used01
+      _results:
+      - _id: radio_used01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: 2\n Risk: 3\n Days: -1"
+      - _id: radio_used01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: 2\n Risk: 3\n Days: -1"
+      - _id: radio_used01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: 2\n Risk: 3\n Days: -1"
+    - _id: radio_destroyed02
+      _results:
+      - _id: radio_destroyed02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: 2\n Risk: 1\n Days: -1"
+      - _id: radio_destroyed02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: 2\n Risk: 1\n Days: -1"
+      - _id: radio_destroyed02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 3\n Days: -1"
+    - _id: radio_miss03
+      _results:
+      - _id: radio_miss03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: radio_miss03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: radio_miss03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+  - _id: stealer033
+    _eventImage: {fileID: 21300000, guid: c94a4cca21cd3b54d9fbd4326a015488, type: 3}
+    _options:
+    - _id: stealer_killed01
+      _results:
+      - _id: stealer_killed01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: -1\n Supplies: 2\n Risk: 1\n Days: -1"
+      - _id: stealer_killed01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: -1\n Supplies: 2\n Risk: 1\n Days: -1"
+      - _id: stealer_killed01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: -1\n Supplies: 2\n Risk: 1\n Days: -1"
+    - _id: stealer_gift02
+      _results:
+      - _id: stealer_gift02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: 2\n Risk: 0\n Days: -1"
+      - _id: stealer_gift02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: 2\n Risk: 0\n Days: -1"
+      - _id: stealer_gift02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -1\n Supplies: -4\n Risk: 0\n Days: -1"
+    - _id: stealer_leave03
+      _results:
+      - _id: stealer_leave03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: -1\n Supplies: 2\n Risk: 0\n Days: -1"
+      - _id: stealer_leave03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: -1\n Supplies: 2\n Risk: 0\n Days: -1"
+      - _id: stealer_leave03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: -1\n Supplies: 2\n Risk: 0\n Days: -1"
+  - _id: friend034
+    _eventImage: {fileID: 21300000, guid: 6ae79b1a4108eed41b3a3b226ae65132, type: 3}
+    _options:
+    - _id: friend_go01
+      _results:
+      - _id: friend_go01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 4
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: -4\n Days: -1"
+      - _id: friend_go01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: -1\n Supplies: -2\n Risk: -4\n Days: -1"
+      - _id: friend_go01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: -1\n Supplies: -2\n Risk: -4\n Days: -1"
+    - _id: friend_stay02
+      _results:
+      - _id: friend_stay02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: friend_stay02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: friend_stay02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+    - _id: friend_check03
+      _results:
+      - _id: friend_check03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: -1\n Supplies: -3\n Risk: -2\n Days: 0"
+      - _id: friend_check03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: -1\n Supplies: -3\n Risk: -2\n Days: 0"
+      - _id: friend_check03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: -1\n Supplies: -3\n Risk: -2\n Days: 0"
+  - _id: lost035
+    _eventImage: {fileID: 21300000, guid: b039777b6f9d2c542be699bef082b312, type: 3}
+    _options:
+    - _id: lost_stay01
+      _results:
+      - _id: lost_stay01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: lost_stay01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: lost_stay01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+    - _id: lost_search02
+      _results:
+      - _id: lost_search02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 1\n Days: 0"
+      - _id: lost_search02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 1\n Days: 0"
+      - _id: lost_search02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 1\n Days: 0"
+    - _id: lost_leave03
+      _results:
+      - _id: lost_leave03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: -2\n Days: -1"
+      - _id: lost_leave03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: lost_leave03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: -1\n Supplies: -1\n Risk: 0\n Days: -1"
+  - _id: tank036
+    _eventImage: {fileID: 21300000, guid: 101e05c9ffc821546a8ba0601f684540, type: 3}
+    _options:
+    - _id: tank_attack01
+      _results:
+      - _id: tank_attack01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -4\n Risk: 5\n Days: -7"
+      - _id: tank_attack01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -4\n Risk: 5\n Days: -7"
+      - _id: tank_attack01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -3
+        _indicatorsValue: " People: -3\n Supplies: -2\n Risk: 2\n Days: 0"
+    - _id: tank_miss02
+      _results:
+      - _id: tank_miss02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: tank_miss02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: tank_miss02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+    - _id: tank_materials03
+      _results:
+      - _id: tank_materials03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: 4\n Risk: 1\n Days: 0"
+      - _id: tank_materials03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: 4\n Risk: 1\n Days: 0"
+      - _id: tank_materials03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 1
+        _indicatorsValue: " People: 0\n Supplies: 4\n Risk: 1\n Days: 0"
+  - _id: riverfight037
+    _eventImage: {fileID: 21300000, guid: 8f8a2a0eac1e61c449d1945e0d60a402, type: 3}
+    _options:
+    - _id: riverfight_cover01
+      _results:
+      - _id: riverfight_cover01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 1\n Days: 1"
+      - _id: riverfight_cover01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 1\n Days: 1"
+      - _id: riverfight_cover01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -1\n Supplies: -2\n Risk: 1\n Days: 1"
+    - _id: riverfight_run02
+      _results:
+      - _id: riverfight_run02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 0\n Supplies: 2\n Risk: 1\n Days: -1"
+      - _id: riverfight_run02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -3
+        _indicatorsValue: " People: -2\n Supplies: -3\n Risk: 1\n Days: -1"
+      - _id: riverfight_run02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -3
+        _indicatorsValue: " People: -2\n Supplies: -3\n Risk: 1\n Days: -1"
+    - _id: riverfight_back03
+      _results:
+      - _id: riverfight_back03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -4\n Risk: 1\n Days: 1"
+      - _id: riverfight_back03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -4\n Risk: 1\n Days: 1"
+      - _id: riverfight_back03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -4\n Risk: 1\n Days: 1"
+  - _id: box038
+    _eventImage: {fileID: 21300000, guid: 6a3518f17ab0c4241bd356d313db0e80, type: 3}
+    _options:
+    - _id: box_take01
+      _results:
+      - _id: box_take01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 1\n Days: -1"
+      - _id: box_take01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 1\n Days: -1"
+      - _id: box_take01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 1\n Days: -1"
+    - _id: box_miss02
+      _results:
+      - _id: box_miss02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: box_miss02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: box_miss02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+    - _id: box_wait03
+      _results:
+      - _id: box_wait03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 1\n Days: 1"
+      - _id: box_wait03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 1\n Days: 1"
+      - _id: box_wait03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 1\n Days: 1"
+  - _id: prisoners039
+    _eventImage: {fileID: 21300000, guid: 15aca430de2a31147b92aa6ef3d9d7ee, type: 3}
+    _options:
+    - _id: prisoners_take01
+      _results:
+      - _id: prisoners_take01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: -2\n Days: 1"
+      - _id: prisoners_take01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: -2\n Days: 1"
+      - _id: prisoners_take01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -3\n Risk: -2\n Days: 1"
+    - _id: prisoners_shooted02
+      _results:
+      - _id: prisoners_shooted02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 1\n Days: -1"
+      - _id: prisoners_shooted02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 1\n Days: -1"
+      - _id: prisoners_shooted02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 1\n Days: -1"
+    - _id: prisoners_murdered03
+      _results:
+      - _id: prisoners_murdered03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: 0"
+      - _id: prisoners_murdered03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: 0"
+      - _id: prisoners_murdered03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 0
+        _indicatorsValue: " People: 0\n Supplies: -2\n Risk: 0\n Days: 0"
+  - _id: van040
+    _eventImage: {fileID: 21300000, guid: 60551cea402d2a744adfbb873724df2a, type: 3}
+    _options:
+    - _id: van_fight01
+      _results:
+      - _id: van_fight01_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 4
+        _indicatorsValue: " People: 6\n Supplies: -2\n Risk: 2\n Days: -1"
+      - _id: van_fight01_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 3\n Supplies: -2\n Risk: 2\n Days: -1"
+      - _id: van_fight01_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+    - _id: van_delayed02
+      _results:
+      - _id: van_delayed02_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 1\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: van_delayed02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 1\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: van_delayed02_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: 2
+        _indicatorsValue: " People: 1\n Supplies: -1\n Risk: 0\n Days: -1"
+    - _id: van_wait03
+      _results:
+      - _id: van_wait03_result
+        _moraleStatus: 1
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: van_wait03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 0}
+        _moraleChange: -1
+        _indicatorsValue: " People: 0\n Supplies: -1\n Risk: 0\n Days: -1"
+      - _id: van_wait03_result
+        _moraleStatus: -1
+        _resultImage: {fileID: 0}
+        _moraleChange: -2
+        _indicatorsValue: " People: -3\n Supplies: -2\n Risk: 2\n Days: -1"
   _specialEvents:
   - _name: Fake Way
     _eventIndicator: 2

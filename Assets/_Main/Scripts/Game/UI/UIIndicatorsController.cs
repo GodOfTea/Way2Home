@@ -3,6 +3,7 @@ using Enumeration;
 using Game.Economy;
 using Game.UI.ScreensComponents;
 using Game.UI.ScreensComponents.Gameplay;
+using UI.Event;
 
 namespace Game.UI
 {
@@ -12,12 +13,14 @@ namespace Game.UI
         private readonly IndicatorsBank _indicatorsBank;
 
         private IndicatorsView _indicatorsView;
+        private MoralView _moralView;
         
         public UIIndicatorsController(Screens screens, IndicatorsBank indicatorsBank)
         {
             _screens = screens;
             _indicatorsBank = indicatorsBank;
             _indicatorsView = _screens.Get<MainScreen>().IndicatorsView;
+            _moralView = _screens.Get<MainScreen>().MoralView;
             _screens.Get<MainScreen>().MainScreenShowed += ShowIndicators;
             
             _indicatorsBank.IndicatorValueUpdated += UpdateIndicatorsValue;
@@ -36,6 +39,7 @@ namespace Game.UI
         private void UpdateIndicatorsValue(IReadOnlyDictionary<IndicatorType, IndicatorProperty> indicators)
         {
             _indicatorsView.UpdateIndicator(indicators);
+            _moralView.UpdateMoralValue(_indicatorsBank.Moral.MoralValue);
         }
     }
 }

@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Enumeration;
 using EventComponents;
 using Game;
@@ -19,7 +18,7 @@ namespace UI.Event
         [SerializeField] private IndicatorsResultView _indicatorsResultView;
         [SerializeField] private ContinueButton _continueButton;
 
-        private IAnswerResult _result;
+        private EventOptionResult _result;
         private EventPicture _eventPicture;
         private ILocalizationService _localizationService;
         private IEventSwitcher _eventSwitcher;
@@ -52,16 +51,16 @@ namespace UI.Event
             _eventSwitcher.ShowNextRandomEvent();
         }
 
-        public void UpdateView(IAnswerResult result, Dictionary<IndicatorType, int> indicatorsChangesMap)
+        public void UpdateView(EventOptionResult result, Dictionary<IndicatorType, int> indicatorsChangesMap)
         {
             _result = result;
             SetText(); 
-            _eventPicture.ChangeAnswerPicture(result.AnswerImage);
+            _eventPicture.ChangeAnswerPicture(result.ResultImage);
             _indicatorsResultView.UpdateValues(indicatorsChangesMap);
         }
 
-        private void SetText() =>
-            _resultText.text = _localizationService.GetLocalizationEventText(_result.ResultAnswerId);
+        private void SetText() => //TODO: Тут не работает локализация
+            _resultText.text = _localizationService.GetLocalizationEventText(_result.ID);
 
         public void UpdateLocalization()
         {

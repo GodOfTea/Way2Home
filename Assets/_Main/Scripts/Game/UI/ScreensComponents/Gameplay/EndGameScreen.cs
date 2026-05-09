@@ -24,7 +24,7 @@ namespace Game.UI.ScreensComponents.Gameplay
         [Header("Buttons")]
         [SerializeField] private Button _exitButton;
 
-        private ResultSheet.Reference _resultData;
+        private GameResult.Reference _resultData;
         private ILocalizationService _localizationService;
 
         public event Action ExitButtonPressed;
@@ -35,7 +35,7 @@ namespace Game.UI.ScreensComponents.Gameplay
             _localizationService.AddLocalizable(this);
         }
         
-        public void SetVisual(ResultSheet.Reference resultData, bool isWin)
+        public void SetVisual(GameResult.Reference resultData, bool isWin)
         {
             Debug.Log("1. Result data: " + _resultData);
             _resultData = resultData;

@@ -1,12 +1,14 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Enumeration;
 
 namespace Game.Economy
 {
-    public class IndicatorsKeeper : IIndicatorsKeeper /* Нет необходимости знать про другие значения индикаторов */
+    [Serializable]
+    public class IndicatorsKeeper /* Нет необходимости знать про другие значения индикаторов */
     {
         private Dictionary<IndicatorType, int> _indicatorsMap;
-
+        
         public Dictionary<IndicatorType, int> IndicatorsMap => _indicatorsMap;
 
         public IndicatorsKeeper(int people, int supplies, int risk, int days)
@@ -19,5 +21,7 @@ namespace Game.Economy
                 { IndicatorType.Days, days }
             };
         }
+
+        public int GetIndicatorValue(IndicatorType type) => _indicatorsMap[type];
     }
 }

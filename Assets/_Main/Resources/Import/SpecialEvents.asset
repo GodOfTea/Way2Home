@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: r_distraction102
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Distraction","ImagePath":"Mainbonus/2","Arr":[{"OptionKey":"Distraction_grenade01","ImagePathAnswer":"Result/2_1","OptionResultKey":"Distraction_grenade01_result","People":0,"Supplies":-1,"Risk":-2,"Days":-1},{"OptionKey":"Distraction_fire02","ImagePathAnswer":"Result/2_2","OptionResultKey":"Distraction_fire02_result","People":-2,"Supplies":-4,"Risk":-7,"Days":0},{"OptionKey":"Distraction_miss03","ImagePathAnswer":"Result/2_3","OptionResultKey":"Distraction_miss03_result","People":0,"Supplies":0,"Risk":0,"Days":-1}],"Id":"r_distraction102"}'
+  serializedRow: '{"Name":"Distraction","ImagePath":"Mainbonus/2","Arr":[{"OptionKey":"Distraction_grenade01","OptionResultKey":null},{"OptionKey":"Distraction_fire02","OptionResultKey":null},{"OptionKey":"Distraction_miss03","OptionResultKey":null}],"Id":"r_distraction102"}'
   references: []
 --- !u!114 &-6009237695760366884
 MonoBehaviour:
@@ -26,7 +26,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: r_fakeWay101
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Fake way","ImagePath":"Mainbonus/1","Arr":[{"OptionKey":"fake_way_big01","ImagePathAnswer":"Result/1_1","OptionResultKey":"fake_way_big01_result","People":0,"Supplies":-1,"Risk":-3,"Days":0},{"OptionKey":"fake_way_deny02","ImagePathAnswer":"Result/1_2","OptionResultKey":"fake_way_deny02_result","People":-1,"Supplies":0,"Risk":-2,"Days":-2},{"OptionKey":"fake_way_small03","ImagePathAnswer":"Result/1_3","OptionResultKey":"fake_way_small03_result","People":0,"Supplies":-4,"Risk":-5,"Days":0}],"Id":"r_fakeWay101"}'
+  serializedRow: '{"Name":"Fake way","ImagePath":"Mainbonus/1","Arr":[{"OptionKey":"fake_way_big01","OptionResultKey":null},{"OptionKey":"fake_way_deny02","OptionResultKey":null},{"OptionKey":"fake_way_small03","OptionResultKey":null}],"Id":"r_fakeWay101"}'
   references: []
 --- !u!114 &-1232451675310360497
 MonoBehaviour:
@@ -40,7 +40,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: r_bunker301
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Bunker","ImagePath":"Mainbonus/5","Arr":[{"OptionKey":"Bunker_attack01","ImagePathAnswer":"Result/5_1","OptionResultKey":"Bunker_attack01_result","People":-7,"Supplies":0,"Risk":0,"Days":-1},{"OptionKey":"Bunker_miss02","ImagePathAnswer":"Result/5_2","OptionResultKey":"Bunker_miss02_result","People":0,"Supplies":-2,"Risk":1,"Days":4},{"OptionKey":"Bunker_trick03","ImagePathAnswer":"Result/5_3","OptionResultKey":"Bunker_trick03_result","People":0,"Supplies":0,"Risk":0,"Days":-1}],"Id":"r_bunker301"}'
+  serializedRow: '{"Name":"Bunker","ImagePath":"Mainbonus/5","Arr":[{"OptionKey":"Bunker_attack01","OptionResultKey":null},{"OptionKey":"Bunker_miss02","OptionResultKey":null},{"OptionKey":"Bunker_trick03","OptionResultKey":null}],"Id":"r_bunker301"}'
   references: []
 --- !u!114 &-432635109723071736
 MonoBehaviour:
@@ -54,7 +54,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: r_water201
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Water","ImagePath":"Mainbonus/3","Arr":[{"OptionKey":"Water_go01","ImagePathAnswer":"Result/3_1","OptionResultKey":"Water_go01_result","People":0,"Supplies":8,"Risk":0,"Days":1},{"OptionKey":"Water_miss02","ImagePathAnswer":"Result/3_2","OptionResultKey":"Water_miss02_result","People":0,"Supplies":0,"Risk":0,"Days":-1},{"OptionKey":"Water_small03","ImagePathAnswer":"Result/3_3","OptionResultKey":"Water_small03_result","People":0,"Supplies":4,"Risk":0,"Days":0}],"Id":"r_water201"}'
+  serializedRow: '{"Name":"Water","ImagePath":"Mainbonus/3","Arr":[{"OptionKey":"Water_go01","OptionResultKey":null},{"OptionKey":"Water_miss02","OptionResultKey":null},{"OptionKey":"Water_small03","OptionResultKey":null}],"Id":"r_water201"}'
   references: []
 --- !u!114 &11400000
 MonoBehaviour:
@@ -88,7 +88,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: r_hunt202
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Hunt","ImagePath":"Mainbonus/4","Arr":[{"OptionKey":"Hunt_small01","ImagePathAnswer":"Result/4_1","OptionResultKey":"Hunt_small01_result","People":0,"Supplies":5,"Risk":1,"Days":0},{"OptionKey":"Hunt_miss02","ImagePathAnswer":"Result/4_2","OptionResultKey":"Hunt_miss02_result","People":0,"Supplies":0,"Risk":0,"Days":-1},{"OptionKey":"Hunt_all03","ImagePathAnswer":"Result/4_3","OptionResultKey":"Hunt_all03_result","People":0,"Supplies":12,"Risk":2,"Days":1}],"Id":"r_hunt202"}'
+  serializedRow: '{"Name":"Hunt","ImagePath":"Mainbonus/4","Arr":[{"OptionKey":"Hunt_small01","OptionResultKey":null},{"OptionKey":"Hunt_miss02","OptionResultKey":null},{"OptionKey":"Hunt_all03","OptionResultKey":null}],"Id":"r_hunt202"}'
   references: []
 --- !u!114 &1600318611908056647
 MonoBehaviour:
@@ -102,5 +102,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: r_conflict401
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Conflict","ImagePath":"Mainbonus/6","Arr":[{"OptionKey":"conflict_solved01","ImagePathAnswer":"Result/6_1","OptionResultKey":"conflict_solved01_result","People":0,"Supplies":-1,"Risk":0,"Days":-1},{"OptionKey":"conflict_lose02","ImagePathAnswer":"Result/6_2","OptionResultKey":"conflict_lose02_result","People":-99,"Supplies":0,"Risk":0,"Days":0},{"OptionKey":"conflict_shared03","ImagePathAnswer":"Result/6_3","OptionResultKey":"conflict_shared03_result","People":-1000,"Supplies":-1000,"Risk":-3,"Days":-1}],"Id":"r_conflict401"}'
+  serializedRow: '{"Name":"Conflict","ImagePath":"Mainbonus/6","Arr":[{"OptionKey":"conflict_solved01","OptionResultKey":null},{"OptionKey":"conflict_lose02","OptionResultKey":null},{"OptionKey":"conflict_shared03","OptionResultKey":null}],"Id":"r_conflict401"}'
   references: []

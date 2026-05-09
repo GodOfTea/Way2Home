@@ -7,11 +7,11 @@ namespace Data
     [CreateAssetMenu(fileName = "Results Database", menuName = "Databases/Results Database", order = 0)]
     public class ResultsDatabase : ScriptableObject
     {
-        [SerializeField] private ResultSheet.Reference[] _results;
+        [SerializeField] private GameResult.Reference[] _results;
 
-        public ResultSheet.Reference[] Results => _results;
+        public GameResult.Reference[] Results => _results;
         
-        public ResultSheet.Reference GetResult(IndicatorType type)
+        public GameResult.Reference GetResult(IndicatorType type)
         {
             foreach (var result in _results)
             {

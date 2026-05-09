@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Enumeration;
 using Game.Cnofigs;
+using Game.Economy.MoralComponents;
 
 namespace Data.Progress
 {
@@ -18,6 +19,7 @@ namespace Data.Progress
         public int Supplies;
         public int Risk;
         public int Days;
+        public int Moral;
         
         public GameConfigs GameConfigs;
 
@@ -34,6 +36,7 @@ namespace Data.Progress
             Supplies = indicatorsConfig.GetIndicatorStartValue(IndicatorType.Supplies);
             Risk = indicatorsConfig.GetIndicatorStartValue(IndicatorType.Risk);
             Days = indicatorsConfig.GetIndicatorStartValue(IndicatorType.Days);
+            Moral = GameConfigs.MoralConfig.StartMoralValue;
         }
     }
 }

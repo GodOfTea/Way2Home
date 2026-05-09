@@ -24,9 +24,8 @@ namespace Game
     {
         [Header("Data")]
         [SerializeField] private EventsConfig _eventsConfig;
-
         [SerializeField] private Screens _screens;
-
+        [Space]
         [SerializeField] private CheatMenu _cheatMenu;
         
         private EventView _view;
@@ -67,7 +66,11 @@ namespace Game
             _screens = sceneData. Screens;
 
             if (_indicatorsBank == null)
-                _indicatorsBank = new IndicatorsBank(new GameConfigs().IndicatorsConfig);
+            {
+                GameConfigs gameConfigs = new GameConfigs();
+                _indicatorsBank = new IndicatorsBank(gameConfigs.IndicatorsConfig, gameConfigs.MoralConfig);
+            }
+
             _uiIndicatorsController = new UIIndicatorsController(_screens, _indicatorsBank);
         }
 
@@ -147,11 +150,13 @@ namespace Game
             _isNewGame = progress.GameplayData.EndWithResult || 
                     (_cachedPreviousEvents is not { Count: > 0 } && string.IsNullOrEmpty(_cachedCurrentEvent));
             
-            _indicatorsBank = new IndicatorsBank(progress.GameplayData.GameConfigs.IndicatorsConfig);
+            _indicatorsBank = new IndicatorsBank(progress.GameplayData.GameConfigs.IndicatorsConfig, 
+                progress.GameplayData.GameConfigs.MoralConfig);
             _indicatorsBank.SetIndicatorValue(IndicatorType.People, progress.GameplayData.People);
             _indicatorsBank.SetIndicatorValue(IndicatorType.Supplies, progress.GameplayData.Supplies);
             _indicatorsBank.SetIndicatorValue(IndicatorType.Risk, progress.GameplayData.Risk);
             _indicatorsBank.SetIndicatorValue(IndicatorType.Days, progress.GameplayData.Days);
+            _indicatorsBank.Moral.SetNewMoralValue(progress.GameplayData.Moral);
         }
     }
 }

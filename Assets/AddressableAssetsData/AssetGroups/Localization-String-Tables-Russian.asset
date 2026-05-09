@@ -18,10 +18,10 @@ MonoBehaviour:
   m_GUID: 1ca90961d66ac47478554c024f418484
   m_SerializeEntries:
   - m_GUID: 5ab5d7e3db1a2ce41bec75f2b1c1d0a9
-    m_Address: GameTable_ru
+    m_Address: GameTable_ru-RU
     m_ReadOnly: 1
     m_SerializedLabels:
-    - Locale-ru
+    - Locale-ru-RU
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6f8550039a5b6ee439f74d8ce58be585

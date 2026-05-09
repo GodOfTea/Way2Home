@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: food004
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Food","ImagePath":"Main/4","Arr":[{"OptionKey":"food_Take01","ImagePathAnswer":"Answers/4_1","OptionResultKey":"food_Take01_result","People":0,"Supplies":5,"Risk":1,"Days":-1},{"OptionKey":"food_Miss02","ImagePathAnswer":"Answers/4_2","OptionResultKey":"food_Miss02_result","People":0,"Supplies":-1,"Risk":0,"Days":-1},{"OptionKey":"food_Tester03","ImagePathAnswer":"Answers/4_3","OptionResultKey":"food_Tester03_result","People":0,"Supplies":3,"Risk":1,"Days":-1}],"Id":"food004"}'
-  references: []
+  serializedRow: '{"Name":"Food","ImagePath":"Main/4","Arr":[{"OptionKey":"food_Take01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"food_Miss02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"food_Tester03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"food004"}'
+  references:
+  - {fileID: 8158870188478487160, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 2841418894335187213, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 191134793402607806, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &-7409544563524343853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26,8 +29,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: leg013
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Leg","ImagePath":"Main/13","Arr":[{"OptionKey":"Leg_take01","ImagePathAnswer":"Answers/13_1","OptionResultKey":"Leg_take01_result","People":0,"Supplies":-1,"Risk":1,"Days":0},{"OptionKey":"Leg_leave02","ImagePathAnswer":"Answers/13_2","OptionResultKey":"Leg_leave02_result","People":-1,"Supplies":-3,"Risk":0,"Days":-1},{"OptionKey":"Leg_kill03","ImagePathAnswer":"Answers/13_3","OptionResultKey":"Leg_kill03_result","People":-1,"Supplies":-1,"Risk":1,"Days":-1}],"Id":"leg013"}'
-  references: []
+  serializedRow: '{"Name":"Leg","ImagePath":"Main/13","Arr":[{"OptionKey":"Leg_take01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"Leg_leave02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"Leg_kill03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"leg013"}'
+  references:
+  - {fileID: -521743891153207275, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 8916926437117353384, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 7690897933805863472, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &-7292659273845242806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40,8 +46,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: camp015
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Camp","ImagePath":"Main/15","Arr":[{"OptionKey":"Camp_wait01","ImagePathAnswer":"Answers/15_1","OptionResultKey":"Camp_wait01_result","People":0,"Supplies":4,"Risk":2,"Days":1},{"OptionKey":"Camp_miss02","ImagePathAnswer":"Answers/15_2","OptionResultKey":"Camp_miss02_result","People":0,"Supplies":-2,"Risk":0,"Days":1},{"OptionKey":"Camp_fight03","ImagePathAnswer":"Answers/15_3","OptionResultKey":"Camp_fight03_result","People":-6,"Supplies":10,"Risk":2,"Days":-1}],"Id":"camp015"}'
-  references: []
+  serializedRow: '{"Name":"Camp","ImagePath":"Main/15","Arr":[{"OptionKey":"Camp_wait01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"Camp_miss02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"Camp_fight03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"camp015"}'
+  references:
+  - {fileID: -7952476604899868992, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 531501862031066709, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 1757179487105626426, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &-6668037952692821126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54,8 +63,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: dogs017
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Dogs","ImagePath":"Main/17","Arr":[{"OptionKey":"Dogs_fight01","ImagePathAnswer":"Answers/17_1","OptionResultKey":"Dogs_fight01_result","People":0,"Supplies":-1,"Risk":2,"Days":-1},{"OptionKey":"Dogs_ran02","ImagePathAnswer":"Answers/17_2","OptionResultKey":"Dogs_ran02_result","People":-2,"Supplies":-4,"Risk":0,"Days":-1},{"OptionKey":"Dogs_trick03","ImagePathAnswer":"Answers/17_3","OptionResultKey":"Dogs_trick03_result","People":-1,"Supplies":-2,"Risk":1,"Days":-1}],"Id":"dogs017"}'
-  references: []
+  serializedRow: '{"Name":"Dogs","ImagePath":"Main/17","Arr":[{"OptionKey":"Dogs_fight01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"Dogs_ran02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"Dogs_trick03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"dogs017"}'
+  references:
+  - {fileID: 2425545354457444116, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 8544933363259615520, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -4991538357128987892, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &-6606476439238044215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,8 +80,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: bridge003
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Bridge","ImagePath":"Main/3","Arr":[{"OptionKey":"bridge_Swim01","ImagePathAnswer":"Answers/3_1","OptionResultKey":"bridge_Swim01_result","People":0,"Supplies":-5,"Risk":-1,"Days":-1},{"OptionKey":"bridge_Log02","ImagePathAnswer":"Answers/3_2","OptionResultKey":"bridge_Log02_result","People":-1,"Supplies":-3,"Risk":-1,"Days":-1},{"OptionKey":"bridge_Go03","ImagePathAnswer":"Answers/3_3","OptionResultKey":"bridge_Go03_result","People":0,"Supplies":-3,"Risk":1,"Days":1}],"Id":"bridge003"}'
-  references: []
+  serializedRow: '{"Name":"Bridge","ImagePath":"Main/3","Arr":[{"OptionKey":"bridge_Swim01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"bridge_Log02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"bridge_Go03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"bridge003"}'
+  references:
+  - {fileID: -1301891533466756068, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -5661510936372342240, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -6624654749876295715, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &-6191073370583991536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82,8 +97,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: radio032
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Radio","ImagePath":"Main/32","Arr":[{"OptionKey":"radio_used01","ImagePathAnswer":"Answers/32_1","OptionResultKey":"radio_used01_result","People":0,"Supplies":2,"Risk":3,"Days":-1},{"OptionKey":"radio_destroyed02","ImagePathAnswer":"Answers/32_2","OptionResultKey":"radio_destroyed02_result","People":0,"Supplies":2,"Risk":1,"Days":-1},{"OptionKey":"radio_miss03","ImagePathAnswer":"Answers/32_3","OptionResultKey":"radio_miss03_result","People":0,"Supplies":-1,"Risk":0,"Days":-1}],"Id":"radio032"}'
-  references: []
+  serializedRow: '{"Name":"Radio","ImagePath":"Main/32","Arr":[{"OptionKey":"radio_used01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"radio_destroyed02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"radio_miss03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"radio032"}'
+  references:
+  - {fileID: -5302303560047874699, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 6798794973389530769, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -2245281620411658586, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &-5989398282717996839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,8 +114,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: mines001
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Mines","ImagePath":"Main/1","Arr":[{"OptionKey":"mines_Tester01","ImagePathAnswer":"Answers/1_1","OptionResultKey":"minesTester01_result","People":-6,"Supplies":-7,"Risk":-3,"Days":-2},{"OptionKey":"mines_Miss02","ImagePathAnswer":"Answers/1_2","OptionResultKey":"minesMiss02_result","People":0,"Supplies":-3,"Risk":1,"Days":1},{"OptionKey":"mines_Explode03","ImagePathAnswer":"Answers/1_3","OptionResultKey":"minesExplode03_result","People":-2,"Supplies":-5,"Risk":-2,"Days":-2}],"Id":"mines001"}'
-  references: []
+  serializedRow: '{"Name":"Mines","ImagePath":"Main/1","Arr":[{"OptionKey":"mines_Tester01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"mines_Miss02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"mines_Explode03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"mines001"}'
+  references:
+  - {fileID: 8825062966113285756, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 7300753501248567470, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 1316216084514347256, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &-5023545881435158294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,8 +131,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: disease009
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Disease","ImagePath":"Main/9","Arr":[{"OptionKey":"disease_Leave01","ImagePathAnswer":"Answers/9_1","OptionResultKey":"disease_Leave01_result","People":-1,"Supplies":-1,"Risk":0,"Days":-1},{"OptionKey":"disease_Plants02","ImagePathAnswer":"Answers/9_2","OptionResultKey":"disease_Plants02_result","People":0,"Supplies":-3,"Risk":1,"Days":0},{"OptionKey":"disease_Take03","ImagePathAnswer":"Answers/9_3","OptionResultKey":"disease_Take03_result","People":-1,"Supplies":-1,"Risk":1,"Days":0}],"Id":"disease009"}'
-  references: []
+  serializedRow: '{"Name":"Disease","ImagePath":"Main/9","Arr":[{"OptionKey":"disease_Leave01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"disease_Plants02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"disease_Take03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"disease009"}'
+  references:
+  - {fileID: -51960854655580068, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 2067150330821930145, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -4678242686067845034, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &-3806374514427257083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124,8 +148,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: mother029
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Mother","ImagePath":"Main/29","Arr":[{"OptionKey":"Mother_take01","ImagePathAnswer":"Answers/29_1","OptionResultKey":"Mother_take01_result","People":2,"Supplies":-2,"Risk":1,"Days":-1},{"OptionKey":"Mother_killed02","ImagePathAnswer":"Answers/29_2","OptionResultKey":"Mother_killed02_result","People":-1,"Supplies":-2,"Risk":0,"Days":-1},{"OptionKey":"Mother_asked03","ImagePathAnswer":"Answers/29_3","OptionResultKey":"Mother_asked03_result","People":0,"Supplies":-1,"Risk":-1,"Days":-1}],"Id":"mother029"}'
-  references: []
+  serializedRow: '{"Name":"Mother","ImagePath":"Main/29","Arr":[{"OptionKey":"Mother_take01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"Mother_killed02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"Mother_asked03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"mother029"}'
+  references:
+  - {fileID: 8643276955176451917, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -3952627889271066374, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -945685156146109945, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &-3754577181283401588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,8 +165,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: friend034
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Friend","ImagePath":"Main/34","Arr":[{"OptionKey":"friend_go01","ImagePathAnswer":"Answers/34_1","OptionResultKey":"friend_go01_result","People":-1,"Supplies":-2,"Risk":-4,"Days":-1},{"OptionKey":"friend_stay02","ImagePathAnswer":"Answers/34_2","OptionResultKey":"friend_stay02_result","People":0,"Supplies":-1,"Risk":0,"Days":-1},{"OptionKey":"friend_check03","ImagePathAnswer":"Answers/34_3","OptionResultKey":"friend_check03_result","People":-1,"Supplies":-3,"Risk":-2,"Days":0}],"Id":"friend034"}'
-  references: []
+  serializedRow: '{"Name":"Friend","ImagePath":"Main/34","Arr":[{"OptionKey":"friend_go01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"friend_stay02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"friend_check03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"friend034"}'
+  references:
+  - {fileID: 7225235629544447688, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 5595362966814223144, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 3128522664645126099, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &-3716650412596434840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,8 +182,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: fog026
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Fog","ImagePath":"Main/26","Arr":[{"OptionKey":"Fog_go01","ImagePathAnswer":"Answers/26_1","OptionResultKey":"Fog_go01_result","People":-1,"Supplies":-2,"Risk":0,"Days":-1},{"OptionKey":"Fog_wait02","ImagePathAnswer":"Answers/26_2","OptionResultKey":"Fog_wait02_result","People":0,"Supplies":-2,"Risk":1,"Days":0},{"OptionKey":"Fog_check03","ImagePathAnswer":"Answers/26_3","OptionResultKey":"Fog_check03_result","People":0,"Supplies":-1,"Risk":0,"Days":-1}],"Id":"fog026"}'
-  references: []
+  serializedRow: '{"Name":"Fog","ImagePath":"Main/26","Arr":[{"OptionKey":"Fog_go01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"Fog_wait02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"Fog_check03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"fog026"}'
+  references:
+  - {fileID: -9214074012450399300, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -2707591097116193408, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 4131124668557353040, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &-3541709094157132448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,8 +199,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: snipers025
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Snipers","ImagePath":"Main/25","Arr":[{"OptionKey":"Snipers_wait01","ImagePathAnswer":"Answers/25_1","OptionResultKey":"Snipers_wait01_result","People":0,"Supplies":-2,"Risk":1,"Days":0},{"OptionKey":"Snipers_attack02","ImagePathAnswer":"Answers/25_2","OptionResultKey":"Snipers_attack02_result","People":-4,"Supplies":3,"Risk":2,"Days":-1},{"OptionKey":"Snipers_gift03","ImagePathAnswer":"Answers/25_3","OptionResultKey":"Snipers_gift03_result","People":-1,"Supplies":0,"Risk":0,"Days":-1}],"Id":"snipers025"}'
-  references: []
+  serializedRow: '{"Name":"Snipers","ImagePath":"Main/25","Arr":[{"OptionKey":"Snipers_wait01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"Snipers_attack02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"Snipers_gift03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"snipers025"}'
+  references:
+  - {fileID: -4628117211167762434, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 4377903644371519773, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 5908022172061859736, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &-2773584561941556778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,8 +216,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: injuredSoldier024
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Injured soldier","ImagePath":"Main/24","Arr":[{"OptionKey":"Injured_soldier_helped01","ImagePathAnswer":"Answers/24_1","OptionResultKey":"Injured_soldier_helped01_result","People":0,"Supplies":-2,"Risk":-1,"Days":-1},{"OptionKey":"Injured_soldier_stay02","ImagePathAnswer":"Answers/24_2","OptionResultKey":"Injured_soldier_stay02_result","People":0,"Supplies":-1,"Risk":2,"Days":-1},{"OptionKey":"Injured_soldier_killed03","ImagePathAnswer":"Answers/24_3","OptionResultKey":"Injured_soldier_killed03_result","People":-2,"Supplies":-1,"Risk":1,"Days":-1}],"Id":"injuredSoldier024"}'
-  references: []
+  serializedRow: '{"Name":"Injured soldier","ImagePath":"Main/24","Arr":[{"OptionKey":"Injured_soldier_helped01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"Injured_soldier_stay02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"Injured_soldier_killed03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"injuredSoldier024"}'
+  references:
+  - {fileID: -2259868650484140960, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -27568669216884694, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -3333657558140974294, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &-2697941271753927388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,8 +233,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: riverfight037
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Riverfight","ImagePath":"Main/37","Arr":[{"OptionKey":"riverfight_cover01","ImagePathAnswer":"Answers/37_1","OptionResultKey":"riverfight_cover01_result","People":0,"Supplies":-2,"Risk":1,"Days":1},{"OptionKey":"riverfight_run02","ImagePathAnswer":"Answers/37_2","OptionResultKey":"riverfight_run02_result","People":-2,"Supplies":-3,"Risk":1,"Days":-1},{"OptionKey":"riverfight_back03","ImagePathAnswer":"Answers/37_3","OptionResultKey":"riverfight_back03_result","People":0,"Supplies":-4,"Risk":1,"Days":1}],"Id":"riverfight037"}'
-  references: []
+  serializedRow: '{"Name":"Riverfight","ImagePath":"Main/37","Arr":[{"OptionKey":"riverfight_cover01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"riverfight_run02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"riverfight_back03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"riverfight037"}'
+  references:
+  - {fileID: 8889981761767448895, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -5240721097364457973, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 5428799561272966294, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &-1914319554636435629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,8 +250,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: missedSoldiers010
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Missed soldiers","ImagePath":"Main/10","Arr":[{"OptionKey":"missed_Soldiers_Base01","ImagePathAnswer":"Answers/10_1","OptionResultKey":"missed_Soldiers_Base01_result","People":0,"Supplies":-2,"Risk":0,"Days":-1},{"OptionKey":"missed_Soldiers_Go02","ImagePathAnswer":"Answers/10_2","OptionResultKey":"missed_Soldiers_Go02_result","People":-2,"Supplies":-1,"Risk":0,"Days":-1},{"OptionKey":"missed_Soldiers_Shoot03","ImagePathAnswer":"Answers/10_3","OptionResultKey":"missed_Soldiers_Shoot03_result","People":-1,"Supplies":-1,"Risk":1,"Days":-1}],"Id":"missedSoldiers010"}'
-  references: []
+  serializedRow: '{"Name":"Missed soldiers","ImagePath":"Main/10","Arr":[{"OptionKey":"missed_Soldiers_Base01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"missed_Soldiers_Go02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"missed_Soldiers_Shoot03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"missedSoldiers010"}'
+  references:
+  - {fileID: -4934700141603615561, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 799023416345827501, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 6184015531422190630, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &-1404976490884115281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,8 +267,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: tank036
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Tank","ImagePath":"Main/36","Arr":[{"OptionKey":"tank_attack01","ImagePathAnswer":"Answers/36_1","OptionResultKey":"tank_attack01_result","People":0,"Supplies":-4,"Risk":5,"Days":-7},{"OptionKey":"tank_miss02","ImagePathAnswer":"Answers/36_2","OptionResultKey":"tank_miss02_result","People":0,"Supplies":-1,"Risk":0,"Days":-1},{"OptionKey":"tank_materials03","ImagePathAnswer":"Answers/36_3","OptionResultKey":"tank_materials03_result","People":0,"Supplies":4,"Risk":1,"Days":0}],"Id":"tank036"}'
-  references: []
+  serializedRow: '{"Name":"Tank","ImagePath":"Main/36","Arr":[{"OptionKey":"tank_attack01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"tank_miss02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"tank_materials03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"tank036"}'
+  references:
+  - {fileID: 2038553705883121829, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -1884191134934581804, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -1291134943603685262, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -290,8 +338,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: saboteur027
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Saboteur","ImagePath":"Main/27","Arr":[{"OptionKey":"Saboteur_raid01","ImagePathAnswer":"Answers/27_1","OptionResultKey":"Saboteur_raid01_result","People":-4,"Supplies":14,"Risk":3,"Days":2},{"OptionKey":"Saboteur_deny02","ImagePathAnswer":"Answers/27_2","OptionResultKey":"Saboteur_deny02_result","People":0,"Supplies":-1,"Risk":0,"Days":-1},{"OptionKey":"Saboteur_exchange03","ImagePathAnswer":"Answers/27_3","OptionResultKey":"Saboteur_exchange03_result","People":0,"Supplies":-4,"Risk":-2,"Days":-1}],"Id":"saboteur027"}'
-  references: []
+  serializedRow: '{"Name":"Saboteur","ImagePath":"Main/27","Arr":[{"OptionKey":"Saboteur_raid01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"Saboteur_deny02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"Saboteur_exchange03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"saboteur027"}'
+  references:
+  - {fileID: -5024981376703563130, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -3822711302841521411, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -6673325514789013584, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &416731659652362252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -304,8 +355,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: crosses022
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Crosses","ImagePath":"Main/22","Arr":[{"OptionKey":"Crosses_buried01","ImagePathAnswer":"Answers/22_1","OptionResultKey":"Crosses_buried01_result","People":1,"Supplies":-2,"Risk":1,"Days":1},{"OptionKey":"Crosses_miss02","ImagePathAnswer":"Answers/22_2","OptionResultKey":"Crosses_miss02_result","People":0,"Supplies":-1,"Risk":0,"Days":-1},{"OptionKey":"Crosses_check03","ImagePathAnswer":"Answers/22_3","OptionResultKey":"Crosses_check03_result","People":0,"Supplies":-2,"Risk":1,"Days":0}],"Id":"crosses022"}'
-  references: []
+  serializedRow: '{"Name":"Crosses","ImagePath":"Main/22","Arr":[{"OptionKey":"Crosses_buried01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"Crosses_miss02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"Crosses_check03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"crosses022"}'
+  references:
+  - {fileID: 7162563162125215275, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -1791404036144923188, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -6531189140853051150, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &472586526271361285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,8 +372,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: box038
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Box","ImagePath":"Main/38","Arr":[{"OptionKey":"box_take01","ImagePathAnswer":"Answers/38_1","OptionResultKey":"box_take01_result","People":0,"Supplies":-1,"Risk":1,"Days":-1},{"OptionKey":"box_miss02","ImagePathAnswer":"Answers/38_2","OptionResultKey":"box_miss02_result","People":0,"Supplies":-1,"Risk":0,"Days":-1},{"OptionKey":"box_wait03","ImagePathAnswer":"Answers/38_3","OptionResultKey":"box_wait03_result","People":0,"Supplies":-2,"Risk":1,"Days":1}],"Id":"box038"}'
-  references: []
+  serializedRow: '{"Name":"Box","ImagePath":"Main/38","Arr":[{"OptionKey":"box_take01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"box_miss02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"box_wait03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"box038"}'
+  references:
+  - {fileID: 4065948973685651199, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -7409039054698020792, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -895192562421338887, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &771962978484163605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -332,8 +389,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: nervous006
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Nervous","ImagePath":"Main/6","Arr":[{"OptionKey":"nervous_Change01","ImagePathAnswer":"Answers/6_1","OptionResultKey":"nervous_Change01_result","People":-2,"Supplies":-3,"Risk":0,"Days":-1},{"OptionKey":"nervous_Stay02","ImagePathAnswer":"Answers/6_2","OptionResultKey":"nervous_Stay02_result","People":0,"Supplies":2,"Risk":0,"Days":-1},{"OptionKey":"nervous_Weapon03","ImagePathAnswer":"Answers/6_3","OptionResultKey":"nervous_Weapon03_result","People":-1,"Supplies":4,"Risk":0,"Days":-1}],"Id":"nervous006"}'
-  references: []
+  serializedRow: '{"Name":"Nervous","ImagePath":"Main/6","Arr":[{"OptionKey":"nervous_Change01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"nervous_Stay02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"nervous_Weapon03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"nervous006"}'
+  references:
+  - {fileID: 2721167860586878662, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 7627987724798365659, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 2350576509152384041, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &814095438525973675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -346,8 +406,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: deserter030
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Deserter","ImagePath":"Main/30","Arr":[{"OptionKey":"Deserter_killed01","ImagePathAnswer":"Answers/30_1","OptionResultKey":"Deserter_killed01_result","People":-1,"Supplies":0,"Risk":0,"Days":-1},{"OptionKey":"deserter_leave02","ImagePathAnswer":"Answers/30_2","OptionResultKey":"deserter_leave02_result","People":-1,"Supplies":-3,"Risk":0,"Days":-1},{"OptionKey":"deserter_stay03","ImagePathAnswer":"Answers/30_3","OptionResultKey":"deserter_stay03_result","People":0,"Supplies":0,"Risk":0,"Days":-1}],"Id":"deserter030"}'
-  references: []
+  serializedRow: '{"Name":"Deserter","ImagePath":"Main/30","Arr":[{"OptionKey":"Deserter_killed01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"deserter_leave02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"deserter_stay03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"deserter030"}'
+  references:
+  - {fileID: -7810611190199297740, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 2200597967702641078, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -6072752216630954197, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &954105777265849648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,8 +423,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: rockets028
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Rockets","ImagePath":"Main/28","Arr":[{"OptionKey":"Rockets_stay01","ImagePathAnswer":"Answers/28_1","OptionResultKey":"Rockets_stay01_result","People":0,"Supplies":-2,"Risk":0,"Days":1},{"OptionKey":"Rockets_go02","ImagePathAnswer":"Answers/28_2","OptionResultKey":"Rockets_go02_result","People":-2,"Supplies":-4,"Risk":2,"Days":-1},{"OptionKey":"Rocket_check03","ImagePathAnswer":"Answers/28_3","OptionResultKey":"Rocket_check03_result","People":-1,"Supplies":-1,"Risk":1,"Days":-1}],"Id":"rockets028"}'
-  references: []
+  serializedRow: '{"Name":"Rockets","ImagePath":"Main/28","Arr":[{"OptionKey":"Rockets_stay01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"Rockets_go02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"Rocket_check03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"rockets028"}'
+  references:
+  - {fileID: 7571121469836273635, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -6714581985819216844, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 3187156508744049260, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &1208236219757372667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -374,8 +440,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: runningPeople020
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Running people","ImagePath":"Main/20","Arr":[{"OptionKey":"Running_people_invite01","ImagePathAnswer":"Answers/20_1","OptionResultKey":"Running_people_invite01_result","People":3,"Supplies":-3,"Risk":1,"Days":-1},{"OptionKey":"Running_people_leave02","ImagePathAnswer":"Answers/20_2","OptionResultKey":"Running_people_leave02_result","People":0,"Supplies":-1,"Risk":0,"Days":-1},{"OptionKey":"Running_people_exchange03","ImagePathAnswer":"Answers/20_3","OptionResultKey":"Running_people_exchange03_result","People":0,"Supplies":-3,"Risk":-2,"Days":-1}],"Id":"runningPeople020"}'
-  references: []
+  serializedRow: '{"Name":"Running people","ImagePath":"Main/20","Arr":[{"OptionKey":"Running_people_invite01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"Running_people_leave02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"Running_people_exchange03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"runningPeople020"}'
+  references:
+  - {fileID: -1635477070504211189, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -2674937001835312542, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 4951978572772907692, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &1360613170554361659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -388,8 +457,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: rainfall007
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Rainfall","ImagePath":"Main/7","Arr":[{"OptionKey":"rainfall_Cover01","ImagePathAnswer":"Answers/7_1","OptionResultKey":"rainfall_Cover01_result","People":0,"Supplies":-2,"Risk":0,"Days":0},{"OptionKey":"rainfall_Go02","ImagePathAnswer":"Answers/7_2","OptionResultKey":"rainfall_Go02_result","People":0,"Supplies":-6,"Risk":-1,"Days":-1},{"OptionKey":"rainfall_Way03","ImagePathAnswer":"Answers/7_3","OptionResultKey":"rainfall_Way03_result","People":0,"Supplies":-3,"Risk":-1,"Days":1}],"Id":"rainfall007"}'
-  references: []
+  serializedRow: '{"Name":"Rainfall","ImagePath":"Main/7","Arr":[{"OptionKey":"rainfall_Cover01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"rainfall_Go02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"rainfall_Way03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"rainfall007"}'
+  references:
+  - {fileID: -2081932106917106094, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 4825124596711938473, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -5235914760672027900, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &1423940446371139096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -402,8 +474,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: farm023
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Farm","ImagePath":"Main/23","Arr":[{"OptionKey":"Farm_find01","ImagePathAnswer":"Answers/23_1","OptionResultKey":"Farm_find01_result","People":0,"Supplies":3,"Risk":0,"Days":-1},{"OptionKey":"Farm_go02","ImagePathAnswer":"Answers/23_2","OptionResultKey":"Farm_go02_result","People":0,"Supplies":-1,"Risk":0,"Days":-1},{"OptionKey":"Farm_crowd03","ImagePathAnswer":"Answers/23_3","OptionResultKey":"Farm_crowd03_result","People":0,"Supplies":3,"Risk":1,"Days":-1}],"Id":"farm023"}'
-  references: []
+  serializedRow: '{"Name":"Farm","ImagePath":"Main/23","Arr":[{"OptionKey":"Farm_find01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"Farm_go02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"Farm_crowd03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"farm023"}'
+  references:
+  - {fileID: -5056950088356010825, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 8625383661535743537, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 5104756959725003343, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &3692284451986972050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -416,8 +491,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: fire018
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Fire","ImagePath":"Main/18","Arr":[{"OptionKey":"Fire_go01","ImagePathAnswer":"Answers/18_1","OptionResultKey":"Fire_go01_result","People":-4,"Supplies":-6,"Risk":-3,"Days":-1},{"OptionKey":"Fire_cover02","ImagePathAnswer":"Answers/18_2","OptionResultKey":"Fire_cover02_result","People":-1,"Supplies":-3,"Risk":-1,"Days":-1},{"OptionKey":"Fire_miss03","ImagePathAnswer":"Answers/18_3","OptionResultKey":"Fire_miss03_result","People":0,"Supplies":-2,"Risk":1,"Days":1}],"Id":"fire018"}'
-  references: []
+  serializedRow: '{"Name":"Fire","ImagePath":"Main/18","Arr":[{"OptionKey":"Fire_go01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"Fire_cover02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"Fire_miss03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"fire018"}'
+  references:
+  - {fileID: -2260235532195166048, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 2280663903361701974, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 5324090036080508407, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &4166326009409350393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -430,8 +508,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: cold008
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Cold","ImagePath":"Main/8","Arr":[{"OptionKey":"cold_Campfire01","ImagePathAnswer":"Answers/8_1","OptionResultKey":"cold_Campfire01_result","People":0,"Supplies":-2,"Risk":2,"Days":-1},{"OptionKey":"cold_Warm02","ImagePathAnswer":"Answers/8_2","OptionResultKey":"cold_Warm02_result","People":-1,"Supplies":-1,"Risk":0,"Days":-1},{"OptionKey":"cold_Food03","ImagePathAnswer":"Answers/8_3","OptionResultKey":"cold_Food03_result","People":0,"Supplies":-3,"Risk":1,"Days":-1}],"Id":"cold008"}'
-  references: []
+  serializedRow: '{"Name":"Cold","ImagePath":"Main/8","Arr":[{"OptionKey":"cold_Campfire01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"cold_Warm02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"cold_Food03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"cold008"}'
+  references:
+  - {fileID: -6774053781771925750, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -5219950278444685026, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -6413642824542121007, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &4320900517254304469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -444,8 +525,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: girl002
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Girl","ImagePath":"Main/2","Arr":[{"OptionKey":"girl_Leave01","ImagePathAnswer":"Answers/2_1","OptionResultKey":"girl_Leave01_result","People":0,"Supplies":-1,"Risk":0,"Days":-1},{"OptionKey":"girl_Kill02","ImagePathAnswer":"Answers/2_2","OptionResultKey":"girl_Kill02_result","People":0,"Supplies":-1,"Risk":2,"Days":-1},{"OptionKey":"girl_Soldier03","ImagePathAnswer":"Answers/2_3","OptionResultKey":"girl_Soldier03_result","People":0,"Supplies":3,"Risk":0,"Days":0}],"Id":"girl002"}'
-  references: []
+  serializedRow: '{"Name":"Girl","ImagePath":"Main/2","Arr":[{"OptionKey":"girl_Leave01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"girl_Kill02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"girl_Soldier03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"girl002"}'
+  references:
+  - {fileID: -3647606156962137392, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -6038001121710800584, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -6500070995398715327, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &4409165513480873237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -458,8 +542,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: burningHouse019
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Burning house","ImagePath":"Main/19","Arr":[{"OptionKey":"Burning_house_looting01","ImagePathAnswer":"Answers/19_1","OptionResultKey":"Burning_house_looting01_result","People":0,"Supplies":5,"Risk":1,"Days":-1},{"OptionKey":"Burning_house_miss02","ImagePathAnswer":"Answers/19_2","OptionResultKey":"Burning_house_miss02_result","People":0,"Supplies":-1,"Risk":0,"Days":-1},{"OptionKey":"Burning_house_fight03","ImagePathAnswer":"Answers/19_3","OptionResultKey":"Burning_house_fight03_result","People":-3,"Supplies":10,"Risk":2,"Days":0}],"Id":"burningHouse019"}'
-  references: []
+  serializedRow: '{"Name":"Burning house","ImagePath":"Main/19","Arr":[{"OptionKey":"Burning_house_looting01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"Burning_house_miss02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"Burning_house_fight03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"burningHouse019"}'
+  references:
+  - {fileID: 5253445028204857702, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -2777289663231053345, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -3690379322145323964, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &4424118672975959831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -472,8 +559,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: swamp014
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Swamp","ImagePath":"Main/14","Arr":[{"OptionKey":"Swamp_search01","ImagePathAnswer":"Answers/14_1","OptionResultKey":"Swamp_search01_result","People":0,"Supplies":-2,"Risk":1,"Days":1},{"OptionKey":"Swamp_go02","ImagePathAnswer":"Answers/14_2","OptionResultKey":"Swamp_go02_result","People":-2,"Supplies":-8,"Risk":-2,"Days":-2},{"OptionKey":"Swamp_throw03","ImagePathAnswer":"Answers/14_3","OptionResultKey":"Swamp_throw03_result","People":0,"Supplies":-6,"Risk":-2,"Days":-2}],"Id":"swamp014"}'
-  references: []
+  serializedRow: '{"Name":"Swamp","ImagePath":"Main/14","Arr":[{"OptionKey":"Swamp_search01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"Swamp_go02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"Swamp_throw03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"swamp014"}'
+  references:
+  - {fileID: -1464593238808080123, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 8302037129179705550, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -1973950432093508147, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &4677879163220169472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -486,8 +576,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: warehouse011
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Warehouse","ImagePath":"Main/11","Arr":[{"OptionKey":"warehouse_Trap01","ImagePathAnswer":"Answers/11_1","OptionResultKey":"warehouse_Trap01_result","People":0,"Supplies":3,"Risk":2,"Days":-1},{"OptionKey":"warehouse_Miss02","ImagePathAnswer":"Answers/11_2","OptionResultKey":"warehouse_Miss02_result","People":0,"Supplies":-1,"Risk":0,"Days":-1},{"OptionKey":"warehouse_Fight03","ImagePathAnswer":"Answers/11_3","OptionResultKey":"warehouse_Fight03_result","People":-2,"Supplies":6,"Risk":-1,"Days":-1}],"Id":"warehouse011"}'
-  references: []
+  serializedRow: '{"Name":"Warehouse","ImagePath":"Main/11","Arr":[{"OptionKey":"warehouse_Trap01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"warehouse_Miss02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"warehouse_Fight03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"warehouse011"}'
+  references:
+  - {fileID: 801520667083171497, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -5055284516663251754, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 2640859276203586181, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &5922197694888260062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -500,8 +593,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: planes016
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Planes","ImagePath":"Main/16","Arr":[{"OptionKey":"Planes_cover01","ImagePathAnswer":"Answers/16_1","OptionResultKey":"Planes_cover01_result","People":0,"Supplies":-2,"Risk":0,"Days":0},{"OptionKey":"Planes_run02","ImagePathAnswer":"Answers/16_2","OptionResultKey":"Planes_run02_result","People":-2,"Supplies":-4,"Risk":0,"Days":-2},{"OptionKey":"Planes_fight03","ImagePathAnswer":"Answers/16_3","OptionResultKey":"Planes_fight03_result","People":-4,"Supplies":-2,"Risk":2,"Days":-1}],"Id":"planes016"}'
-  references: []
+  serializedRow: '{"Name":"Planes","ImagePath":"Main/16","Arr":[{"OptionKey":"Planes_cover01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"Planes_run02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"Planes_fight03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"planes016"}'
+  references:
+  - {fileID: 8487384750668097930, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -1377599892358067078, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 4904086728373503955, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &7124861616350611635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -514,8 +610,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: village005
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Village","ImagePath":"Main/5","Arr":[{"OptionKey":"village_Night01","ImagePathAnswer":"Answers/5_1","OptionResultKey":"village_Night01_result","People":0,"Supplies":3,"Risk":1,"Days":-1},{"OptionKey":"village_Miss02","ImagePathAnswer":"Answers/5_2","OptionResultKey":"village_Miss02_result","People":0,"Supplies":-2,"Risk":0,"Days":-1},{"OptionKey":"village_Supplies03","ImagePathAnswer":"Answers/5_3","OptionResultKey":"village_Supplies03_result","People":0,"Supplies":9,"Risk":2,"Days":1}],"Id":"village005"}'
-  references: []
+  serializedRow: '{"Name":"Village","ImagePath":"Main/5","Arr":[{"OptionKey":"village_Night01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"village_Miss02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"village_Supplies03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"village005"}'
+  references:
+  - {fileID: 7318926672570225895, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -2620131707544122683, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -4327297396179334857, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &7163582338873185060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -528,8 +627,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: lost035
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Lost","ImagePath":"Main/35","Arr":[{"OptionKey":"lost_stay01","ImagePathAnswer":"Answers/35_1","OptionResultKey":"lost_stay01_result","People":0,"Supplies":-1,"Risk":0,"Days":-1},{"OptionKey":"lost_search02","ImagePathAnswer":"Answers/35_2","OptionResultKey":"lost_search02_result","People":0,"Supplies":-2,"Risk":1,"Days":0},{"OptionKey":"lost_leave03","ImagePathAnswer":"Answers/35_3","OptionResultKey":"lost_leave03_result","People":-1,"Supplies":-1,"Risk":0,"Days":-1}],"Id":"lost035"}'
-  references: []
+  serializedRow: '{"Name":"Lost","ImagePath":"Main/35","Arr":[{"OptionKey":"lost_stay01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"lost_search02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"lost_leave03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"lost035"}'
+  references:
+  - {fileID: -3695087563885361358, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -3463060558647974446, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -3507231435525206880, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &7537000102408574377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -542,8 +644,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: bodies031
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Bodies","ImagePath":"Main/31","Arr":[{"OptionKey":"bodies_buried01","ImagePathAnswer":"Answers/31_1","OptionResultKey":"bodies_buried01_result","People":0,"Supplies":-2,"Risk":0,"Days":0},{"OptionKey":"bodies_miss02","ImagePathAnswer":"Answers/31_2","OptionResultKey":"bodies_miss02_result","People":0,"Supplies":-1,"Risk":0,"Days":-1},{"OptionKey":"bodies_ceremony03","ImagePathAnswer":"Answers/31_3","OptionResultKey":"bodies_ceremony03_result","People":1,"Supplies":-3,"Risk":1,"Days":1}],"Id":"bodies031"}'
-  references: []
+  serializedRow: '{"Name":"Bodies","ImagePath":"Main/31","Arr":[{"OptionKey":"bodies_buried01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"bodies_miss02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"bodies_ceremony03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"bodies031"}'
+  references:
+  - {fileID: -7794703986226109431, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -8040665426165128818, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 5179547107274680940, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &8052737960193312261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -556,8 +661,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: prisoners039
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Prisoners","ImagePath":"Main/39","Arr":[{"OptionKey":"prisoners_take01","ImagePathAnswer":"Answers/39_1","OptionResultKey":"prisoners_take01_result","People":0,"Supplies":-3,"Risk":-2,"Days":1},{"OptionKey":"prisoners_shooted02","ImagePathAnswer":"Answers/39_2","OptionResultKey":"prisoners_shooted02_result","People":0,"Supplies":-1,"Risk":1,"Days":-1},{"OptionKey":"prisoners_murdered03","ImagePathAnswer":"Answers/39_3","OptionResultKey":"prisoners_murdered03_result","People":0,"Supplies":-2,"Risk":0,"Days":0}],"Id":"prisoners039"}'
-  references: []
+  serializedRow: '{"Name":"Prisoners","ImagePath":"Main/39","Arr":[{"OptionKey":"prisoners_take01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"prisoners_shooted02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"prisoners_murdered03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"prisoners039"}'
+  references:
+  - {fileID: 4267466435085775698, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -7712568001403821119, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 7476422664340049676, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &8074721633788104442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -570,8 +678,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: stealer033
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Stealer","ImagePath":"Main/33","Arr":[{"OptionKey":"stealer_killed01","ImagePathAnswer":"Answers/33_1","OptionResultKey":"stealer_killed01_result","People":-1,"Supplies":2,"Risk":1,"Days":-1},{"OptionKey":"stealer_gift02","ImagePathAnswer":"Answers/33_2","OptionResultKey":"stealer_gift02_result","People":0,"Supplies":2,"Risk":0,"Days":-1},{"OptionKey":"stealer_leave03","ImagePathAnswer":"Answers/33_3","OptionResultKey":"stealer_leave03_result","People":-1,"Supplies":-4,"Risk":0,"Days":-1}],"Id":"stealer033"}'
-  references: []
+  serializedRow: '{"Name":"Stealer","ImagePath":"Main/33","Arr":[{"OptionKey":"stealer_killed01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"stealer_gift02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"stealer_leave03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"stealer033"}'
+  references:
+  - {fileID: -6696297811249567729, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -6602678622168400475, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: 7013108290371123095, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &8109861513507737406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -584,8 +695,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: way012
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Way","ImagePath":"Main/12","Arr":[{"OptionKey":"Way_base01","ImagePathAnswer":"Answers/12_1","OptionResultKey":"Way_base01_result","People":-1,"Supplies":-3,"Risk":0,"Days":-1},{"OptionKey":"Way_go02","ImagePathAnswer":"Answers/12_2","OptionResultKey":"Way_go02_result","People":0,"Supplies":-1,"Risk":1,"Days":1},{"OptionKey":"Way_climb03","ImagePathAnswer":"Answers/12_3","OptionResultKey":"Way_climb03_result","People":0,"Supplies":-1,"Risk":0,"Days":-1}],"Id":"way012"}'
-  references: []
+  serializedRow: '{"Name":"Way","ImagePath":"Main/12","Arr":[{"OptionKey":"Way_base01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"Way_go02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"Way_climb03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"way012"}'
+  references:
+  - {fileID: -3902993284246291552, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -130127174441165417, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -629572849205929688, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &8172179520087296954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -598,8 +712,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: van040
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Van","ImagePath":"Main/40","Arr":[{"OptionKey":"van_fight01","ImagePathAnswer":"Answers/40_1","OptionResultKey":"van_fight01_result","People":3,"Supplies":-2,"Risk":2,"Days":-1},{"OptionKey":"van_delayed02","ImagePathAnswer":"Answers/40_2","OptionResultKey":"van_delayed02_result","People":1,"Supplies":-1,"Risk":0,"Days":-1},{"OptionKey":"van_wait03","ImagePathAnswer":"Answers/40_3","OptionResultKey":"van_wait03_result","People":0,"Supplies":-1,"Risk":0,"Days":-1}],"Id":"van040"}'
-  references: []
+  serializedRow: '{"Name":"Van","ImagePath":"Main/40","Arr":[{"OptionKey":"van_fight01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"van_delayed02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"van_wait03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"van040"}'
+  references:
+  - {fileID: 5067414945925003996, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -2986022658513964639, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -2685404020476826599, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
 --- !u!114 &8462265566642251165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -612,5 +729,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
   m_Name: boars021
   m_EditorClassIdentifier: 
-  serializedRow: '{"Name":"Boars","ImagePath":"Main/21","Arr":[{"OptionKey":"Boars_fear01","ImagePathAnswer":"Answers/21_1","OptionResultKey":"Boars_fear01_result","People":-2,"Supplies":-2,"Risk":1,"Days":-1},{"OptionKey":"Boars_retreat02","ImagePathAnswer":"Answers/21_2","OptionResultKey":"Boars_retreat02_result","People":0,"Supplies":-3,"Risk":0,"Days":0},{"OptionKey":"Boars_fight03","ImagePathAnswer":"Answers/21_3","OptionResultKey":"Boars_fight03_result","People":-1,"Supplies":6,"Risk":2,"Days":0}],"Id":"boars021"}'
-  references: []
+  serializedRow: '{"Name":"Boars","ImagePath":"Main/21","Arr":[{"OptionKey":"Boars_fear01","OptionResultKey":{"$type":"ref","Value":0}},{"OptionKey":"Boars_retreat02","OptionResultKey":{"$type":"ref","Value":1}},{"OptionKey":"Boars_fight03","OptionResultKey":{"$type":"ref","Value":2}}],"Id":"boars021"}'
+  references:
+  - {fileID: 2363284166664140788, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -3238661469269140558, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}
+  - {fileID: -7994288773127802190, guid: 6cd442ab2ae07204d84a4b86c82a3013, type: 2}

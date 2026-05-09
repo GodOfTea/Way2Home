@@ -2,7 +2,7 @@
 
 namespace Editor.GoogleDataImporter
 {
-    public class ResultSheet : Sheet<ResultSheet.Row>
+    public class GameResult : Sheet<GameResult.Row>
     {
         public class Row : SheetRow
         {

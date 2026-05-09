@@ -18,7 +18,7 @@ namespace Game.ResultComponents
         public Sprite ResultImage => _resultImage;
         public IndicatorType ResultType => _resultType;
 
-        public Result(ResultSheet.Reference reference)
+        public Result(GameResult.Reference reference)
         {
             _id = reference.Ref.Id;
             _name = reference.Ref.Name;

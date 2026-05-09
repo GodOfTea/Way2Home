@@ -2,6 +2,7 @@
 using Game.Cnofigs;
 using Enumeration;
 using System;
+using Game.Economy.MoralComponents;
 
 namespace Game.Economy
 {
@@ -12,10 +13,13 @@ namespace Game.Economy
         public event Action<IReadOnlyDictionary<IndicatorType, IndicatorProperty>> IndicatorValueUpdated;
 
         private IndicatorsConfig _indicatorsConfig;
-
-        public IndicatorsBank(IndicatorsConfig indicatorsConfig)
+        
+        public Moral Moral { get; private set; }
+        
+        public IndicatorsBank(IndicatorsConfig indicatorsConfig, MoralConfig moralConfig)
         {
             _indicatorsConfig = indicatorsConfig;
+            Moral = new Moral(moralConfig);
             
             _indicators = new Dictionary<IndicatorType, IndicatorProperty>()
             {
@@ -31,7 +35,8 @@ namespace Game.Economy
             IndicatorValueUpdated?.Invoke(_indicators);
         }
 
-        public void UpdateIndicatorsValues(Dictionary<IndicatorType, int> indicators, ref Dictionary<IndicatorType, int> indicatorsChangesMap)
+        public void UpdateIndicatorsValues(Dictionary<IndicatorType, int> indicators, 
+            ref Dictionary<IndicatorType, int> indicatorsChangesMap)
         {
             foreach (var indicator in indicators)
             {

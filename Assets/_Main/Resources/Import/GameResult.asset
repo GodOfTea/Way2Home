@@ -141,4 +141,4 @@ MonoBehaviour:
   - {fileID: -2091768147082430296}
   - {fileID: -3256367873291904084}
   - {fileID: -1825753308804981928}
-  typeInfo: Editor.GoogleDataImporter.ResultSheet+Row
+  typeInfo: Editor.GoogleDataImporter.GameResult+Row

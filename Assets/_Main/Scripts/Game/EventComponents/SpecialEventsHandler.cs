@@ -17,8 +17,8 @@ namespace EventComponents
             {
                 _groups.TryAdd(data.EventIndicator, new SpecialEventGroup());
                 
-                _groups[data.EventIndicator].AddEvent(
-                    new SpecialEvent(data.Event, data.EventReloadTime));
+                // _groups[data.EventIndicator].AddEvent(
+                //     new SpecialEvent(data.Event, data.EventReloadTime));
             }
 
             foreach (var redZone in redZonesMap)
