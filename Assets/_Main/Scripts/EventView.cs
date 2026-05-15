@@ -1,11 +1,8 @@
 using System;
-using System.Collections.Generic;
-using Enumeration;
 using EventComponents;
 using Game.UI.Animations;
 using Game;
 using Game.Economy;
-using Game.Economy.MoralComponents;
 using UI.Event;
 using UnityEngine;
 using Event = EventComponents.Event;
@@ -60,18 +57,16 @@ public class EventView : MonoBehaviour
     {
         int moralStatus = _indicatorsBank.Moral.GetMoralStatus();
         EventOptionResult result = _currentEventData.GetResult(answerId, moralStatus);
-        // Разобраться здесь со списками
-        Dictionary<IndicatorType, int> indicatorsChangesMap = result.IndicatorsKeeper.IndicatorsMap;
         _indicatorsBank.Moral.Change(result.MoraleChange);
-        _indicatorsBank.UpdateIndicatorsValues(result.IndicatorsKeeper.IndicatorsMap, ref indicatorsChangesMap);
-        ShowAnswer(result, indicatorsChangesMap);
+        _indicatorsBank.UpdateIndicatorsValues(result.IndicatorsKeeper.Indicators, out IndicatorValue[] newIndicators);
+        ShowAnswer(result, newIndicators);
     }
 
-    private void ShowAnswer(EventOptionResult result, Dictionary<IndicatorType, int> indicatorsChangesMap)
+    private void ShowAnswer(EventOptionResult result, IndicatorValue[] newIndicators)
     {
         _questionWindow.Hide();
         
-        _answerWindow.UpdateView(result, indicatorsChangesMap);
+        _answerWindow.UpdateView(result, newIndicators);
         _answerWindow.Show();
     }
 }

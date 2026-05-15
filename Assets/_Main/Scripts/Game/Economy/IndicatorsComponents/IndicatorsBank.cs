@@ -3,6 +3,7 @@ using Game.Cnofigs;
 using Enumeration;
 using System;
 using Game.Economy.MoralComponents;
+using UnityEngine;
 
 namespace Game.Economy
 {
@@ -35,22 +36,25 @@ namespace Game.Economy
             IndicatorValueUpdated?.Invoke(_indicators);
         }
 
-        public void UpdateIndicatorsValues(Dictionary<IndicatorType, int> indicators, 
-            ref Dictionary<IndicatorType, int> indicatorsChangesMap)
+        public void UpdateIndicatorsValues(IndicatorValue[] indicators, out IndicatorValue[] newIndicators)
         {
+            newIndicators = new IndicatorValue[indicators.Length];
+            int i = 0;
             foreach (var indicator in indicators)
             {
+                int value = indicator.Value;
                 if (Math.Abs(indicator.Value) > SpecialIndicatorValues.CHECK_CODE)
                 {
-                    int value = UseSpecialOperation(indicator.Value, _indicators[indicator.Key].Value);
-                    indicatorsChangesMap[indicator.Key] = -value;
-                    _indicators[indicator.Key].ChangeValue(value);
+                    value = UseSpecialOperation(indicator.Value, _indicators[indicator.Type].Value);
+                    _indicators[indicator.Type].ChangeValue(value);
                 }
                 else
                 {
-                    indicatorsChangesMap[indicator.Key] = indicator.Value;
-                    _indicators[indicator.Key].AddValue(indicator.Value);
+                    _indicators[indicator.Type].AddValue(value);
                 }
+                newIndicators[i] = new IndicatorValue { Type = indicator.Type, Value = value };
+                Debug.Log($"Indicator {indicator.Type} updated by {value}, current value: {_indicators[indicator.Type].Value}");
+                ++i;
             }
             
             IndicatorValueUpdated?.Invoke(_indicators);

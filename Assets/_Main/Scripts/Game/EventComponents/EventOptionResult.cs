@@ -14,12 +14,7 @@ namespace EventComponents
         [SerializeField] private int _moraleStatus;
         [SerializeField] private Sprite _resultImage;
         [SerializeField] private int _moraleChange;
-
-        [Space]
-        [SerializeField, TextArea] private string _indicatorsValue;
-
-        private EventsResult.Elem _resultData;
-        private IndicatorsKeeper _indicatorsKeeper;
+        [SerializeField] private IndicatorsKeeper _indicatorsKeeper;
 
         public string ID => _id;
         public int MoraleStatus => _moraleStatus;
@@ -27,28 +22,22 @@ namespace EventComponents
         public int MoraleChange => _moraleChange;
         public IndicatorsKeeper IndicatorsKeeper => _indicatorsKeeper;
 
-        /* TODO: Это место не работает. Null Ref, возможно инициализация на старте нужна, увы */
         public EventOptionResult(string id, EventsResult.Elem resultData)
         {
-            _resultData = resultData;
             _id = resultData.OptionEndingKey;
             _moraleStatus = resultData.MoraleStatus;
             _resultImage = Resources.Load<Sprite>(Paths.EVENT_IMAGES + resultData.ImagePathAnswer);
             _moraleChange = resultData.Morale;
-            
-            _indicatorsValue = " People: " + resultData.People + 
-                               "\n Supplies: " + resultData.Supplies + 
-                               "\n Risk: " + resultData.Risk + 
-                               "\n Days: " + resultData.Days;
+            FillIndicators(resultData);
         }
 
-        public void FillIndicators()
+        private void FillIndicators(EventsResult.Elem resultData)
         {
             _indicatorsKeeper = new IndicatorsKeeper(
-                people: _resultData.People, 
-                supplies: _resultData.Supplies, 
-                risk: _resultData.Risk, 
-                days: _resultData.Days);
+                people: resultData.People, 
+                supplies: resultData.Supplies, 
+                risk: resultData.Risk, 
+                days: resultData.Days);
         }
     }
 }

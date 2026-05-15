@@ -34,7 +34,6 @@ namespace EventComponents
         {
             var option = _options.FirstOrDefault(o => o.AnswerId == answerId);
             var result = option.GetResultByMoral(moralStatus);
-            result.FillIndicators();
             return result;
         }
     }

@@ -1,27 +1,39 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Linq;
 using Enumeration;
+using UnityEngine;
 
 namespace Game.Economy
 {
     [Serializable]
     public class IndicatorsKeeper /* Нет необходимости знать про другие значения индикаторов */
     {
-        private Dictionary<IndicatorType, int> _indicatorsMap;
-        
-        public Dictionary<IndicatorType, int> IndicatorsMap => _indicatorsMap;
+        [SerializeField] private IndicatorValue[] _indicators;
+
+        public IndicatorValue[] Indicators => _indicators;
 
         public IndicatorsKeeper(int people, int supplies, int risk, int days)
         {
-            _indicatorsMap = new Dictionary<IndicatorType, int>
+            _indicators = new[]
             {
-                { IndicatorType.People, people },
-                { IndicatorType.Supplies, supplies },
-                { IndicatorType.Risk, risk },
-                { IndicatorType.Days, days }
+                new IndicatorValue { Type = IndicatorType.People, Value = people },
+                new IndicatorValue { Type = IndicatorType.Supplies, Value = supplies },
+                new IndicatorValue { Type = IndicatorType.Risk, Value = risk },
+                new IndicatorValue { Type = IndicatorType.Days, Value = days }
             };
         }
 
-        public int GetIndicatorValue(IndicatorType type) => _indicatorsMap[type];
+        public int GetIndicatorValue(IndicatorType type)
+        {
+            return _indicators.FirstOrDefault(o => o.Type == type)?.Value ?? 
+                   throw new NullReferenceException();
+        }
+    }
+
+    [Serializable]
+    public class IndicatorValue
+    {
+        public IndicatorType Type;
+        public int Value;
     }
 }

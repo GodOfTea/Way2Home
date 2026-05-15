@@ -24,18 +24,15 @@ namespace Data
         [ContextMenu("Load References From Sheet")]
         public async Task LoadReferencesFromSheet()
         {
-#if UNITY_EDITOR
             var sheetContainerSO = Resources.Load<SheetContainerScriptableObject>(_importContainerPath);
             var importer = new ScriptableObjectSheetImporter(sheetContainerSO);
             _container = new SheetContainer(UnityLogger.Default);
             
             await _container.Bake(importer);
+            ConvertReferencesToEvents();
 
             UnityEditor.EditorUtility.SetDirty(this);
             Debug.Log($"Loaded {_container.Events.Count} events from sheet for EventsDatabase.");
-#else
-            Debug.LogError("LoadReferencesFromSheet can only be used in the Editor.");
-#endif
         }
 
         [ContextMenu("Convert References To Events")]

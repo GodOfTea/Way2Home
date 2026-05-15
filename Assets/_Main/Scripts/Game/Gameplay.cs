@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using Data.Progress;
 using Enumeration;
 using EventComponents;
@@ -79,10 +80,11 @@ namespace Game
             var databases = _eventsConfig.GetDatabases();
             _eventDispenser = null;
             _resultHandler = null;
-            
+
             _eventDispenser = new EventDispenser(_eventsConfig, databases.Item1, _indicatorsBank, _cachedPreviousEvents, _cachedCurrentEvent);
             _resultHandler = new ResultHandler(databases.Item2, _indicatorsBank);
             _resultHandler.ResultSet += ShowResultVisual;
+            
         }
 
         private void ShowIntro()

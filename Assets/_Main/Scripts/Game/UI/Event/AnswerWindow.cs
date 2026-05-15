@@ -2,6 +2,7 @@
 using Enumeration;
 using EventComponents;
 using Game;
+using Game.Economy;
 using Game.UI.Animations;
 using Infrastructure.Services;
 using Infrastructure.Services.Audio;
@@ -51,12 +52,12 @@ namespace UI.Event
             _eventSwitcher.ShowNextRandomEvent();
         }
 
-        public void UpdateView(EventOptionResult result, Dictionary<IndicatorType, int> indicatorsChangesMap)
+        public void UpdateView(EventOptionResult result, IndicatorValue[] indicators)
         {
             _result = result;
             SetText(); 
             _eventPicture.ChangeAnswerPicture(result.ResultImage);
-            _indicatorsResultView.UpdateValues(indicatorsChangesMap);
+            _indicatorsResultView.UpdateValues(indicators);
         }
 
         private void SetText() => //TODO: Тут не работает локализация

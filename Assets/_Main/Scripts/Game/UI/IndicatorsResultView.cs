@@ -27,11 +27,11 @@ public class IndicatorsResultView : MonoBehaviour
         }
     }
 
-    public void UpdateValues(IReadOnlyDictionary<IndicatorType, int> indicators)
+    public void UpdateValues(IndicatorValue[] indicators)
     {
         foreach (var indicator in indicators)
         {
-            var resultElement = _resultIndicatorMap[indicator.Key];
+            var resultElement = _resultIndicatorMap[indicator.Type];
 
             if (indicator.Value != 0)
             {

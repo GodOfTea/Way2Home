@@ -34,8 +34,6 @@ namespace Editor.GoogleDataImporter
         [MenuItem("Import/Events")]
         public static async void ConvertFromGoogle()
         {
-            string jsonPath = Path.Combine(Application.streamingAssetsPath, "Way2HomeData");
-
             GoogleSheetConverter googleConverter = new GoogleSheetConverter(GoogleSheetId, GoogleCredential);
             SheetContainer sheetContainer = new SheetContainer(UnityLogger.Default);
 
