@@ -100,6 +100,22 @@ namespace EventComponents
             _currentEvent = randomEvent;
             return _currentEvent;
         }
+      
+#if UNITY_EDITOR
+        public Event GetNextEventById(string eventId)
+        {
+            if (_possibleEvents.TryGetValue(eventId, out var eventData))
+            {
+                _currentEvent = eventData;
+                return _currentEvent;
+            }
+            else
+            {
+                Debug.LogError($"Event with ID '{eventId}' not found in possible events.");
+                return null;
+            }
+        }
+#endif
 
         private Event GetNextEvent()
         {

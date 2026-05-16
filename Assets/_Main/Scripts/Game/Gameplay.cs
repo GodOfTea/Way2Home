@@ -115,6 +115,14 @@ namespace Game
             else
                 _resultHandler.SetResultByLastEvent();
         }
+        
+        public void ShowNextEvent(string eventId)
+        {
+            if (_eventDispenser.HasNextEvent())
+                _view.ShowQuestion(_eventDispenser.GetNextEventById(eventId));
+            else
+                _resultHandler.SetResultByLastEvent();
+        }
 
         private void ShowResultVisual(ResultVisualData resultVisualData)
         {

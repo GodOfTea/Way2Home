@@ -6,13 +6,17 @@ namespace Main.Editor
 {
     public class CheatMenu : MonoBehaviour
     {
-        [SerializeField] private int _supplies;
-        [SerializeField] private int _people;
-        [SerializeField] private int _risk;
-        [SerializeField] private int _days;
+        private int _supplies;
+        private int _people;
+        private int _risk;
+        private int _days;
+
+        private string _eventIdInput = "Event_1";
+        private int _moraleInput = 50;
 
         private bool _isActivated;
         private IndicatorsBank _indicatorsBank;
+        private Game.Gameplay _gameplay;
 
         public void SetIndicatorsBank(IndicatorsBank indicatorsBank)
         {
@@ -25,6 +29,11 @@ namespace Main.Editor
             {
                 _isActivated = !_isActivated;
                 Debug.LogWarning("Cheat menu is " + (_isActivated ? "activated" : "deactivated"));
+
+                if (_isActivated)
+                {
+                    _gameplay = FindAnyObjectByType<Game.Gameplay>();
+                }
             }
             
             EventsInputs();
@@ -73,6 +82,77 @@ namespace Main.Editor
             {
                 //apply event result
             }
+        }
+
+        private void OnGUI()
+        {
+            if (!_isActivated) return;
+
+            GUILayout.BeginArea(new Rect(10, 10, 300, 400), GUI.skin.box);
+            GUILayout.Label("Cheat Menu (C to hide)");
+
+            GUILayout.Space(10);
+            GUILayout.Label("Indicators:");
+            
+            GUILayout.BeginHorizontal();
+            GUILayout.Label("People");
+            string peopleInput = GUILayout.TextField(_people.ToString(), GUILayout.Width(50));
+            int.TryParse(peopleInput, out _people);
+            GUILayout.EndHorizontal();
+
+            GUILayout.BeginHorizontal();
+            GUILayout.Label("Supplies");
+            string suppliesInput = GUILayout.TextField(_supplies.ToString(), GUILayout.Width(50));
+            int.TryParse(suppliesInput, out _supplies);
+            GUILayout.EndHorizontal();
+
+            GUILayout.BeginHorizontal();
+            GUILayout.Label("Risk");
+            string riskInput = GUILayout.TextField(_risk.ToString(), GUILayout.Width(50));
+            int.TryParse(riskInput, out _risk);
+            GUILayout.EndHorizontal();
+
+            GUILayout.BeginHorizontal();
+            GUILayout.Label("Days");
+            string daysInput = GUILayout.TextField(_days.ToString(), GUILayout.Width(50));
+            int.TryParse(daysInput, out _days);
+            GUILayout.EndHorizontal();
+
+            if (GUILayout.Button("Set Indicators"))
+            {
+                if (_indicatorsBank != null)
+                {
+                    _indicatorsBank.SetIndicatorValue(IndicatorType.People, _people);
+                    _indicatorsBank.SetIndicatorValue(IndicatorType.Supplies, _supplies);
+                    _indicatorsBank.SetIndicatorValue(IndicatorType.Risk, _risk);
+                    _indicatorsBank.SetIndicatorValue(IndicatorType.Days, _days);
+                    _indicatorsBank.SetIndicators();
+                }
+            }
+
+            GUILayout.Space(10);
+            GUILayout.Label("Morale:");
+            string moraleStr = GUILayout.TextField(_moraleInput.ToString(), GUILayout.Width(50));
+            int.TryParse(moraleStr, out _moraleInput);
+            if (GUILayout.Button("Set Morale"))
+            {
+                if (_indicatorsBank != null && _indicatorsBank.Moral != null)
+                {
+                    _indicatorsBank.Moral.SetNewMoralValue(_moraleInput);
+                    _indicatorsBank.SetIndicators();
+                }
+            }
+
+            GUILayout.Space(10);
+            GUILayout.Label("Run Event:");
+            _eventIdInput = GUILayout.TextField(_eventIdInput);
+            if (GUILayout.Button("Run Specific Event"))
+            {
+                _gameplay.ShowNextEvent(_eventIdInput);
+                Debug.Log($"Cheat: Trying to run event {_eventIdInput}");
+            }
+
+            GUILayout.EndArea();
         }
     }
 }
