@@ -655,484 +655,1444 @@ MonoBehaviour:
     m_Key: van_wait03
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479342211072
+    m_Key: minesTester01_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239070
     m_Key: minesTester01_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479405125632
+    m_Key: minesTester01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479405125633
+    m_Key: minesMiss02_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239071
     m_Key: minesMiss02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479405125634
+    m_Key: minesMiss02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479405125635
+    m_Key: minesExplode03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239072
     m_Key: minesExplode03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479405125636
+    m_Key: minesExplode03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479405125637
+    m_Key: girl_Leave01_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239073
     m_Key: girl_Leave01_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479405125638
+    m_Key: girl_Leave01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479405125639
+    m_Key: girl_Kill02_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239074
     m_Key: girl_Kill02_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479405125640
+    m_Key: girl_Kill02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479405125641
+    m_Key: girl_Soldier03_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239075
     m_Key: girl_Soldier03_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479405125642
+    m_Key: girl_Soldier03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479409319936
+    m_Key: bridge_Swim01_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239076
     m_Key: bridge_Swim01_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479409319937
+    m_Key: bridge_Swim01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479409319938
+    m_Key: bridge_Log02_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239077
     m_Key: bridge_Log02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479409319939
+    m_Key: bridge_Log02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479409319940
+    m_Key: bridge_Go03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239078
     m_Key: bridge_Go03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479409319941
+    m_Key: bridge_Go03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479409319942
+    m_Key: food_Take01_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239079
     m_Key: food_Take01_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479409319943
+    m_Key: food_Take01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479409319944
+    m_Key: food_Miss02_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239080
     m_Key: food_Miss02_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479409319945
+    m_Key: food_Miss02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479409319946
+    m_Key: food_Tester03_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239081
     m_Key: food_Tester03_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479409319947
+    m_Key: food_Tester03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479409319948
+    m_Key: village_Night01_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239082
     m_Key: village_Night01_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479409319949
+    m_Key: village_Night01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479409319950
+    m_Key: village_Miss02_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239083
     m_Key: village_Miss02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479409319951
+    m_Key: village_Miss02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479409319952
+    m_Key: village_Supplies03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239084
     m_Key: village_Supplies03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479409319953
+    m_Key: village_Supplies03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479409319954
+    m_Key: nervous_Change01_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239085
     m_Key: nervous_Change01_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479409319955
+    m_Key: nervous_Change01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479409319956
+    m_Key: nervous_Stay02_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239086
     m_Key: nervous_Stay02_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514240
+    m_Key: nervous_Stay02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514241
+    m_Key: nervous_Weapon03_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239087
     m_Key: nervous_Weapon03_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479413514242
+    m_Key: nervous_Weapon03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514243
+    m_Key: rainfall_Cover01_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239088
     m_Key: rainfall_Cover01_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514244
+    m_Key: rainfall_Cover01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514245
+    m_Key: rainfall_Go02_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239089
     m_Key: rainfall_Go02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479413514246
+    m_Key: rainfall_Go02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514247
+    m_Key: rainfall_Way03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239090
     m_Key: rainfall_Way03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514248
+    m_Key: rainfall_Way03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514249
+    m_Key: cold_Campfire01_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239091
     m_Key: cold_Campfire01_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479413514250
+    m_Key: cold_Campfire01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514251
+    m_Key: cold_Warm02_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239092
     m_Key: cold_Warm02_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514252
+    m_Key: cold_Warm02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514253
+    m_Key: cold_Food03_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239093
     m_Key: cold_Food03_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479413514254
+    m_Key: cold_Food03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514255
+    m_Key: disease_Leave01_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239094
     m_Key: disease_Leave01_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514256
+    m_Key: disease_Leave01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514257
+    m_Key: disease_Plants02_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239095
     m_Key: disease_Plants02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479413514258
+    m_Key: disease_Plants02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514259
+    m_Key: disease_Take03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239096
     m_Key: disease_Take03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514260
+    m_Key: disease_Take03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514261
+    m_Key: missed_Soldiers_Base01_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239097
     m_Key: missed_Soldiers_Base01_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479413514262
+    m_Key: missed_Soldiers_Base01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514263
+    m_Key: missed_Soldiers_Go02_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239098
     m_Key: missed_Soldiers_Go02_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514264
+    m_Key: missed_Soldiers_Go02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514265
+    m_Key: missed_Soldiers_Shoot03_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239099
     m_Key: missed_Soldiers_Shoot03_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479413514266
+    m_Key: missed_Soldiers_Shoot03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514267
+    m_Key: warehouse_Trap01_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239100
     m_Key: warehouse_Trap01_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514268
+    m_Key: warehouse_Trap01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514269
+    m_Key: warehouse_Miss02_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239101
     m_Key: warehouse_Miss02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479413514270
+    m_Key: warehouse_Miss02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514271
+    m_Key: warehouse_Fight03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239102
     m_Key: warehouse_Fight03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514272
+    m_Key: warehouse_Fight03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514273
+    m_Key: Way_base01_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239103
     m_Key: Way_base01_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479413514274
+    m_Key: Way_base01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479413514275
+    m_Key: Way_go02_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239104
     m_Key: Way_go02_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479421902848
+    m_Key: Way_go02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479421902849
+    m_Key: Way_climb03_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239105
     m_Key: Way_climb03_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479421902850
+    m_Key: Way_climb03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479421902851
+    m_Key: Leg_take01_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239106
     m_Key: Leg_take01_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479421902852
+    m_Key: Leg_take01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479421902853
+    m_Key: Leg_leave02_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239107
     m_Key: Leg_leave02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479421902854
+    m_Key: Leg_leave02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479421902855
+    m_Key: Leg_kill03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239108
     m_Key: Leg_kill03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479421902856
+    m_Key: Leg_kill03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479421902857
+    m_Key: Swamp_search01_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239109
     m_Key: Swamp_search01_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479421902858
+    m_Key: Swamp_search01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479421902859
+    m_Key: Swamp_go02_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239110
     m_Key: Swamp_go02_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479421902860
+    m_Key: Swamp_go02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479421902861
+    m_Key: Swamp_throw03_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239111
     m_Key: Swamp_throw03_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479421902862
+    m_Key: Swamp_throw03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479421902863
+    m_Key: Camp_wait01_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239112
     m_Key: Camp_wait01_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479421902864
+    m_Key: Camp_wait01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479421902865
+    m_Key: Camp_miss02_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239113
     m_Key: Camp_miss02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479421902866
+    m_Key: Camp_miss02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479421902867
+    m_Key: Camp_fight03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239114
     m_Key: Camp_fight03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479421902868
+    m_Key: Camp_fight03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479421902869
+    m_Key: Planes_cover01_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239115
     m_Key: Planes_cover01_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479421902870
+    m_Key: Planes_cover01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479421902871
+    m_Key: Planes_run02_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239116
     m_Key: Planes_run02_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479421902872
+    m_Key: Planes_run02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479421902873
+    m_Key: Planes_fight03_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239117
     m_Key: Planes_fight03_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479426097152
+    m_Key: Planes_fight03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479426097153
+    m_Key: Dogs_fight01_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239118
     m_Key: Dogs_fight01_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479426097154
+    m_Key: Dogs_fight01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479426097155
+    m_Key: Dogs_ran02_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239119
     m_Key: Dogs_ran02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479426097156
+    m_Key: Dogs_ran02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479426097157
+    m_Key: Dogs_trick03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239120
     m_Key: Dogs_trick03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479426097158
+    m_Key: Dogs_trick03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479426097159
+    m_Key: Fire_go01_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239121
     m_Key: Fire_go01_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479426097160
+    m_Key: Fire_go01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479426097161
+    m_Key: Fire_cover02_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239122
     m_Key: Fire_cover02_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479426097162
+    m_Key: Fire_cover02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479426097163
+    m_Key: Fire_miss03_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239123
     m_Key: Fire_miss03_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479426097164
+    m_Key: Fire_miss03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479426097165
+    m_Key: Burning_house_looting01_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239124
     m_Key: Burning_house_looting01_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479426097166
+    m_Key: Burning_house_looting01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479426097167
+    m_Key: Burning_house_miss02_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239125
     m_Key: Burning_house_miss02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479426097168
+    m_Key: Burning_house_miss02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479426097169
+    m_Key: Burning_house_fight03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239126
     m_Key: Burning_house_fight03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479426097170
+    m_Key: Burning_house_fight03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479426097171
+    m_Key: Running_people_invite01_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239127
     m_Key: Running_people_invite01_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479426097172
+    m_Key: Running_people_invite01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479430291456
+    m_Key: Running_people_leave02_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239128
     m_Key: Running_people_leave02_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479430291457
+    m_Key: Running_people_leave02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479430291458
+    m_Key: Running_people_exchange03_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239129
     m_Key: Running_people_exchange03_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479430291459
+    m_Key: Running_people_exchange03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479430291460
+    m_Key: Boars_fear01_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239130
     m_Key: Boars_fear01_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479430291461
+    m_Key: Boars_fear01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479430291462
+    m_Key: Boars_retreat02_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239131
     m_Key: Boars_retreat02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479430291463
+    m_Key: Boars_retreat02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479430291464
+    m_Key: Boars_fight03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239132
     m_Key: Boars_fight03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479430291465
+    m_Key: Boars_fight03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479430291466
+    m_Key: Crosses_buried01_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239133
     m_Key: Crosses_buried01_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479430291467
+    m_Key: Crosses_buried01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479430291468
+    m_Key: Crosses_miss02_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239134
     m_Key: Crosses_miss02_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479430291469
+    m_Key: Crosses_miss02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479430291470
+    m_Key: Crosses_check03_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239135
     m_Key: Crosses_check03_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479430291471
+    m_Key: Crosses_check03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479430291472
+    m_Key: Farm_find01_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239136
     m_Key: Farm_find01_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479430291473
+    m_Key: Farm_find01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479430291474
+    m_Key: Farm_go02_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239137
     m_Key: Farm_go02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479430291475
+    m_Key: Farm_go02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479430291476
+    m_Key: Farm_crowd03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239138
     m_Key: Farm_crowd03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479430291477
+    m_Key: Farm_crowd03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479430291478
+    m_Key: Injured_soldier_helped01_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239139
     m_Key: Injured_soldier_helped01_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479430291479
+    m_Key: Injured_soldier_helped01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479430291480
+    m_Key: Injured_soldier_stay02_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239140
     m_Key: Injured_soldier_stay02_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479434485760
+    m_Key: Injured_soldier_stay02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479434485761
+    m_Key: Injured_soldier_killed03_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239141
     m_Key: Injured_soldier_killed03_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479434485762
+    m_Key: Injured_soldier_killed03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479434485763
+    m_Key: Snipers_wait01_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239142
     m_Key: Snipers_wait01_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479434485764
+    m_Key: Snipers_wait01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479434485765
+    m_Key: Snipers_attack02_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239143
     m_Key: Snipers_attack02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479434485766
+    m_Key: Snipers_attack02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479434485767
+    m_Key: Snipers_gift03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239144
     m_Key: Snipers_gift03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479434485768
+    m_Key: Snipers_gift03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479434485769
+    m_Key: Fog_go01_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239145
     m_Key: Fog_go01_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479434485770
+    m_Key: Fog_go01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479434485771
+    m_Key: Fog_wait02_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239146
     m_Key: Fog_wait02_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479434485772
+    m_Key: Fog_wait02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479434485773
+    m_Key: Fog_check03_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239147
     m_Key: Fog_check03_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479434485774
+    m_Key: Fog_check03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479434485775
+    m_Key: Saboteur_raid01_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239148
     m_Key: Saboteur_raid01_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479434485776
+    m_Key: Saboteur_raid01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479434485777
+    m_Key: Saboteur_deny02_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239149
     m_Key: Saboteur_deny02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479434485778
+    m_Key: Saboteur_deny02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479434485779
+    m_Key: Saboteur_exchange03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239150
     m_Key: Saboteur_exchange03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479434485780
+    m_Key: Saboteur_exchange03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479434485781
+    m_Key: Rockets_stay01_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239151
     m_Key: Rockets_stay01_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479438680064
+    m_Key: Rockets_stay01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479438680065
+    m_Key: Rockets_go02_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239152
     m_Key: Rockets_go02_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479438680066
+    m_Key: Rockets_go02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479438680067
+    m_Key: Rocket_check03_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239153
     m_Key: Rocket_check03_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479438680068
+    m_Key: Rocket_check03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479438680069
+    m_Key: Mother_take01_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239154
     m_Key: Mother_take01_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479438680070
+    m_Key: Mother_take01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479438680071
+    m_Key: Mother_killed02_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239155
     m_Key: Mother_killed02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479438680072
+    m_Key: Mother_killed02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479438680073
+    m_Key: Mother_asked03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239156
     m_Key: Mother_asked03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479438680074
+    m_Key: Mother_asked03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479438680075
+    m_Key: Deserter_killed01_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239157
     m_Key: Deserter_killed01_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479438680076
+    m_Key: Deserter_killed01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479438680077
+    m_Key: deserter_leave02_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239158
     m_Key: deserter_leave02_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479438680078
+    m_Key: deserter_leave02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479438680079
+    m_Key: deserter_stay03_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239159
     m_Key: deserter_stay03_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479438680080
+    m_Key: deserter_stay03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479438680081
+    m_Key: bodies_buried01_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239160
     m_Key: bodies_buried01_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479438680082
+    m_Key: bodies_buried01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874368
+    m_Key: bodies_miss02_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239161
     m_Key: bodies_miss02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479442874369
+    m_Key: bodies_miss02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874370
+    m_Key: bodies_ceremony03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239162
     m_Key: bodies_ceremony03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874371
+    m_Key: bodies_ceremony03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874372
+    m_Key: radio_used01_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239163
     m_Key: radio_used01_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479442874373
+    m_Key: radio_used01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874374
+    m_Key: radio_destroyed02_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239164
     m_Key: radio_destroyed02_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874375
+    m_Key: radio_destroyed02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874376
+    m_Key: radio_miss03_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239165
     m_Key: radio_miss03_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479442874377
+    m_Key: radio_miss03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874378
+    m_Key: stealer_killed01_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239166
     m_Key: stealer_killed01_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874379
+    m_Key: stealer_killed01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874380
+    m_Key: stealer_gift02_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239167
     m_Key: stealer_gift02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479442874381
+    m_Key: stealer_gift02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874382
+    m_Key: stealer_leave03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239168
     m_Key: stealer_leave03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874383
+    m_Key: stealer_leave03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874384
+    m_Key: friend_go01_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239169
     m_Key: friend_go01_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479442874385
+    m_Key: friend_go01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874386
+    m_Key: friend_stay02_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239170
     m_Key: friend_stay02_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874387
+    m_Key: friend_stay02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874388
+    m_Key: friend_check03_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239171
     m_Key: friend_check03_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479442874389
+    m_Key: friend_check03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874390
+    m_Key: lost_stay01_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239172
     m_Key: lost_stay01_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874391
+    m_Key: lost_stay01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874392
+    m_Key: lost_search02_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239173
     m_Key: lost_search02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479442874393
+    m_Key: lost_search02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874394
+    m_Key: lost_leave03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239174
     m_Key: lost_leave03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874395
+    m_Key: lost_leave03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874396
+    m_Key: tank_attack01_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239175
     m_Key: tank_attack01_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479442874397
+    m_Key: tank_attack01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479442874398
+    m_Key: tank_miss02_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239176
     m_Key: tank_miss02_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479447068672
+    m_Key: tank_miss02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479447068673
+    m_Key: tank_materials03_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239177
     m_Key: tank_materials03_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479447068674
+    m_Key: tank_materials03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479447068675
+    m_Key: riverfight_cover01_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239178
     m_Key: riverfight_cover01_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479447068676
+    m_Key: riverfight_cover01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479447068677
+    m_Key: riverfight_run02_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239179
     m_Key: riverfight_run02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479447068678
+    m_Key: riverfight_run02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479447068679
+    m_Key: riverfight_back03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239180
     m_Key: riverfight_back03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479447068680
+    m_Key: riverfight_back03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479447068681
+    m_Key: box_take01_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239181
     m_Key: box_take01_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479447068682
+    m_Key: box_take01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479447068683
+    m_Key: box_miss02_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239182
     m_Key: box_miss02_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479447068684
+    m_Key: box_miss02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479447068685
+    m_Key: box_wait03_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239183
     m_Key: box_wait03_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479447068686
+    m_Key: box_wait03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479447068687
+    m_Key: prisoners_take01_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239184
     m_Key: prisoners_take01_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479447068688
+    m_Key: prisoners_take01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479447068689
+    m_Key: prisoners_shooted02_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239185
     m_Key: prisoners_shooted02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479447068690
+    m_Key: prisoners_shooted02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479447068691
+    m_Key: prisoners_murdered03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239186
     m_Key: prisoners_murdered03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479447068692
+    m_Key: prisoners_murdered03_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479447068693
+    m_Key: van_fight01_result_plus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239187
     m_Key: van_fight01_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479447068694
+    m_Key: van_fight01_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479451262976
+    m_Key: van_delayed02_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239188
     m_Key: van_delayed02_result
     m_Metadata:
       m_Items: []
+  - m_Id: 153648479451262977
+    m_Key: van_delayed02_result_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479451262978
+    m_Key: van_wait03_result_plus
+    m_Metadata:
+      m_Items: []
   - m_Id: 1730899239189
     m_Key: van_wait03_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153648479451262979
+    m_Key: van_wait03_result_minus
     m_Metadata:
       m_Items: []
   - m_Id: 1730899239190

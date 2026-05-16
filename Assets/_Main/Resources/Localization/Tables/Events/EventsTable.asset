@@ -18,10 +18,44 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6f8550039a5b6ee439f74d8ce58be585, type: 2}
   m_Extensions:
   - rid: 1852385045973565441
+  - rid: 1534665424147841030
   m_Group: String Table
   references:
     version: 2
     RefIds:
+    - rid: 1534665424147841030
+      type: {class: CsvExtension, ns: UnityEditor.Localization.Plugins.CSV, asm: Unity.Localization.Editor}
+      data:
+        m_Collection: {fileID: 11400000}
+        m_ColumnsList:
+        - rid: 1534665424147841031
+        - rid: 1534665424147841032
+        - rid: 1534665424147841033
+        m_ConnectedFile: C:/Users/gilmetdinov.k/Downloads/EventsStringDictionary.csv
+    - rid: 1534665424147841031
+      type: {class: KeyIdColumns, ns: UnityEditor.Localization.Plugins.CSV.Columns, asm: Unity.Localization.Editor}
+      data:
+        m_IncludeId: 0
+        m_IncludeSharedComments: 0
+        m_KeyFieldName: Key
+        m_IdFieldName: Id
+        m_CommentFieldName: Shared Comments
+    - rid: 1534665424147841032
+      type: {class: LocaleColumns, ns: UnityEditor.Localization.Plugins.CSV.Columns, asm: Unity.Localization.Editor}
+      data:
+        m_LocaleIdentifier:
+          m_Code: en-EN
+        m_FieldName: English (en)
+        m_CommentFieldName: English(en-EN) Comments
+        m_IncludeComments: 0
+    - rid: 1534665424147841033
+      type: {class: LocaleColumns, ns: UnityEditor.Localization.Plugins.CSV.Columns, asm: Unity.Localization.Editor}
+      data:
+        m_LocaleIdentifier:
+          m_Code: ru-RU
+        m_FieldName: Russian (ru)
+        m_CommentFieldName: Russian (Russia)(ru-RU) Comments
+        m_IncludeComments: 0
     - rid: 1852385045973565441
       type: {class: GoogleSheetsExtension, ns: UnityEditor.Localization.Plugins.Google, asm: Unity.Localization.Editor}
       data:
@@ -31,8 +65,8 @@ MonoBehaviour:
         m_SheetId: 1729202995
         m_Columns:
         - rid: 1852385045973565444
-        - rid: 1852385045973565445
         - rid: 1852385045973565446
+        - rid: 1852385045973565445
         m_RemoveMissingPulledKeys: 1
     - rid: 1852385045973565444
       type: {class: KeyColumn, ns: UnityEditor.Localization.Plugins.Google.Columns, asm: Unity.Localization.Editor}

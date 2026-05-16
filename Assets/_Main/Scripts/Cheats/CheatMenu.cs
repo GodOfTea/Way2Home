@@ -88,7 +88,7 @@ namespace Main.Editor
         {
             if (!_isActivated) return;
 
-            GUILayout.BeginArea(new Rect(10, 10, 300, 400), GUI.skin.box);
+            GUILayout.BeginArea(new Rect(10, 10, 450, 600), GUI.skin.box);
             GUILayout.Label("Cheat Menu (C to hide)");
 
             GUILayout.Space(10);
@@ -97,25 +97,25 @@ namespace Main.Editor
             GUILayout.BeginHorizontal();
             GUILayout.Label("People");
             string peopleInput = GUILayout.TextField(_people.ToString(), GUILayout.Width(50));
-            int.TryParse(peopleInput, out _people);
+            if (peopleInput != "-" && int.TryParse(peopleInput, out int p)) _people = p;
             GUILayout.EndHorizontal();
 
             GUILayout.BeginHorizontal();
             GUILayout.Label("Supplies");
             string suppliesInput = GUILayout.TextField(_supplies.ToString(), GUILayout.Width(50));
-            int.TryParse(suppliesInput, out _supplies);
+            if (suppliesInput != "-" && int.TryParse(suppliesInput, out int s)) _supplies = s;
             GUILayout.EndHorizontal();
 
             GUILayout.BeginHorizontal();
             GUILayout.Label("Risk");
             string riskInput = GUILayout.TextField(_risk.ToString(), GUILayout.Width(50));
-            int.TryParse(riskInput, out _risk);
+            if (riskInput != "-" && int.TryParse(riskInput, out int r)) _risk = r;
             GUILayout.EndHorizontal();
 
             GUILayout.BeginHorizontal();
             GUILayout.Label("Days");
             string daysInput = GUILayout.TextField(_days.ToString(), GUILayout.Width(50));
-            int.TryParse(daysInput, out _days);
+            if (daysInput != "-" && int.TryParse(daysInput, out int d)) _days = d;
             GUILayout.EndHorizontal();
 
             if (GUILayout.Button("Set Indicators"))
@@ -133,7 +133,7 @@ namespace Main.Editor
             GUILayout.Space(10);
             GUILayout.Label("Morale:");
             string moraleStr = GUILayout.TextField(_moraleInput.ToString(), GUILayout.Width(50));
-            int.TryParse(moraleStr, out _moraleInput);
+            if (moraleStr != "-" && int.TryParse(moraleStr, out int m)) _moraleInput = m;
             if (GUILayout.Button("Set Morale"))
             {
                 if (_indicatorsBank != null && _indicatorsBank.Moral != null)
