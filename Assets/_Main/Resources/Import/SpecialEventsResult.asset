@@ -1,0 +1,286 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4896366709424211119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: Bunker_trick03_result
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Arr":[{"MoraleStatus":1,"ImagePathAnswer":"Result/5_3","OptionEndingKey":"Bunker_trick03_result","Morale":0,"People":0,"Supplies":0,"Risk":0,"Days":-1},{"MoraleStatus":0,"ImagePathAnswer":"Result/5_3","OptionEndingKey":"Bunker_trick03_result","Morale":0,"People":0,"Supplies":0,"Risk":0,"Days":-1},{"MoraleStatus":-1,"ImagePathAnswer":"Result/5_3","OptionEndingKey":"Bunker_trick03_result","Morale":0,"People":0,"Supplies":0,"Risk":0,"Days":-1}],"Id":"Bunker_trick03_result"}'
+  references: []
+--- !u!114 &-4335298472258178765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: Hunt_miss02_result
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Arr":[{"MoraleStatus":1,"ImagePathAnswer":"Result/4_2","OptionEndingKey":"Hunt_miss02_result","Morale":0,"People":0,"Supplies":0,"Risk":0,"Days":-1},{"MoraleStatus":0,"ImagePathAnswer":"Result/4_2","OptionEndingKey":"Hunt_miss02_result","Morale":0,"People":0,"Supplies":0,"Risk":0,"Days":-1},{"MoraleStatus":-1,"ImagePathAnswer":"Result/4_2","OptionEndingKey":"Hunt_miss02_result","Morale":0,"People":0,"Supplies":0,"Risk":0,"Days":-1}],"Id":"Hunt_miss02_result"}'
+  references: []
+--- !u!114 &-3171163561997404281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: Hunt_small01_result
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Arr":[{"MoraleStatus":1,"ImagePathAnswer":"Result/4_1","OptionEndingKey":"Hunt_small01_result","Morale":1,"People":0,"Supplies":5,"Risk":1,"Days":0},{"MoraleStatus":0,"ImagePathAnswer":"Result/4_1","OptionEndingKey":"Hunt_small01_result","Morale":1,"People":0,"Supplies":5,"Risk":1,"Days":0},{"MoraleStatus":-1,"ImagePathAnswer":"Result/4_1","OptionEndingKey":"Hunt_small01_result","Morale":1,"People":0,"Supplies":5,"Risk":1,"Days":0}],"Id":"Hunt_small01_result"}'
+  references: []
+--- !u!114 &-2892116449884435161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: Distraction_fire02_result
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Arr":[{"MoraleStatus":1,"ImagePathAnswer":"Result/2_2","OptionEndingKey":"Distraction_fire02_result","Morale":0,"People":-1,"Supplies":-3,"Risk":-6,"Days":0},{"MoraleStatus":0,"ImagePathAnswer":"Result/2_2","OptionEndingKey":"Distraction_fire02_result","Morale":0,"People":-1,"Supplies":-3,"Risk":-6,"Days":0},{"MoraleStatus":-1,"ImagePathAnswer":"Result/2_2","OptionEndingKey":"Distraction_fire02_result","Morale":0,"People":-1,"Supplies":-3,"Risk":-6,"Days":0}],"Id":"Distraction_fire02_result"}'
+  references: []
+--- !u!114 &-819727237162671026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: Water_go01_result
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Arr":[{"MoraleStatus":1,"ImagePathAnswer":"Result/3_1","OptionEndingKey":"Water_go01_result","Morale":1,"People":0,"Supplies":8,"Risk":0,"Days":1},{"MoraleStatus":0,"ImagePathAnswer":"Result/3_1","OptionEndingKey":"Water_go01_result","Morale":1,"People":0,"Supplies":8,"Risk":0,"Days":1},{"MoraleStatus":-1,"ImagePathAnswer":"Result/3_1","OptionEndingKey":"Water_go01_result","Morale":1,"People":0,"Supplies":8,"Risk":0,"Days":1}],"Id":"Water_go01_result"}'
+  references: []
+--- !u!114 &-602844714650441850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: conflict_solved01_result
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Arr":[{"MoraleStatus":1,"ImagePathAnswer":"Result/6_1","OptionEndingKey":"conflict_solved01_result","Morale":0,"People":0,"Supplies":-1,"Risk":0,"Days":-1},{"MoraleStatus":0,"ImagePathAnswer":"Result/6_1","OptionEndingKey":"conflict_solved01_result","Morale":0,"People":0,"Supplies":-1,"Risk":0,"Days":-1},{"MoraleStatus":-1,"ImagePathAnswer":"Result/6_1","OptionEndingKey":"conflict_solved01_result","Morale":0,"People":0,"Supplies":-1,"Risk":0,"Days":-1}],"Id":"conflict_solved01_result"}'
+  references: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c9f16a815c438f9dbeaa7d721117d9, type: 3}
+  m_Name: SpecialEventsResult
+  m_EditorClassIdentifier: 
+  rows:
+  - {fileID: 2316271107740887889}
+  - {fileID: 6569925492898624143}
+  - {fileID: 6580388473602914309}
+  - {fileID: 4326675049139300389}
+  - {fileID: -2892116449884435161}
+  - {fileID: 2172281708590323084}
+  - {fileID: -819727237162671026}
+  - {fileID: 2965135857589503235}
+  - {fileID: 5441117795094803734}
+  - {fileID: -3171163561997404281}
+  - {fileID: -4335298472258178765}
+  - {fileID: 2672754660113548800}
+  - {fileID: 5401116410757164485}
+  - {fileID: 4976200705287976020}
+  - {fileID: -4896366709424211119}
+  - {fileID: -602844714650441850}
+  - {fileID: 1959398538083637117}
+  - {fileID: 3111338671280128994}
+  typeInfo: Editor.GoogleDataImporter.EventsResult+Row
+--- !u!114 &1959398538083637117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: conflict_lose02_result
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Arr":[{"MoraleStatus":1,"ImagePathAnswer":"Result/6_2","OptionEndingKey":"conflict_lose02_result","Morale":0,"People":-99,"Supplies":0,"Risk":0,"Days":0},{"MoraleStatus":0,"ImagePathAnswer":"Result/6_2","OptionEndingKey":"conflict_lose02_result","Morale":0,"People":-99,"Supplies":0,"Risk":0,"Days":0},{"MoraleStatus":-1,"ImagePathAnswer":"Result/6_2","OptionEndingKey":"conflict_lose02_result","Morale":0,"People":-99,"Supplies":0,"Risk":0,"Days":0}],"Id":"conflict_lose02_result"}'
+  references: []
+--- !u!114 &2172281708590323084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: Distraction_miss03_result
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Arr":[{"MoraleStatus":1,"ImagePathAnswer":"Result/2_3","OptionEndingKey":"Distraction_miss03_result","Morale":-1,"People":0,"Supplies":0,"Risk":0,"Days":-1},{"MoraleStatus":0,"ImagePathAnswer":"Result/2_3","OptionEndingKey":"Distraction_miss03_result","Morale":-1,"People":0,"Supplies":0,"Risk":0,"Days":-1},{"MoraleStatus":-1,"ImagePathAnswer":"Result/2_3","OptionEndingKey":"Distraction_miss03_result","Morale":-1,"People":0,"Supplies":0,"Risk":0,"Days":-1}],"Id":"Distraction_miss03_result"}'
+  references: []
+--- !u!114 &2316271107740887889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: fake_way_big01_result
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Arr":[{"MoraleStatus":1,"ImagePathAnswer":"Result/1_1","OptionEndingKey":"fake_way_big01_result","Morale":1,"People":0,"Supplies":-1,"Risk":-3,"Days":0},{"MoraleStatus":0,"ImagePathAnswer":"Result/1_1","OptionEndingKey":"fake_way_big01_result","Morale":1,"People":0,"Supplies":-1,"Risk":-3,"Days":0},{"MoraleStatus":-1,"ImagePathAnswer":"Result/1_1","OptionEndingKey":"fake_way_big01_result","Morale":1,"People":0,"Supplies":-1,"Risk":-3,"Days":0}],"Id":"fake_way_big01_result"}'
+  references: []
+--- !u!114 &2672754660113548800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: Hunt_all03_result
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Arr":[{"MoraleStatus":1,"ImagePathAnswer":"Result/4_3","OptionEndingKey":"Hunt_all03_result","Morale":2,"People":0,"Supplies":12,"Risk":2,"Days":1},{"MoraleStatus":0,"ImagePathAnswer":"Result/4_3","OptionEndingKey":"Hunt_all03_result","Morale":2,"People":0,"Supplies":12,"Risk":2,"Days":1},{"MoraleStatus":-1,"ImagePathAnswer":"Result/4_3","OptionEndingKey":"Hunt_all03_result","Morale":2,"People":0,"Supplies":12,"Risk":2,"Days":1}],"Id":"Hunt_all03_result"}'
+  references: []
+--- !u!114 &2965135857589503235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: Water_miss02_result
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Arr":[{"MoraleStatus":1,"ImagePathAnswer":"Result/3_2","OptionEndingKey":"Water_miss02_result","Morale":0,"People":0,"Supplies":0,"Risk":0,"Days":-1},{"MoraleStatus":0,"ImagePathAnswer":"Result/3_2","OptionEndingKey":"Water_miss02_result","Morale":0,"People":0,"Supplies":0,"Risk":0,"Days":-1},{"MoraleStatus":-1,"ImagePathAnswer":"Result/3_2","OptionEndingKey":"Water_miss02_result","Morale":0,"People":0,"Supplies":0,"Risk":0,"Days":-1}],"Id":"Water_miss02_result"}'
+  references: []
+--- !u!114 &3111338671280128994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: conflict_shared03_result
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Arr":[{"MoraleStatus":1,"ImagePathAnswer":"Result/6_3","OptionEndingKey":"conflict_shared03_result","Morale":0,"People":-1000,"Supplies":-1000,"Risk":-3,"Days":-1},{"MoraleStatus":0,"ImagePathAnswer":"Result/6_3","OptionEndingKey":"conflict_shared03_result","Morale":0,"People":-1000,"Supplies":-1000,"Risk":-3,"Days":-1},{"MoraleStatus":-1,"ImagePathAnswer":"Result/6_3","OptionEndingKey":"conflict_shared03_result","Morale":0,"People":-1000,"Supplies":-1000,"Risk":-3,"Days":-1}],"Id":"conflict_shared03_result"}'
+  references: []
+--- !u!114 &4326675049139300389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: Distraction_grenade01_result
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Arr":[{"MoraleStatus":1,"ImagePathAnswer":"Result/2_1","OptionEndingKey":"Distraction_grenade01_result","Morale":1,"People":0,"Supplies":-1,"Risk":-2,"Days":-1},{"MoraleStatus":0,"ImagePathAnswer":"Result/2_1","OptionEndingKey":"Distraction_grenade01_result","Morale":1,"People":0,"Supplies":-1,"Risk":-2,"Days":-1},{"MoraleStatus":-1,"ImagePathAnswer":"Result/2_1","OptionEndingKey":"Distraction_grenade01_result","Morale":1,"People":0,"Supplies":-1,"Risk":-2,"Days":-1}],"Id":"Distraction_grenade01_result"}'
+  references: []
+--- !u!114 &4976200705287976020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: Bunker_miss02_result
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Arr":[{"MoraleStatus":1,"ImagePathAnswer":"Result/5_2","OptionEndingKey":"Bunker_miss02_result","Morale":0,"People":0,"Supplies":-2,"Risk":1,"Days":4},{"MoraleStatus":0,"ImagePathAnswer":"Result/5_2","OptionEndingKey":"Bunker_miss02_result","Morale":0,"People":0,"Supplies":-2,"Risk":1,"Days":4},{"MoraleStatus":-1,"ImagePathAnswer":"Result/5_2","OptionEndingKey":"Bunker_miss02_result","Morale":0,"People":0,"Supplies":-2,"Risk":1,"Days":4}],"Id":"Bunker_miss02_result"}'
+  references: []
+--- !u!114 &5401116410757164485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: Bunker_attack01_result
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Arr":[{"MoraleStatus":1,"ImagePathAnswer":"Result/5_1","OptionEndingKey":"Bunker_attack01_result","Morale":0,"People":-7,"Supplies":0,"Risk":0,"Days":-1},{"MoraleStatus":0,"ImagePathAnswer":"Result/5_1","OptionEndingKey":"Bunker_attack01_result","Morale":0,"People":-7,"Supplies":0,"Risk":0,"Days":-1},{"MoraleStatus":-1,"ImagePathAnswer":"Result/5_1","OptionEndingKey":"Bunker_attack01_result","Morale":0,"People":-7,"Supplies":0,"Risk":0,"Days":-1}],"Id":"Bunker_attack01_result"}'
+  references: []
+--- !u!114 &5441117795094803734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: Water_small03_result
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Arr":[{"MoraleStatus":1,"ImagePathAnswer":"Result/3_3","OptionEndingKey":"Water_small03_result","Morale":1,"People":0,"Supplies":4,"Risk":0,"Days":0},{"MoraleStatus":0,"ImagePathAnswer":"Result/3_3","OptionEndingKey":"Water_small03_result","Morale":1,"People":0,"Supplies":4,"Risk":0,"Days":0},{"MoraleStatus":-1,"ImagePathAnswer":"Result/3_3","OptionEndingKey":"Water_small03_result","Morale":1,"People":0,"Supplies":4,"Risk":0,"Days":0}],"Id":"Water_small03_result"}'
+  references: []
+--- !u!114 &6569925492898624143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: fake_way_deny02_result
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Arr":[{"MoraleStatus":1,"ImagePathAnswer":"Result/1_2","OptionEndingKey":"fake_way_deny02_result","Morale":0,"People":-1,"Supplies":0,"Risk":-2,"Days":-2},{"MoraleStatus":0,"ImagePathAnswer":"Result/1_2","OptionEndingKey":"fake_way_deny02_result","Morale":0,"People":-1,"Supplies":0,"Risk":-2,"Days":-2},{"MoraleStatus":-1,"ImagePathAnswer":"Result/1_2","OptionEndingKey":"fake_way_deny02_result","Morale":0,"People":-1,"Supplies":0,"Risk":-2,"Days":-2}],"Id":"fake_way_deny02_result"}'
+  references: []
+--- !u!114 &6580388473602914309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cef8d0045424afb8f94c1e6798e096, type: 3}
+  m_Name: fake_way_small03_result
+  m_EditorClassIdentifier: 
+  serializedRow: '{"Arr":[{"MoraleStatus":1,"ImagePathAnswer":"Result/1_3","OptionEndingKey":"fake_way_small03_result","Morale":1,"People":-1,"Supplies":0,"Risk":-2,"Days":-2},{"MoraleStatus":0,"ImagePathAnswer":"Result/1_3","OptionEndingKey":"fake_way_small03_result","Morale":1,"People":-1,"Supplies":0,"Risk":-2,"Days":-2},{"MoraleStatus":-1,"ImagePathAnswer":"Result/1_3","OptionEndingKey":"fake_way_small03_result","Morale":1,"People":-1,"Supplies":0,"Risk":-2,"Days":-2}],"Id":"fake_way_small03_result"}'
+  references: []

@@ -1,5 +1,6 @@
 ﻿using Cathei.BakingSheet;
 using Microsoft.Extensions.Logging;
+using UnityEditor.PackageManager;
 
 namespace Editor.GoogleDataImporter
 {
@@ -8,8 +9,9 @@ namespace Editor.GoogleDataImporter
         public SheetContainer(ILogger logger) : base(logger) { }
         
         public EventSheet Events { get; private set; }
-        public EventsResult EventsResult { get; private set; }
         public EventSheet SpecialEvents { get; private set; }
+        public EventsResult EventsResult { get; private set; }
+        public EventsResult SpecialEventsResult { get; private set; }
         public GameResult GameResult { get; private set; }
     }
 }

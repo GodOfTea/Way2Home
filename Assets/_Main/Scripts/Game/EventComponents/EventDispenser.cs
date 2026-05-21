@@ -129,14 +129,14 @@ namespace EventComponents
             _currentEventIsSpecial = false;
             //TODO: проработать спец. ивенты с моралью и как они держаться в базе данных
             
-            // _specialEventsHandler.ReduceTimerOnEvents();
-            //
-            // /* Проверка, нужен ли спец. ивент, потому что одно из значений в ред зоне */
-            // if (TryGetSpecialEvent(out nextEvent))
-            // {
-            //     _currentEventIsSpecial = true;
-            //     return nextEvent;
-            // }
+            _specialEventsHandler.ReduceTimerOnEvents();
+            
+            /* Проверка, нужен ли спец. ивент, потому что одно из значений в ред зоне */
+            if (TryGetSpecialEvent(out nextEvent))
+            {
+                _currentEventIsSpecial = true;
+                return nextEvent;
+            }
 
             /* В обычном случае мы берем случайный ивент из стандартных */
             nextEvent = DictionaryExtensions.GetRandom(_possibleEvents);

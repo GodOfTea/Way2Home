@@ -1501,50 +1501,6 @@ MonoBehaviour:
   - _id: way012
     _eventImage: {fileID: 21300000, guid: 1bc385906b0796947a8729382b32bceb, type: 3}
     _options:
-    - _id: Way_climb03
-      _results:
-      - _id: Way_climb03_result_plus
-        _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: 6d99130d7b1cca6429e0e4df06187de5, type: 3}
-        _moraleChange: 0
-        _indicatorsKeeper:
-          _indicators:
-          - Type: 0
-            Value: 0
-          - Type: 1
-            Value: -1
-          - Type: 2
-            Value: 0
-          - Type: 3
-            Value: -1
-      - _id: Way_climb03_result
-        _moraleStatus: 0
-        _resultImage: {fileID: 21300000, guid: 6d99130d7b1cca6429e0e4df06187de5, type: 3}
-        _moraleChange: 0
-        _indicatorsKeeper:
-          _indicators:
-          - Type: 0
-            Value: 0
-          - Type: 1
-            Value: -1
-          - Type: 2
-            Value: 0
-          - Type: 3
-            Value: -1
-      - _id: Way_climb03_result_minus
-        _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: 6d99130d7b1cca6429e0e4df06187de5, type: 3}
-        _moraleChange: 0
-        _indicatorsKeeper:
-          _indicators:
-          - Type: 0
-            Value: 0
-          - Type: 1
-            Value: -1
-          - Type: 2
-            Value: 0
-          - Type: 3
-            Value: -1
     - _id: Way_base01
       _results:
       - _id: Way_base01_result_plus
@@ -1633,6 +1589,50 @@ MonoBehaviour:
             Value: 1
           - Type: 3
             Value: 1
+    - _id: Way_climb03
+      _results:
+      - _id: Way_climb03_result_plus
+        _moraleStatus: 1
+        _resultImage: {fileID: 21300000, guid: 6d99130d7b1cca6429e0e4df06187de5, type: 3}
+        _moraleChange: 0
+        _indicatorsKeeper:
+          _indicators:
+          - Type: 0
+            Value: 0
+          - Type: 1
+            Value: -1
+          - Type: 2
+            Value: 0
+          - Type: 3
+            Value: -1
+      - _id: Way_climb03_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 21300000, guid: 6d99130d7b1cca6429e0e4df06187de5, type: 3}
+        _moraleChange: 0
+        _indicatorsKeeper:
+          _indicators:
+          - Type: 0
+            Value: 0
+          - Type: 1
+            Value: -1
+          - Type: 2
+            Value: 0
+          - Type: 3
+            Value: -1
+      - _id: Way_climb03_result_minus
+        _moraleStatus: -1
+        _resultImage: {fileID: 21300000, guid: 6d99130d7b1cca6429e0e4df06187de5, type: 3}
+        _moraleChange: 0
+        _indicatorsKeeper:
+          _indicators:
+          - Type: 0
+            Value: 0
+          - Type: 1
+            Value: -1
+          - Type: 2
+            Value: 0
+          - Type: 3
+            Value: -1
   - _id: leg013
     _eventImage: {fileID: 21300000, guid: c940faaf51a844f4ea1a3e8286092086, type: 3}
     _options:
@@ -5418,24 +5418,34 @@ MonoBehaviour:
     _eventIndicator: 2
     _eventReloadTime: 6
     _event:
-      asset: {fileID: -6009237695760366884, guid: 80ad56cd4551c784196805d26db70970, type: 2}
+      _id: 
+      _eventImage: {fileID: 0}
+      _options: []
   - _name: Distraction
     _eventIndicator: 2
     _eventReloadTime: 6
     _event:
-      asset: {fileID: -7642442209097179213, guid: 80ad56cd4551c784196805d26db70970, type: 2}
+      _id: 
+      _eventImage: {fileID: 0}
+      _options: []
   - _name: Water
     _eventIndicator: 1
     _eventReloadTime: 8
     _event:
-      asset: {fileID: -432635109723071736, guid: 80ad56cd4551c784196805d26db70970, type: 2}
+      _id: 
+      _eventImage: {fileID: 0}
+      _options: []
   - _name: Hunt
     _eventIndicator: 1
     _eventReloadTime: 8
     _event:
-      asset: {fileID: 459800138016433903, guid: 80ad56cd4551c784196805d26db70970, type: 2}
+      _id: 
+      _eventImage: {fileID: 0}
+      _options: []
   - _name: Conflict
     _eventIndicator: 0
     _eventReloadTime: 99
     _event:
-      asset: {fileID: 1600318611908056647, guid: 80ad56cd4551c784196805d26db70970, type: 2}
+      _id: 
+      _eventImage: {fileID: 0}
+      _options: []

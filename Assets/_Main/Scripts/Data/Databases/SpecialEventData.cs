@@ -1,8 +1,7 @@
 ﻿using System;
-using Cathei.BakingSheet;
-using Editor.GoogleDataImporter;
 using Enumeration;
 using UnityEngine;
+using Event = EventComponents.Event;
 
 namespace Data
 {
@@ -12,10 +11,15 @@ namespace Data
         [SerializeField] private string _name;
         [SerializeField] private IndicatorType _eventIndicator;
         [SerializeField] private int _eventReloadTime;
-        [SerializeField] private EventSheet.Reference _event;
+        [SerializeField] private Event _event;
 
         public IndicatorType EventIndicator => _eventIndicator;
         public int EventReloadTime => _eventReloadTime;
-        public Sheet<string, EventSheet.Row>.Reference Event => _event;
+        public Event Event => _event;
+        
+        public void SetEvent(Event e)
+        {
+            _event = e;
+        }
     }
 }

@@ -15,8 +15,9 @@ namespace EventComponents
             
             foreach (var data in eventsDatabase.SpecialEvents)
             {
-                _groups.TryAdd(data.EventIndicator, new SpecialEventGroup());
-                
+                // _groups.TryAdd(data.EventIndicator, new SpecialEventGroup());
+                // SpecialEvent specialEvent = new SpecialEvent(data.);
+                //
                 // _groups[data.EventIndicator].AddEvent(
                 //     new SpecialEvent(data.Event, data.EventReloadTime));
             }
