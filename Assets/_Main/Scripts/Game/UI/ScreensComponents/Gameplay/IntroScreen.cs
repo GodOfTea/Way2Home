@@ -49,17 +49,27 @@ namespace Game.UI.ScreensComponents.Gameplay
         {
             [SerializeField] private CanvasGroup _intro;
             [SerializeField] private CanvasGroup _tutorial;
+            [SerializeField] private CanvasGroup[] _moraleTutorialElements;
+            
 
             public void Enable()
             {
                 _intro.alpha = 1f;
                 _tutorial.alpha = 0f;
+                foreach (var element in _moraleTutorialElements)
+                {
+                    element.alpha = 0f;
+                }
             }
 
             public void SwitchToTutorial()
             {
                 DOVirtual.Float(1f, 0f, 0.3f, (value) => _intro.alpha = value);
                 DOVirtual.Float(0f, 1f, 0.3f, (value) => _tutorial.alpha = value);
+                foreach (var element in _moraleTutorialElements)
+                {
+                    DOVirtual.Float(0f, 1f, 0.3f, (value) => element.alpha = value);
+                }
             }
         }
         

@@ -42,7 +42,7 @@ namespace EventComponents
             else
                 CollectEventsMaps(previousEvents);
             
-            //_specialEventsHandler = new SpecialEventsHandler(_eventsDatabase, _redZonesMap);
+            _specialEventsHandler = new SpecialEventsHandler(_eventsDatabase, _redZonesMap);
             _currentEvent = string.IsNullOrEmpty(currentEvent) ? 
                 GetNextRandomEvent() : 
                 _eventsDatabase.MainEvents.FirstOrDefault(o => o.ID == currentEvent);
@@ -101,10 +101,15 @@ namespace EventComponents
             return _currentEvent;
         }
       
-#if UNITY_EDITOR
+//#if UNITY_EDITOR
         public Event GetNextEventById(string eventId)
         {
             if (_possibleEvents.TryGetValue(eventId, out var eventData))
+            {
+                _currentEvent = eventData;
+                return _currentEvent;
+            }
+            if (_previousEvents.TryGetValue(eventId, out eventData))
             {
                 _currentEvent = eventData;
                 return _currentEvent;
@@ -115,13 +120,13 @@ namespace EventComponents
                 return null;
             }
         }
-#endif
+//#endif
 
         private Event GetNextEvent()
         {
             if (_currentEvent != null && _currentEventIsSpecial == false)
             {
-                _previousEvents.Add(_currentEvent.ID, _currentEvent);
+                _previousEvents.TryAdd(_currentEvent.ID, _currentEvent);
                 _possibleEvents.Remove(_currentEvent.ID);
             }
 

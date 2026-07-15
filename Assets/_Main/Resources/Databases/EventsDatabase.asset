@@ -20,7 +20,7 @@ MonoBehaviour:
       _results:
       - _id: minesTester01_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: 476057a2939eeb245b96867adcc01ecf, type: 3}
+        _resultImage: {fileID: 21300000, guid: 35520b5af341d60418ded0b96c686a11, type: 3}
         _moraleChange: 4
         _indicatorsKeeper:
           _indicators:
@@ -48,7 +48,7 @@ MonoBehaviour:
             Value: -3
       - _id: minesTester01_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: 0110d28e7cf3cf041b12b089c7fc0ef5, type: 3}
+        _resultImage: {fileID: 21300000, guid: df50ae91c04618747895b8b7be2f3bbb, type: 3}
         _moraleChange: -2
         _indicatorsKeeper:
           _indicators:
@@ -56,50 +56,6 @@ MonoBehaviour:
             Value: -1
           - Type: 1
             Value: -4
-          - Type: 2
-            Value: 1
-          - Type: 3
-            Value: 1
-    - _id: mines_Miss02
-      _results:
-      - _id: minesMiss02_result_plus
-        _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: ede1c6192c61fee458a651ab4ca3dd0a, type: 3}
-        _moraleChange: -1
-        _indicatorsKeeper:
-          _indicators:
-          - Type: 0
-            Value: 0
-          - Type: 1
-            Value: -3
-          - Type: 2
-            Value: 1
-          - Type: 3
-            Value: 1
-      - _id: minesMiss02_result
-        _moraleStatus: 0
-        _resultImage: {fileID: 21300000, guid: ede1c6192c61fee458a651ab4ca3dd0a, type: 3}
-        _moraleChange: -1
-        _indicatorsKeeper:
-          _indicators:
-          - Type: 0
-            Value: 0
-          - Type: 1
-            Value: -3
-          - Type: 2
-            Value: 1
-          - Type: 3
-            Value: 1
-      - _id: minesMiss02_result_minus
-        _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: ede1c6192c61fee458a651ab4ca3dd0a, type: 3}
-        _moraleChange: -1
-        _indicatorsKeeper:
-          _indicators:
-          - Type: 0
-            Value: 0
-          - Type: 1
-            Value: -3
           - Type: 2
             Value: 1
           - Type: 3
@@ -148,6 +104,50 @@ MonoBehaviour:
             Value: -2
           - Type: 3
             Value: -2
+    - _id: mines_Miss02
+      _results:
+      - _id: minesMiss02_result_plus
+        _moraleStatus: 1
+        _resultImage: {fileID: 21300000, guid: ede1c6192c61fee458a651ab4ca3dd0a, type: 3}
+        _moraleChange: -1
+        _indicatorsKeeper:
+          _indicators:
+          - Type: 0
+            Value: 0
+          - Type: 1
+            Value: -3
+          - Type: 2
+            Value: 1
+          - Type: 3
+            Value: 1
+      - _id: minesMiss02_result
+        _moraleStatus: 0
+        _resultImage: {fileID: 21300000, guid: ede1c6192c61fee458a651ab4ca3dd0a, type: 3}
+        _moraleChange: -1
+        _indicatorsKeeper:
+          _indicators:
+          - Type: 0
+            Value: 0
+          - Type: 1
+            Value: -3
+          - Type: 2
+            Value: 1
+          - Type: 3
+            Value: 1
+      - _id: minesMiss02_result_minus
+        _moraleStatus: -1
+        _resultImage: {fileID: 21300000, guid: ede1c6192c61fee458a651ab4ca3dd0a, type: 3}
+        _moraleChange: -1
+        _indicatorsKeeper:
+          _indicators:
+          - Type: 0
+            Value: 0
+          - Type: 1
+            Value: -3
+          - Type: 2
+            Value: 1
+          - Type: 3
+            Value: 1
   - _id: girl002
     _eventImage: {fileID: 21300000, guid: 3ac23702e5c841d4e8ab90b57ec2bf69, type: 3}
     _options:
@@ -227,7 +227,7 @@ MonoBehaviour:
             Value: -1
       - _id: girl_Kill02_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: f3d290737942b57479aa50df90c5b8b9, type: 3}
+        _resultImage: {fileID: 21300000, guid: 2380143dbae59cf4782bca3ba4478df2, type: 3}
         _moraleChange: -3
         _indicatorsKeeper:
           _indicators:
@@ -271,7 +271,7 @@ MonoBehaviour:
             Value: 0
       - _id: girl_Soldier03_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: b3a13034d14a42b41972212e0237ff2b, type: 3}
+        _resultImage: {fileID: 21300000, guid: d4f3551eb700c6249a960ee46f27c4ff, type: 3}
         _moraleChange: -1
         _indicatorsKeeper:
           _indicators:
@@ -469,7 +469,7 @@ MonoBehaviour:
       _results:
       - _id: food_Miss02_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: bd7aed643287a4d4c9a30d96413404e3, type: 3}
+        _resultImage: {fileID: 21300000, guid: 6fa7fb42eabc6ae4a87fd28baaf54834, type: 3}
         _moraleChange: 2
         _indicatorsKeeper:
           _indicators:
@@ -497,7 +497,7 @@ MonoBehaviour:
             Value: -1
       - _id: food_Miss02_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: 2770c0982a11fa0478508c3a355fe08f, type: 3}
+        _resultImage: {fileID: 21300000, guid: 4d05e763d9e0d034caab64ccc26e5870, type: 3}
         _moraleChange: -1
         _indicatorsKeeper:
           _indicators:
@@ -695,7 +695,7 @@ MonoBehaviour:
       _results:
       - _id: nervous_Change01_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: dae8626993ac10f42b9d4391dccd4376, type: 3}
+        _resultImage: {fileID: 21300000, guid: ac32680a6900e0143a73b8e1d8b5279d, type: 3}
         _moraleChange: 3
         _indicatorsKeeper:
           _indicators:
@@ -946,7 +946,7 @@ MonoBehaviour:
             Value: 1
       - _id: rainfall_Way03_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: 6aab786fcfe6adb44bee583396911c3a, type: 3}
+        _resultImage: {fileID: 21300000, guid: d1a2e5f8093409c4385765b0e3b3a782, type: 3}
         _moraleChange: -1
         _indicatorsKeeper:
           _indicators:
@@ -1279,7 +1279,7 @@ MonoBehaviour:
       _results:
       - _id: missed_Soldiers_Go02_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: 86842f7effd5b624fb1325ea219c32a7, type: 3}
+        _resultImage: {fileID: 21300000, guid: 31e8315a8a8e303448c67d272ddffa2b, type: 3}
         _moraleChange: 2
         _indicatorsKeeper:
           _indicators:
@@ -1398,7 +1398,7 @@ MonoBehaviour:
             Value: -1
       - _id: warehouse_Trap01_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: 64a913e129f229f4585a012887804c8f, type: 3}
+        _resultImage: {fileID: 21300000, guid: 6db2635c224e1584c920ebdd8ad4d138, type: 3}
         _moraleChange: -1
         _indicatorsKeeper:
           _indicators:
@@ -1458,7 +1458,7 @@ MonoBehaviour:
       _results:
       - _id: warehouse_Fight03_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: 98d82205592764444b8041675c8712d2, type: 3}
+        _resultImage: {fileID: 21300000, guid: 261448fd5569827428405440298560e3, type: 3}
         _moraleChange: 4
         _indicatorsKeeper:
           _indicators:
@@ -1819,7 +1819,7 @@ MonoBehaviour:
       _results:
       - _id: Swamp_go02_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: 1e9d1b6e826b4364e811706a64b6aa66, type: 3}
+        _resultImage: {fileID: 21300000, guid: 035718862be84c847971d5badf79e5da, type: 3}
         _moraleChange: 3
         _indicatorsKeeper:
           _indicators:
@@ -1938,7 +1938,7 @@ MonoBehaviour:
             Value: 1
       - _id: Camp_wait01_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: 307ce35e910c25b43972de58145732cc, type: 3}
+        _resultImage: {fileID: 21300000, guid: 583b18dbf678bd142b74d235d7647fff, type: 3}
         _moraleChange: -1
         _indicatorsKeeper:
           _indicators:
@@ -1998,7 +1998,7 @@ MonoBehaviour:
       _results:
       - _id: Camp_fight03_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: cb9c1382d47a61c4197109fa6e365e5c, type: 3}
+        _resultImage: {fileID: 21300000, guid: b862363e3b30df941a7ca583d6ab0604, type: 3}
         _moraleChange: 3
         _indicatorsKeeper:
           _indicators:
@@ -2133,7 +2133,7 @@ MonoBehaviour:
       _results:
       - _id: Planes_fight03_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: 293b8db991cc46448bf655c5ec83f49d, type: 3}
+        _resultImage: {fileID: 21300000, guid: 1b440865cb55d8349a751f315466d1cd, type: 3}
         _moraleChange: 3
         _indicatorsKeeper:
           _indicators:
@@ -2224,7 +2224,7 @@ MonoBehaviour:
       _results:
       - _id: Dogs_ran02_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: 9b9e73f8ebd812042abdb79a42fcfad5, type: 3}
+        _resultImage: {fileID: 21300000, guid: e5959069b165f8d458f57e8888faec7c, type: 3}
         _moraleChange: 1
         _indicatorsKeeper:
           _indicators:
@@ -2252,7 +2252,7 @@ MonoBehaviour:
             Value: -1
       - _id: Dogs_ran02_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: e2d67bea69349564d8dcea45171f1c1a, type: 3}
+        _resultImage: {fileID: 21300000, guid: 3bdce8ec1e6ff9a40a3fb9fcc7a4eabc, type: 3}
         _moraleChange: -4
         _indicatorsKeeper:
           _indicators:
@@ -2268,7 +2268,7 @@ MonoBehaviour:
       _results:
       - _id: Dogs_trick03_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: 9f55591409c34e94091269ef7e1b89e5, type: 3}
+        _resultImage: {fileID: 21300000, guid: dcdeba6505eddcc4694545f198ac5910, type: 3}
         _moraleChange: 2
         _indicatorsKeeper:
           _indicators:
@@ -2315,7 +2315,7 @@ MonoBehaviour:
       _results:
       - _id: Fire_go01_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: 334bf5352018c074da1cfb5525edfe12, type: 3}
+        _resultImage: {fileID: 21300000, guid: fe6b72282720cb24395e7fc2b7ea6ac5, type: 3}
         _moraleChange: 3
         _indicatorsKeeper:
           _indicators:
@@ -2387,7 +2387,7 @@ MonoBehaviour:
             Value: 0
       - _id: Fire_cover02_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: 4a4230f625c3b174ba731afbb02b3eda, type: 3}
+        _resultImage: {fileID: 21300000, guid: ced0c6cc678ef4747ae724a01787e685, type: 3}
         _moraleChange: -2
         _indicatorsKeeper:
           _indicators:
@@ -2431,7 +2431,7 @@ MonoBehaviour:
             Value: 1
       - _id: Fire_miss03_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: 56db396361b4bf34eaed426f8a370b6a, type: 3}
+        _resultImage: {fileID: 21300000, guid: af78e4d8f7140f24c92a2f775068600e, type: 3}
         _moraleChange: -2
         _indicatorsKeeper:
           _indicators:
@@ -2538,7 +2538,7 @@ MonoBehaviour:
       _results:
       - _id: Burning_house_fight03_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: 6a986d3895d866a42b33c3d9c4036bef, type: 3}
+        _resultImage: {fileID: 21300000, guid: faf8e2a36eb782d499e35d3aaa5e1325, type: 3}
         _moraleChange: 4
         _indicatorsKeeper:
           _indicators:
@@ -2613,7 +2613,7 @@ MonoBehaviour:
             Value: -1
       - _id: Running_people_invite01_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: 099e6942a420bdd4887c1aff52187063, type: 3}
+        _resultImage: {fileID: 21300000, guid: c281dc6b181fe1c43b17d6075e4e116f, type: 3}
         _moraleChange: -2
         _indicatorsKeeper:
           _indicators:
@@ -2792,7 +2792,7 @@ MonoBehaviour:
             Value: 0
       - _id: Boars_retreat02_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: 1d9ec2892d9f3ae4ab12c1de093c8ef9, type: 3}
+        _resultImage: {fileID: 21300000, guid: 1b709284f7a9504429529dbff81345a5, type: 3}
         _moraleChange: -3
         _indicatorsKeeper:
           _indicators:
@@ -2808,7 +2808,7 @@ MonoBehaviour:
       _results:
       - _id: Boars_fight03_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: c9c9b5e03ba72714b83f527d79a1b1cb, type: 3}
+        _resultImage: {fileID: 21300000, guid: 6e8d28181f4543b4da3c9d6319bff16b, type: 3}
         _moraleChange: 3
         _indicatorsKeeper:
           _indicators:
@@ -2836,7 +2836,7 @@ MonoBehaviour:
             Value: 0
       - _id: Boars_fight03_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: c516ec4e217b74d4aa4b4f0a1049cbb7, type: 3}
+        _resultImage: {fileID: 21300000, guid: 63b25f49defd9d84b854130359401b9d, type: 3}
         _moraleChange: -4
         _indicatorsKeeper:
           _indicators:
@@ -2990,7 +2990,7 @@ MonoBehaviour:
       _results:
       - _id: Farm_find01_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: b0f692782614e6b41a94be800d2099c8, type: 3}
+        _resultImage: {fileID: 21300000, guid: e591139ec2c44164890efcd4c02796b6, type: 3}
         _moraleChange: 4
         _indicatorsKeeper:
           _indicators:
@@ -3304,7 +3304,7 @@ MonoBehaviour:
       _results:
       - _id: Snipers_attack02_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: 760d91865a095364a81bca525a196211, type: 3}
+        _resultImage: {fileID: 21300000, guid: 6b90c916d6a5e8544936b26f1a10a2b2, type: 3}
         _moraleChange: 2
         _indicatorsKeeper:
           _indicators:
@@ -3376,7 +3376,7 @@ MonoBehaviour:
             Value: -1
       - _id: Snipers_gift03_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: abb9f86bfdeda3c468431dc2d0f5238a, type: 3}
+        _resultImage: {fileID: 21300000, guid: ca450d2067f5a914f85e421480b35cfe, type: 3}
         _moraleChange: -2
         _indicatorsKeeper:
           _indicators:
@@ -3423,7 +3423,7 @@ MonoBehaviour:
             Value: -1
       - _id: Fog_go01_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: 0ea640266a46e73479ef9b88f29a6d37, type: 3}
+        _resultImage: {fileID: 21300000, guid: 649964e3d4cdead4a9debcbb6f000ddc, type: 3}
         _moraleChange: -2
         _indicatorsKeeper:
           _indicators:
@@ -3483,7 +3483,7 @@ MonoBehaviour:
       _results:
       - _id: Fog_check03_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: 59e89ab0ff5cc63428ac6404d301f121, type: 3}
+        _resultImage: {fileID: 21300000, guid: e021db88ba56fb744a1667b20b40e3db, type: 3}
         _moraleChange: 2
         _indicatorsKeeper:
           _indicators:
@@ -3511,7 +3511,7 @@ MonoBehaviour:
             Value: -1
       - _id: Fog_check03_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: 67f6dc21b261eb04296de0d94d3965bc, type: 3}
+        _resultImage: {fileID: 21300000, guid: 959ae689b9e84c14d89226d889431d98, type: 3}
         _moraleChange: -2
         _indicatorsKeeper:
           _indicators:
@@ -3665,7 +3665,7 @@ MonoBehaviour:
       _results:
       - _id: Rockets_stay01_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: 2492f75a694bc0b43a5afe164a9d587a, type: 3}
+        _resultImage: {fileID: 21300000, guid: a218652766cdf80489754b087ee0d25c, type: 3}
         _moraleChange: 4
         _indicatorsKeeper:
           _indicators:
@@ -3828,7 +3828,7 @@ MonoBehaviour:
             Value: -1
       - _id: Mother_take01_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: 4f157711847d34d4f8a0a6afd85921b1, type: 3}
+        _resultImage: {fileID: 21300000, guid: e3515c66c38e8aa48afc1b656fc4e776, type: 3}
         _moraleChange: -4
         _indicatorsKeeper:
           _indicators:
@@ -3872,7 +3872,7 @@ MonoBehaviour:
             Value: -1
       - _id: Mother_killed02_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: 20f93188a5a3d1840a0d40b25e5de717, type: 3}
+        _resultImage: {fileID: 21300000, guid: ddacc7099297d75499f803e025bdc97e, type: 3}
         _moraleChange: -3
         _indicatorsKeeper:
           _indicators:
@@ -3963,7 +3963,7 @@ MonoBehaviour:
             Value: -1
       - _id: Deserter_killed01_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: 63554e17b5ecc9e4e9831ab261ffa32f, type: 3}
+        _resultImage: {fileID: 21300000, guid: ccf896472364cce4eb12b97faa88d773, type: 3}
         _moraleChange: -3
         _indicatorsKeeper:
           _indicators:
@@ -4023,7 +4023,7 @@ MonoBehaviour:
       _results:
       - _id: deserter_stay03_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: 7cdd2963b0e8fb6468d77a31b855879b, type: 3}
+        _resultImage: {fileID: 21300000, guid: 54f7c3b6f8f4c554da5101a3fdc0b486, type: 3}
         _moraleChange: 4
         _indicatorsKeeper:
           _indicators:
@@ -4051,7 +4051,7 @@ MonoBehaviour:
             Value: -1
       - _id: deserter_stay03_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: 7191bb448b0297c4ebd2a124ee81a5c6, type: 3}
+        _resultImage: {fileID: 21300000, guid: aab818dfa266b6e4db07e5d00c920d4d, type: 3}
         _moraleChange: -4
         _indicatorsKeeper:
           _indicators:
@@ -4277,7 +4277,7 @@ MonoBehaviour:
             Value: -1
       - _id: radio_destroyed02_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: caf94f82fc512ea4ca59ba13fa44fc28, type: 3}
+        _resultImage: {fileID: 21300000, guid: a89448f42f91e354ea204f31f75af9cd, type: 3}
         _moraleChange: -2
         _indicatorsKeeper:
           _indicators:
@@ -4412,7 +4412,7 @@ MonoBehaviour:
             Value: -1
       - _id: stealer_gift02_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: 952d6277e92cde548b7d9efbbd28d998, type: 3}
+        _resultImage: {fileID: 21300000, guid: 81a18155fd3e8b9469b0316f72acee19, type: 3}
         _moraleChange: -2
         _indicatorsKeeper:
           _indicators:
@@ -4475,7 +4475,7 @@ MonoBehaviour:
       _results:
       - _id: friend_go01_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: e52393f32dd31344db4adcdf23efef12, type: 3}
+        _resultImage: {fileID: 21300000, guid: e65f9c66e84a7de4788170ed78db8ccf, type: 3}
         _moraleChange: 4
         _indicatorsKeeper:
           _indicators:
@@ -4773,7 +4773,7 @@ MonoBehaviour:
             Value: -7
       - _id: tank_attack01_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: 87757bb18abcfb94ba11a2f9372348e6, type: 3}
+        _resultImage: {fileID: 21300000, guid: c3695c9a3093d0849b4a3ec0fe67b599, type: 3}
         _moraleChange: -3
         _indicatorsKeeper:
           _indicators:
@@ -4908,7 +4908,7 @@ MonoBehaviour:
             Value: 1
       - _id: riverfight_cover01_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: a011db0efcd3d3246ab4c787276b4511, type: 3}
+        _resultImage: {fileID: 21300000, guid: de7898e118623834684ba3a8e5090ad1, type: 3}
         _moraleChange: -2
         _indicatorsKeeper:
           _indicators:
@@ -4924,7 +4924,7 @@ MonoBehaviour:
       _results:
       - _id: riverfight_run02_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: 7d858c01b63d0b147adff282ebab1eab, type: 3}
+        _resultImage: {fileID: 21300000, guid: af4e1146b6892fa478a71cdb83ab36e1, type: 3}
         _moraleChange: 2
         _indicatorsKeeper:
           _indicators:
@@ -5285,7 +5285,7 @@ MonoBehaviour:
       _results:
       - _id: van_fight01_result_plus
         _moraleStatus: 1
-        _resultImage: {fileID: 21300000, guid: 0b452332001c5c540abdb6a92ba40f9f, type: 3}
+        _resultImage: {fileID: 21300000, guid: fb2ad773b7929604381495aa71eacd4e, type: 3}
         _moraleChange: 4
         _indicatorsKeeper:
           _indicators:
@@ -5313,7 +5313,7 @@ MonoBehaviour:
             Value: -1
       - _id: van_fight01_result_minus
         _moraleStatus: -1
-        _resultImage: {fileID: 21300000, guid: 759df32c8b36f8d4cbc0eb22be58de97, type: 3}
+        _resultImage: {fileID: 21300000, guid: 62c8ca754e52e504990ec69f09a2d01a, type: 3}
         _moraleChange: -2
         _indicatorsKeeper:
           _indicators:
@@ -5418,34 +5418,694 @@ MonoBehaviour:
     _eventIndicator: 2
     _eventReloadTime: 6
     _event:
-      _id: 
-      _eventImage: {fileID: 0}
-      _options: []
+      _id: r_fakeWay101
+      _eventImage: {fileID: 21300000, guid: 4552e20777f52bd469b5f000112faee1, type: 3}
+      _options:
+      - _id: fake_way_big01
+        _results:
+        - _id: fake_way_big01_result
+          _moraleStatus: 1
+          _resultImage: {fileID: 21300000, guid: f029433de7db05e43ba067c3457a5334, type: 3}
+          _moraleChange: 1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: -1
+            - Type: 2
+              Value: -3
+            - Type: 3
+              Value: 0
+        - _id: fake_way_big01_result
+          _moraleStatus: 0
+          _resultImage: {fileID: 21300000, guid: f029433de7db05e43ba067c3457a5334, type: 3}
+          _moraleChange: 1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: -1
+            - Type: 2
+              Value: -3
+            - Type: 3
+              Value: 0
+        - _id: fake_way_big01_result
+          _moraleStatus: -1
+          _resultImage: {fileID: 21300000, guid: f029433de7db05e43ba067c3457a5334, type: 3}
+          _moraleChange: 1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: -1
+            - Type: 2
+              Value: -3
+            - Type: 3
+              Value: 0
+      - _id: fake_way_deny02
+        _results:
+        - _id: fake_way_deny02_result
+          _moraleStatus: 1
+          _resultImage: {fileID: 21300000, guid: 1542252b805c1c2458a13ebd69b7bfe5, type: 3}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: -1
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: -2
+            - Type: 3
+              Value: -2
+        - _id: fake_way_deny02_result
+          _moraleStatus: 0
+          _resultImage: {fileID: 21300000, guid: 1542252b805c1c2458a13ebd69b7bfe5, type: 3}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: -1
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: -2
+            - Type: 3
+              Value: -2
+        - _id: fake_way_deny02_result
+          _moraleStatus: -1
+          _resultImage: {fileID: 21300000, guid: 1542252b805c1c2458a13ebd69b7bfe5, type: 3}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: -1
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: -2
+            - Type: 3
+              Value: -2
+      - _id: fake_way_small03
+        _results:
+        - _id: fake_way_small03_result
+          _moraleStatus: 1
+          _resultImage: {fileID: 21300000, guid: 7675942cd611f1245afa630bc90e902c, type: 3}
+          _moraleChange: 1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: -1
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: -2
+            - Type: 3
+              Value: -2
+        - _id: fake_way_small03_result
+          _moraleStatus: 0
+          _resultImage: {fileID: 21300000, guid: 7675942cd611f1245afa630bc90e902c, type: 3}
+          _moraleChange: 1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: -1
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: -2
+            - Type: 3
+              Value: -2
+        - _id: fake_way_small03_result
+          _moraleStatus: -1
+          _resultImage: {fileID: 21300000, guid: 7675942cd611f1245afa630bc90e902c, type: 3}
+          _moraleChange: 1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: -1
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: -2
+            - Type: 3
+              Value: -2
   - _name: Distraction
     _eventIndicator: 2
     _eventReloadTime: 6
     _event:
-      _id: 
-      _eventImage: {fileID: 0}
-      _options: []
+      _id: r_distraction102
+      _eventImage: {fileID: 21300000, guid: 11de2e0b195b2884dbf3daf0f06d69c6, type: 3}
+      _options:
+      - _id: Distraction_grenade01
+        _results:
+        - _id: Distraction_grenade01_result
+          _moraleStatus: 1
+          _resultImage: {fileID: 21300000, guid: 24db1a2b170979d4ea90028eccbc396d, type: 3}
+          _moraleChange: 1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: -1
+            - Type: 2
+              Value: -2
+            - Type: 3
+              Value: -1
+        - _id: Distraction_grenade01_result
+          _moraleStatus: 0
+          _resultImage: {fileID: 21300000, guid: 24db1a2b170979d4ea90028eccbc396d, type: 3}
+          _moraleChange: 1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: -1
+            - Type: 2
+              Value: -2
+            - Type: 3
+              Value: -1
+        - _id: Distraction_grenade01_result
+          _moraleStatus: -1
+          _resultImage: {fileID: 21300000, guid: 24db1a2b170979d4ea90028eccbc396d, type: 3}
+          _moraleChange: 1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: -1
+            - Type: 2
+              Value: -2
+            - Type: 3
+              Value: -1
+      - _id: Distraction_fire02
+        _results:
+        - _id: Distraction_fire02_result
+          _moraleStatus: 1
+          _resultImage: {fileID: 21300000, guid: ff9edd4622721be46ad66bee32fe2f92, type: 3}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: -1
+            - Type: 1
+              Value: -3
+            - Type: 2
+              Value: -6
+            - Type: 3
+              Value: 0
+        - _id: Distraction_fire02_result
+          _moraleStatus: 0
+          _resultImage: {fileID: 21300000, guid: ff9edd4622721be46ad66bee32fe2f92, type: 3}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: -1
+            - Type: 1
+              Value: -3
+            - Type: 2
+              Value: -6
+            - Type: 3
+              Value: 0
+        - _id: Distraction_fire02_result
+          _moraleStatus: -1
+          _resultImage: {fileID: 21300000, guid: ff9edd4622721be46ad66bee32fe2f92, type: 3}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: -1
+            - Type: 1
+              Value: -3
+            - Type: 2
+              Value: -6
+            - Type: 3
+              Value: 0
+      - _id: Distraction_miss03
+        _results:
+        - _id: Distraction_miss03_result
+          _moraleStatus: 1
+          _resultImage: {fileID: 21300000, guid: 4ed24666c7b6d154b9b831d93e8b03b4, type: 3}
+          _moraleChange: -1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: -1
+        - _id: Distraction_miss03_result
+          _moraleStatus: 0
+          _resultImage: {fileID: 21300000, guid: 4ed24666c7b6d154b9b831d93e8b03b4, type: 3}
+          _moraleChange: -1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: -1
+        - _id: Distraction_miss03_result
+          _moraleStatus: -1
+          _resultImage: {fileID: 21300000, guid: 4ed24666c7b6d154b9b831d93e8b03b4, type: 3}
+          _moraleChange: -1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: -1
   - _name: Water
     _eventIndicator: 1
     _eventReloadTime: 8
     _event:
-      _id: 
-      _eventImage: {fileID: 0}
-      _options: []
+      _id: r_water201
+      _eventImage: {fileID: 21300000, guid: e3b02a5ad1b4af24a97cf1b12f5da51d, type: 3}
+      _options:
+      - _id: Water_go01
+        _results:
+        - _id: Water_go01_result
+          _moraleStatus: 1
+          _resultImage: {fileID: 21300000, guid: 1eb9a98b08df33c479d7095ea56e8dd2, type: 3}
+          _moraleChange: 1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 8
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: 1
+        - _id: Water_go01_result
+          _moraleStatus: 0
+          _resultImage: {fileID: 21300000, guid: 1eb9a98b08df33c479d7095ea56e8dd2, type: 3}
+          _moraleChange: 1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 8
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: 1
+        - _id: Water_go01_result
+          _moraleStatus: -1
+          _resultImage: {fileID: 21300000, guid: 1eb9a98b08df33c479d7095ea56e8dd2, type: 3}
+          _moraleChange: 1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 8
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: 1
+      - _id: Water_miss02
+        _results:
+        - _id: Water_miss02_result
+          _moraleStatus: 1
+          _resultImage: {fileID: 21300000, guid: 6afdb90b5d6d6ae45bd9a6f14afa6170, type: 3}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: -1
+        - _id: Water_miss02_result
+          _moraleStatus: 0
+          _resultImage: {fileID: 21300000, guid: 6afdb90b5d6d6ae45bd9a6f14afa6170, type: 3}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: -1
+        - _id: Water_miss02_result
+          _moraleStatus: -1
+          _resultImage: {fileID: 21300000, guid: 6afdb90b5d6d6ae45bd9a6f14afa6170, type: 3}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: -1
+      - _id: Water_small03
+        _results:
+        - _id: Water_small03_result
+          _moraleStatus: 1
+          _resultImage: {fileID: 21300000, guid: 211c04db6ce202a42aa65fb8e1037146, type: 3}
+          _moraleChange: 1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 4
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: 0
+        - _id: Water_small03_result
+          _moraleStatus: 0
+          _resultImage: {fileID: 21300000, guid: 211c04db6ce202a42aa65fb8e1037146, type: 3}
+          _moraleChange: 1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 4
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: 0
+        - _id: Water_small03_result
+          _moraleStatus: -1
+          _resultImage: {fileID: 21300000, guid: 211c04db6ce202a42aa65fb8e1037146, type: 3}
+          _moraleChange: 1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 4
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: 0
   - _name: Hunt
     _eventIndicator: 1
     _eventReloadTime: 8
     _event:
-      _id: 
-      _eventImage: {fileID: 0}
-      _options: []
+      _id: r_hunt202
+      _eventImage: {fileID: 21300000, guid: c32a2f53a625e8a45a75df03ee63b601, type: 3}
+      _options:
+      - _id: Hunt_small01
+        _results:
+        - _id: Hunt_small01_result
+          _moraleStatus: 1
+          _resultImage: {fileID: 21300000, guid: 4043f3db78b1f574ba9c1b312d0ef10c, type: 3}
+          _moraleChange: 1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 5
+            - Type: 2
+              Value: 1
+            - Type: 3
+              Value: 0
+        - _id: Hunt_small01_result
+          _moraleStatus: 0
+          _resultImage: {fileID: 21300000, guid: 4043f3db78b1f574ba9c1b312d0ef10c, type: 3}
+          _moraleChange: 1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 5
+            - Type: 2
+              Value: 1
+            - Type: 3
+              Value: 0
+        - _id: Hunt_small01_result
+          _moraleStatus: -1
+          _resultImage: {fileID: 21300000, guid: 4043f3db78b1f574ba9c1b312d0ef10c, type: 3}
+          _moraleChange: 1
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 5
+            - Type: 2
+              Value: 1
+            - Type: 3
+              Value: 0
+      - _id: Hunt_miss02
+        _results:
+        - _id: Hunt_miss02_result
+          _moraleStatus: 1
+          _resultImage: {fileID: 21300000, guid: 2a196c810cc2a7446b28746b32679ec4, type: 3}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: -1
+        - _id: Hunt_miss02_result
+          _moraleStatus: 0
+          _resultImage: {fileID: 21300000, guid: 2a196c810cc2a7446b28746b32679ec4, type: 3}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: -1
+        - _id: Hunt_miss02_result
+          _moraleStatus: -1
+          _resultImage: {fileID: 21300000, guid: 2a196c810cc2a7446b28746b32679ec4, type: 3}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: -1
+      - _id: Hunt_all03
+        _results:
+        - _id: Hunt_all03_result
+          _moraleStatus: 1
+          _resultImage: {fileID: 21300000, guid: 2fc74fd7aa5efd944bc7216766a9e01f, type: 3}
+          _moraleChange: 2
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 12
+            - Type: 2
+              Value: 2
+            - Type: 3
+              Value: 1
+        - _id: Hunt_all03_result
+          _moraleStatus: 0
+          _resultImage: {fileID: 21300000, guid: 2fc74fd7aa5efd944bc7216766a9e01f, type: 3}
+          _moraleChange: 2
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 12
+            - Type: 2
+              Value: 2
+            - Type: 3
+              Value: 1
+        - _id: Hunt_all03_result
+          _moraleStatus: -1
+          _resultImage: {fileID: 21300000, guid: 2fc74fd7aa5efd944bc7216766a9e01f, type: 3}
+          _moraleChange: 2
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 12
+            - Type: 2
+              Value: 2
+            - Type: 3
+              Value: 1
   - _name: Conflict
     _eventIndicator: 0
     _eventReloadTime: 99
     _event:
-      _id: 
-      _eventImage: {fileID: 0}
-      _options: []
+      _id: r_bunker301
+      _eventImage: {fileID: 21300000, guid: 9005cb08036944547b9885a579d729e0, type: 3}
+      _options:
+      - _id: Bunker_attack01
+        _results:
+        - _id: Bunker_attack01_result
+          _moraleStatus: 1
+          _resultImage: {fileID: 0}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: -7
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: -1
+        - _id: Bunker_attack01_result
+          _moraleStatus: 0
+          _resultImage: {fileID: 0}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: -7
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: -1
+        - _id: Bunker_attack01_result
+          _moraleStatus: -1
+          _resultImage: {fileID: 0}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: -7
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: -1
+      - _id: Bunker_miss02
+        _results:
+        - _id: Bunker_miss02_result
+          _moraleStatus: 1
+          _resultImage: {fileID: 21300000, guid: d2d7c38b67deb7c4bbf7d313b246921a, type: 3}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: -2
+            - Type: 2
+              Value: 1
+            - Type: 3
+              Value: 4
+        - _id: Bunker_miss02_result
+          _moraleStatus: 0
+          _resultImage: {fileID: 21300000, guid: d2d7c38b67deb7c4bbf7d313b246921a, type: 3}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: -2
+            - Type: 2
+              Value: 1
+            - Type: 3
+              Value: 4
+        - _id: Bunker_miss02_result
+          _moraleStatus: -1
+          _resultImage: {fileID: 21300000, guid: d2d7c38b67deb7c4bbf7d313b246921a, type: 3}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: -2
+            - Type: 2
+              Value: 1
+            - Type: 3
+              Value: 4
+      - _id: Bunker_trick03
+        _results:
+        - _id: Bunker_trick03_result
+          _moraleStatus: 1
+          _resultImage: {fileID: 21300000, guid: cfd524f36a110184d9dab354d960b68b, type: 3}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: -1
+        - _id: Bunker_trick03_result
+          _moraleStatus: 0
+          _resultImage: {fileID: 21300000, guid: cfd524f36a110184d9dab354d960b68b, type: 3}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: -1
+        - _id: Bunker_trick03_result
+          _moraleStatus: -1
+          _resultImage: {fileID: 21300000, guid: cfd524f36a110184d9dab354d960b68b, type: 3}
+          _moraleChange: 0
+          _indicatorsKeeper:
+            _indicators:
+            - Type: 0
+              Value: 0
+            - Type: 1
+              Value: 0
+            - Type: 2
+              Value: 0
+            - Type: 3
+              Value: -1

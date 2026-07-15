@@ -33,7 +33,9 @@ namespace Data
             ConvertReferencesToEvents();
             ConvertSpecialEventReferencesToEvents();
 
+#if UNITY_EDITOR
             UnityEditor.EditorUtility.SetDirty(this);
+#endif
             Debug.Log($"Loaded {_container.Events.Count} events from sheet for EventsDatabase.");
         }
 

@@ -1,4 +1,5 @@
 using System;
+using Game.Economy.MoralComponents;
 using UI.Event;
 using UnityEngine;
 
@@ -20,6 +21,11 @@ namespace Game.UI.ScreensComponents.Gameplay
         {
             MainScreenShowed?.Invoke();
             base.Show();
+        }
+
+        public void Setup(MoralConfig moralConfig)
+        {
+            _moralView.Setup(moralConfig);
         }
     }
 }

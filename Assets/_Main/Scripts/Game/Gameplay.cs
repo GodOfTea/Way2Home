@@ -54,9 +54,7 @@ namespace Game
             
             ShowQuestion();
             
-#if UNITY_EDITOR
             _cheatMenu.SetIndicatorsBank(_indicatorsBank);
-#endif
         }
 
         private void CollectData()
@@ -70,6 +68,7 @@ namespace Game
             {
                 GameConfigs gameConfigs = new GameConfigs();
                 _indicatorsBank = new IndicatorsBank(gameConfigs.IndicatorsConfig, gameConfigs.MoralConfig);
+                _screens.Get<MainScreen>().Setup(gameConfigs.MoralConfig);
             }
 
             _uiIndicatorsController = new UIIndicatorsController(_screens, _indicatorsBank);
